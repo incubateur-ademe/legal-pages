@@ -1,0 +1,26 @@
+{
+  "name": "@incubateur-ademe/legal-pages-react",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Legal pages as components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": "git@github.com:incubateur-ademe/legal-pages.git",
+  "author": "Lilian Saget-Lethias <lilian.sagetlethias@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.75",
+    "@types/react-dom": "^18.2.24",
+    "@vitejs/plugin-react": "^4.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

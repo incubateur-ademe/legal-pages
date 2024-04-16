@@ -1,0 +1,22 @@
+{
+  "name": "@incubateur-ademe/legal-pages-markdown",
+  "version": "0.0.1",
+  "description": "Legal pages as components as raw markdown",
+  "types": "./types.d.ts",
+  "type": "module",
+  "files": [
+    "html",
+    "md",
+    "types.d.ts",
+    "html.d.ts"
+  ],
+  "repository": "git@github.com:incubateur-ademe/legal-pages.git",
+  "author": "Lilian Saget-Lethias <lilian.sagetlethias@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "for f in src/*.md; do marked \"$f\" --gfm -o \"html/$(basename \"${f%.*}.html\")\"; done"
+  },
+  "devDependencies": {
+    "marked": "^12.0.1"
+  }
+}

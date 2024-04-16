@@ -2,5 +2,7 @@
   "extends": "@tsconfig/vite-react",
   "compilerOptions": {
     "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
   }
 }

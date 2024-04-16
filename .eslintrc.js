@@ -20,9 +20,6 @@ module.exports = {
     node: true,
   },
   settings: {
-    react: {
-      version: "detect",
-    },
     "import/parsers": {
       [require.resolve("@typescript-eslint/parser")]: [".ts", ".mts", ".cts", ".tsx", ".d.ts"],
     },

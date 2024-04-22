@@ -1,3 +1,6 @@
 public/dsfr
 
 /public/dsfr/
+
+/cache/*
+!/cache/config.json

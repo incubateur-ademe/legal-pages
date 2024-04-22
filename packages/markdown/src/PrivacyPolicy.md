@@ -4,8 +4,7 @@
 
 L’Agence de l’Environnement et de la Maitrise de l’Energie, établissement public à caractère industriel et commercial dont le siège est situé 20, avenue du Grésillé 49000 Angers (ci-après « ADEME »), attache une grande importance à la protection des Données à caractère personnel qu’elle a à collecter et traiter en tant que responsable de traitement, dans le cadre de l’activité du site {{siteName}} (ci-après le « Site »).
 
-Ainsi, la collecte et le Traitement des Données à caractère personnel effectués par
-l’ADEME dans le cadre de l’exploitation de son activité et de l’utilisation de ses produits ou services, ses sites Internet d’information ou de communication, ses bases de données, ses applications web, nécessitant éventuellement une création de compte et permettant une interaction utilisateur/application et ses applications mobiles sont régis par la présente politique de protection des données (ci-après désignée la « Politique »).
+Ainsi, la collecte et le Traitement des Données à caractère personnel effectués par l’ADEME dans le cadre de l’exploitation de son activité et de l’utilisation de ses produits ou services, ses sites Internet d’information ou de communication, ses bases de données, ses applications web, nécessitant éventuellement une création de compte et permettant une interaction utilisateur/application et ses applications mobiles sont régis par la présente politique de protection des données (ci-après désignée la « Politique »).
 
 L’ensemble des Traitements de Données personnelles mis en œuvre dans le cadre des Services accessibles respecte la réglementation applicable en matière de protection des données personnelles et notamment les dispositions de la loi « Informatique et libertés » du 6 janvier 1978 modifiée et le Règlement général sur la Protection des données (Règlement UE 2016/679) (« RGPD »).
 

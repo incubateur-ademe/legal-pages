@@ -1,15 +1,15 @@
 /// <reference types="@incubateur-ademe/legal-pages-markdown/html" />
 
-import { type CookiePolicyProps } from "@incubateur-ademe/legal-pages-markdown";
-import CookiePolicyHtml from "@incubateur-ademe/legal-pages-markdown/html/CookiePolicy.html?raw";
-import CookiePolicy_withBetaHtml from "@incubateur-ademe/legal-pages-markdown/html/CookiePolicy_withBeta.html?raw";
+import { type CookiesPolicyProps } from "@incubateur-ademe/legal-pages-markdown";
+import CookiesPolicyHtml from "@incubateur-ademe/legal-pages-markdown/html/CookiesPolicy.html?raw";
+import CookiesPolicy_withBetaHtml from "@incubateur-ademe/legal-pages-markdown/html/CookiesPolicy_withBeta.html?raw";
 import { useId } from "react";
 
 import { ClientOnly } from "./ClientOnly";
 import { ClientPortal } from "./ClientPortal";
 import { htmlParser } from "./htmlParser";
 
-export const CookiePolicy = ({
+export const CookiesPolicy = ({
   date = "12/03/2024",
   includeBetaGouv = false,
   cookieConsentButton,
@@ -19,14 +19,14 @@ export const CookiePolicy = ({
     cookieListUrl: "https://fr.matomo.org/faq/faq_146/",
     policyUrl: "https://matomo.org/privacy-policy/",
   },
-}: CookiePolicyProps<React.ReactNode>) => {
+}: CookiesPolicyProps<React.ReactNode>) => {
   const buttonPortalId = useId();
 
   return (
     <>
       <div
         dangerouslySetInnerHTML={{
-          __html: htmlParser(includeBetaGouv ? CookiePolicy_withBetaHtml : CookiePolicyHtml, {
+          __html: htmlParser(includeBetaGouv ? CookiesPolicy_withBetaHtml : CookiesPolicyHtml, {
             date,
             includeBetaGouv,
             siteName,

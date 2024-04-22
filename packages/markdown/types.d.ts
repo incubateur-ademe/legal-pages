@@ -5,7 +5,7 @@ export interface CommonProps {
 }
 
 //#region CookiePolicy
-export namespace CookiePolicyProps {
+export namespace CookiesPolicyProps {
   export type AnalyticTool = {
     cookieListUrl: string;
     name: string;
@@ -13,8 +13,8 @@ export namespace CookiePolicyProps {
   };
 }
 
-export interface CookiePolicyProps<ElementType = string> extends CommonProps {
-  analyticTool: CookiePolicyProps.AnalyticTool;
+export interface CookiesPolicyProps<ElementType = string> extends CommonProps {
+  analyticTool: CookiesPolicyProps.AnalyticTool;
   cookieConsentButton: ElementType;
 }
 //#endregion

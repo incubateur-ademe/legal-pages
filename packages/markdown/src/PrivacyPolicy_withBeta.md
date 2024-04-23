@@ -229,8 +229,7 @@ Certains des destinataires mentionnés ci-dessus sont susceptibles d’être ét
 
 Dans ce cadre, l’ADEME s’engage à garantir la protection des Données à caractère personnel des Personnes concernées conformément aux règles les plus strictes notamment à travers la signature, au cas par cas, de clauses contractuelles basées sur le modèle de la Commission européenne, ou tout autre mécanisme conforme au RGPD, dès lors que les Données à caractère personnel des Personnes concernées sont traitées par un prestataire en dehors de l’Espace économique européen et dont le pays n’est pas considéré par la Commission Européenne comme assurant un niveau de protection adéquat.
 
-En tout état de cause, l’ADEME s’engage à informer préalablement les Personnes
-concernées en cas de transfert de données hors de l’Union européenne.
+En tout état de cause, l’ADEME s’engage à informer préalablement les Personnes concernées en cas de transfert de données hors de l’Union européenne.
 
 ### 7.1 Sous-traitants
 

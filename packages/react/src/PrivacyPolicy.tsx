@@ -10,7 +10,7 @@ import { ClientPortal } from "./ClientPortal";
 import { htmlParser } from "./htmlParser";
 
 const ThirdPartyTable = ({ thirdParties }: Required<Pick<PrivacyPolicyProps, "thirdParties">>) => (
-  <div className="fr-table fr-table--no-caption fr-table--layout-fixed">
+  <div className="fr-table fr-table--no-caption">
     <table>
       <caption>Caption tableau des sous-traitans</caption>
       <thead>
@@ -42,7 +42,7 @@ const ThirdPartyTable = ({ thirdParties }: Required<Pick<PrivacyPolicyProps, "th
 );
 
 const CookieTable = ({ cookies }: Required<Pick<PrivacyPolicyProps, "cookies">>) => (
-  <div className="fr-table fr-table--no-caption fr-table--layout-fixed">
+  <div className="fr-table fr-table--no-caption">
     <table>
       <caption>Caption tableau des cookies</caption>
       <thead>

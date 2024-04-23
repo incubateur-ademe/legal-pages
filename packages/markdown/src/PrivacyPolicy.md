@@ -103,53 +103,119 @@ Les finalités associées à chaque base légale sont listées ci-dessous :
     - la gestion des communications et le suivi des échanges avec les utilisateurs ;
     - le respect de la réglementation applicable à notre activité.
 
-## 6. Combien de temps les Données à caractère
-personnel sont-elles conservées ?
+## 6. Combien de temps les Données à caractère personnel sont-elles conservées ?
 
 L’ADEME s’engage à conserver les Données à caractère personnel des Personnes concernées pour une durée n’excédant pas celle nécessaire à l’accomplissement des finalités pour lesquelles elles sont traitées, augmentée du délai de prescription légale. De plus, l’ADEME conserve les Données à caractère personnel des Personnes concernées conformément aux durées de conservation imposées par les lois applicables en vigueur, le cas échéant.
 
-Plus précisément, l’ADEME organise sa politique de conservation des données de la
-manière suivante :
+Plus précisément, l’ADEME organise sa politique de conservation des données de la manière suivante :
 
-| FINALITÉS | DURÉES DE CONSERVATION |
-| --- | --- |
-| Gestion de la relation des utilisateurs des Sites de l’ADEME | Les données sont conservées pendant toute la durée de la relation contractuelle : durée de vie du compte utilisateur ou dernier contact entrant (connexion ou modification à l'espace personnel), augmentée de la durée d’acquisition des prescriptions légales.
-
-Le délai de prescription de droit commun en matière civile et commerciale est de cinq (5) ans à compter de la fin du contrat. |
-| Fourniture de Services personnalisés | Les données sont conservées pendant trois (3) ans à partir du dernier contact entrant |
-| Fourniture de Services facultatifs | Les données sont conservées pendant trois (3) ans à partir du dernier contact entrant |
-| Gestion de la participation des
-utilisateurs aux jeux et concours | Les données sont conservées pendant trois (3) ans à partir du dernier contact entrant |
-| Développement de Produits et Service permettant de faciliter l’accomplissement des formalités administratives nécessaires au traitement des demandes des internautes et utilisateurs | Les données sont conservées pendant toute la durée de l’accomplissement des formalités administratives, augmentée de la durée d’acquisition des prescriptions légales.
-
-Le délai de prescription de droit commun en matière civile et commerciale est de cinq (5) ans à compter de la fin du contrat. |
-| Gestion des réponses aux demandes officielles d’autorités publiques ou judiciaires habilitées à cet effet | Les données sont conservées pendant toute la durée de l’instruction des autorités. |
-| Gestion des demandes d’exercice de droits | Les données sont conservées pendant un (1) ou six (6) ans, selon le droit exercé. |
-| Lutte contre la fraude, les abus | Les données sont susceptibles d’être conservées jusqu’à douze (12) mois à compter de l'émission des alertes avant d’être qualifiées.
-
-Les alertes qualifiées de non pertinentes ou non qualifiées à l’issue du délai de douze (12) mois sont supprimées.
-
-Les alertes qualifiées sont conservées pour une durée maximale de cinq (5) ans à compter de la clôture du dossier de fraude.
-
-Pour les personnes inscrites sur une liste des fraudeurs avérés, les données les concernant sont supprimées passé le délai de cinq (5) ans à compter de la date d'inscription sur cette liste.
-
-Si une procédure judiciaire a été engagée, les données sont conservées jusqu'au terme de la procédure judiciaire, augmentée de la durée d’acquisition des prescriptions légales.
-
-Le délai de prescription de droit commun en matière civile et commerciale est de cinq (5) ans à compter de la fin du contrat. |
-| Gestion des atteintes à la sécurité | Les traces informatiques sont conservées pendant treize (13) mois. |
-| Réalisation d’opérations de prospection commerciale à destination des professionnels | Les données sont conservées pendant trois (3) ans à partir du dernier contact entrant. |
-| Gestion des clients ou des employés au sein d’un groupe d’entreprises à des fins de gestion administrative interne | Les données sont conservées pendant toute la durée de la relation contractuelle, augmentée de la durée d’acquisition des prescriptions légales.
-
-Le délai de prescription de droit commun en matière civile et commerciale est de cinq (5) ans à compter de la fin du contrat. |
-| Gestion des demandes d’information et réclamations des utilisateurs | En cas de relation contractuelle avec l’ADEME, les données sont conservées pendant toute la durée de la relation contractuelle, augmentée de la durée d’acquisition des prescriptions légales.
-
-Le délai de prescription de droit commun en matière civile et commerciale est de cinq (5) ans à compter de la fin du contrat.
-
-En cas d’absence de relation contractuelle avec l’ADEME, les données sont conservées pendant trois (3) ans à partir du dernier contact entrant. |
-| Etablissement de tout moyen de preuve nécessaire à la défense des droits de l’ADEME | En cas de relation contractuelle avec l’ADEME, les données sont conservées pendant toute la durée de la relation contractuelle, augmentée de la durée d’acquisition des prescriptions légales.
-
-Le délai de prescription de droit commun en matière civile et commerciale est de cinq (5) ans à compter de la fin du contrat. En cas d’absence de relation contractuelle avec l’ADEME, les données sont conservées pendant trois (3) ans à partir du dernier contact entrant. |
-| Gestion des cookies | Votre choix en matière de cookies est conservé 6 mois. Les données collectées grâce aux cookies qui sont conservées 25 mois. |
+<div class="fr-table fr-table--no-caption fr-table--layout-fixed">
+    <table>
+        <caption>Caption tableau des finalités</caption>
+        <thead>
+            <tr>
+                <th scope="col">FINALITÉS</th>
+                <th scope="col">DURÉES DE CONSERVATION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gestion de la relation des utilisateurs des Sites de l’ADEME</td>
+                <td>
+                    Les données sont conservées pendant toute la durée de la relation contractuelle : durée de vie du compte utilisateur ou dernier contact entrant (connexion ou modification à l'espace personnel), augmentée de la durée d’acquisition des prescriptions légales.<br/>
+                    <br/>
+                    Le délai de prescription de droit commun en matière civile et commerciale est de cinq (5) ans à compter de la fin du contrat.
+                </td>
+            </tr>
+            <tr>
+                <td>Fourniture de Services personnalisés</td>
+                <td>Les données sont conservées pendant trois (3) ans à partir du dernier contact entrant</td>
+            </tr>
+            <tr>
+                <td>Fourniture de Services facultatifs</td>
+                <td>Les données sont conservées pendant trois (3) ans à partir du dernier contact entrant</td>
+            </tr>
+            <tr>
+                <td>Gestion de la participation des utilisateurs aux jeux et concours</td>
+                <td>Les données sont conservées pendant trois (3) ans à partir du dernier contact entrant</td>
+            </tr>
+            <tr>
+                <td>Développement de Produits et Service permettant de faciliter l’accomplissement des formalités administratives nécessaires au traitement des demandes des internautes et utilisateurs</td>
+                <td>
+                    Les données sont conservées pendant toute la durée de l’accomplissement des formalités administratives, augmentée de la durée d’acquisition des prescriptions légales.<br/>
+                    <br/>
+                    Le délai de prescription de droit commun en matière civile et commerciale est de cinq (5) ans à compter de la fin du contrat.
+                </td>
+            </tr>
+            <tr>
+                <td>Gestion des réponses aux demandes officielles d’autorités publiques ou judiciaires habilitées à cet effet</td>
+                <td>Les données sont conservées pendant toute la durée de l’instruction des autorités.</td>
+            </tr>
+            <tr>
+                <td>Gestion des demandes d’exercice de droits</td>
+                <td>Les données sont conservées pendant un (1) ou six (6) ans, selon le droit exercé.</td>
+            </tr>
+            <tr>
+                <td>Lutte contre la fraude, les abus</td>
+                <td>
+                    Les données sont susceptibles d’être conservées jusqu’à douze (12) mois à compter de l'émission des alertes avant d’être qualifiées.<br />
+                    <br />
+                    Les alertes qualifiées de non pertinentes ou non qualifiées à l’issue du délai de douze (12) mois sont supprimées.<br />
+                    <br />
+                    Les alertes qualifiées sont conservées pour une durée maximale de cinq (5) ans à compter de la clôture du dossier de fraude.<br />
+                    <br />
+                    Pour les personnes inscrites sur une liste des fraudeurs avérés, les données les concernant sont supprimées passé le délai de cinq (5) ans à compter de la date d'inscription sur cette liste.<br />
+                    <br />
+                    Si une procédure judiciaire a été engagée, les données sont conservées jusqu'au terme de la procédure judiciaire, augmentée de la durée d’acquisition des prescriptions légales.<br/>
+                    <br/>
+                    Le délai de prescription de droit commun en matière civile et commerciale est de cinq (5) ans à compter de la fin du contrat.
+                </td>
+            </tr>
+            <tr>
+                <td>Gestion des atteintes à la sécurité</td>
+                <td>Les traces informatiques sont conservées pendant treize (13) mois.</td>
+            </tr>
+            <tr>
+                <td>Réalisation d’opérations de prospection commerciale à destination des professionnels</td>
+                <td>Les données sont conservées pendant trois (3) ans à partir du dernier contact entrant.</td>
+            </tr>
+            <tr>
+                <td>Gestion des clients ou des employés au sein d’un groupe d’entreprises à des fins de gestion administrative interne</td>
+                <td>
+                    Les données sont conservées pendant toute la durée de la relation contractuelle, augmentée de la durée d’acquisition des prescriptions légales.<br/>
+                    <br/>
+                    Le délai de prescription de droit commun en matière civile et commerciale est de cinq (5) ans à compter de la fin du contrat.
+                </td>
+            </tr>
+            <tr>
+                <td>Gestion des demandes d’information et réclamations des utilisateurs</td>
+                <td>
+                    En cas de relation contractuelle avec l’ADEME, les données sont conservées pendant toute la durée de la relation contractuelle, augmentée de la durée d’acquisition des prescriptions légales.<br/>
+                    <br/>
+                    Le délai de prescription de droit commun en matière civile et commerciale est de cinq (5) ans à compter de la fin du contrat.<br/>
+                    <br/>
+                    En cas d’absence de relation contractuelle avec l’ADEME, les données sont conservées pendant trois (3) ans à partir du dernier contact entrant.
+                </td>
+            </tr>
+            <tr>
+                <td>Etablissement de tout moyen de preuve nécessaire à la défense des droits de l’ADEME</td>
+                <td>
+                    En cas de relation contractuelle avec l’ADEME, les données sont conservées pendant toute la durée de la relation contractuelle, augmentée de la durée d’acquisition des prescriptions légales.<br/>
+                    <br/>
+                    Le délai de prescription de droit commun en matière civile et commerciale est de cinq (5) ans à compter de la fin du contrat.<br/>
+                    <br/>
+                    En cas d’absence de relation contractuelle avec l’ADEME, les données sont conservées pendant trois (3) ans à partir du dernier contact entrant.
+                </td>
+            </tr>
+            <tr>
+                <td>Gestion des cookies</td>
+                <td>
+                    Votre choix en matière de cookies est conservé 6 mois. Les données collectées grâce aux cookies qui sont conservées 25 mois.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 ## 7. Qui est susceptible d'accéder aux Données à caractère personnel des Personnes concernées ?
 
@@ -163,16 +229,15 @@ Certains des destinataires mentionnés ci-dessus sont susceptibles d’être ét
 
 Dans ce cadre, l’ADEME s’engage à garantir la protection des Données à caractère personnel des Personnes concernées conformément aux règles les plus strictes notamment à travers la signature, au cas par cas, de clauses contractuelles basées sur le modèle de la Commission européenne, ou tout autre mécanisme conforme au RGPD, dès lors que les Données à caractère personnel des Personnes concernées sont traitées par un prestataire en dehors de l’Espace économique européen et dont le pays n’est pas considéré par la Commission Européenne comme assurant un niveau de protection adéquat.
 
-En tout état de cause, l’ADEME s’engage à informer préalablement les Personnes
-concernées en cas de transfert de données hors de l’Union européenne.
+En tout état de cause, l’ADEME s’engage à informer préalablement les Personnes concernées en cas de transfert de données hors de l’Union européenne.
 
 ### 7.1 Sous-traitants
 
-{{array_thirdParties}}
+{{table_thirdParties}}
 
 ### 7.2 Cookies
 
-{{array_cookies}}
+{{table_cookies}}
 
 Vous pouvez à tout moment retirer votre consentement relatif aux cookies en cliquant sur le bouton suivant : {{cookieConsentButton}}
 
@@ -181,8 +246,7 @@ Pour aller plus loin, vous pouvez consulter les fiches proposées par la Commiss
 - [Cookies et traceurs : que dit la loi ?](https://www.cnil.fr/fr/cookies-et-traceurs-que-dit-la-loi)
 - [Cookies : les outils pour les maîtriser](https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser)
 
-## 8. Comment sont exercés les droits reconnus
-aux Personnes concernées ?
+## 8. Comment sont exercés les droits reconnus aux Personnes concernées ?
 
 Conformément au RGPD, les Personnes concernées peuvent, à tout moment, exercer leurs droits d’accès, de rectification, de suppression des données les concernant ainsi que leurs droits de limitation et d’opposition au Traitement et à la portabilité de leurs Données à caractère personnel.
 
@@ -192,7 +256,7 @@ En outre, les Personnes concernées peuvent légalement disposer du droit de dé
 
 Par ailleurs, toute personne mineure au moment de la collecte de ses Données à caractère personnel peut en obtenir l’effacement dans les meilleurs délais.
 
-<div className="fr-alert fr-alert--info fr-alert--sm fr-mb-4w">
+<div class="fr-alert fr-alert--info fr-alert--sm fr-mb-4w">
     <p>
         Les personnes concernées peuvent demander à exercer leur droit d’opposition à un Traitement de Données personnelles les concernant pour des raisons tenant à leur situation particulière lorsque le Traitement est fondé sur l’intérêt légitime de l’ADEME. Ce droit d’opposition s’applique également au profilage.
     </p>

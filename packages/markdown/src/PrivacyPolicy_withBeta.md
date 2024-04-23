@@ -109,7 +109,7 @@ L’ADEME s’engage à conserver les Données à caractère personnel des Perso
 
 Plus précisément, l’ADEME organise sa politique de conservation des données de la manière suivante :
 
-<div class="fr-table fr-table--no-caption">
+<div class="fr-table fr-table--no-caption fr-table--layout-fixed">
     <table>
         <caption>Caption tableau des finalités</caption>
         <thead>
@@ -234,11 +234,11 @@ concernées en cas de transfert de données hors de l’Union européenne.
 
 ### 7.1 Sous-traitants
 
-{{array_thirdParties}}
+{{table_thirdParties}}
 
 ### 7.2 Cookies
 
-{{array_cookies}}
+{{table_cookies}}
 
 Vous pouvez à tout moment retirer votre consentement relatif aux cookies en cliquant sur le bouton suivant : {{cookieConsentButton}}
 
@@ -247,8 +247,7 @@ Pour aller plus loin, vous pouvez consulter les fiches proposées par la Commiss
 - [Cookies et traceurs : que dit la loi ?](https://www.cnil.fr/fr/cookies-et-traceurs-que-dit-la-loi)
 - [Cookies : les outils pour les maîtriser](https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser)
 
-## 8. Comment sont exercés les droits reconnus
-aux Personnes concernées ?
+## 8. Comment sont exercés les droits reconnus aux Personnes concernées ?
 
 Conformément au RGPD, les Personnes concernées peuvent, à tout moment, exercer leurs droits d’accès, de rectification, de suppression des données les concernant ainsi que leurs droits de limitation et d’opposition au Traitement et à la portabilité de leurs Données à caractère personnel.
 
@@ -258,7 +257,7 @@ En outre, les Personnes concernées peuvent légalement disposer du droit de dé
 
 Par ailleurs, toute personne mineure au moment de la collecte de ses Données à caractère personnel peut en obtenir l’effacement dans les meilleurs délais.
 
-<div className="fr-alert fr-alert--info fr-alert--sm fr-mb-4w">
+<div class="fr-alert fr-alert--info fr-alert--sm fr-mb-4w">
     <p>
         Les personnes concernées peuvent demander à exercer leur droit d’opposition à un Traitement de Données personnelles les concernant pour des raisons tenant à leur situation particulière lorsque le Traitement est fondé sur l’intérêt légitime de l’ADEME. Ce droit d’opposition s’applique également au profilage.
     </p>

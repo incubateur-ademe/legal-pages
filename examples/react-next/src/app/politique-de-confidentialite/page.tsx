@@ -11,8 +11,40 @@ export default function CookiePolicyPage() {
         includeBetaGouv
         cookieConsentButton={<CookieConsentButton>CLICK</CookieConsentButton>}
         siteName="SITE EXAMPLE"
-        array_cookies={[]}
-        array_thirdParties={[]}
+        cookies={[
+          {
+            category: "CATEGORY",
+            destination: "FR",
+            editor: "EDITOR",
+            expiration: "2024",
+            finalities: "FINALITIES",
+            name: "NAME",
+          },
+          {
+            category: "CATEGORY",
+            destination: "FR",
+            editor: "EDITOR",
+            expiration: "2024",
+            finalities: "FINALITIES",
+            name: "NAME",
+          },
+        ]}
+        thirdParties={[
+          {
+            name: "NAME",
+            country: "FR",
+            hostingCountry: "FR",
+            serviceType: "TYPE",
+            policyUrl: "https://example.com",
+          },
+          {
+            name: "NAME",
+            country: "FR",
+            hostingCountry: "FR",
+            serviceType: "TYPE",
+            policyUrl: "https://example.com",
+          },
+        ]}
       />
     </div>
   );

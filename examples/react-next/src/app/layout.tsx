@@ -98,6 +98,14 @@ const RootLayout = ({ children }: PropsWithChildren) => {
                 linkProps: { href: "#" },
               },
               {
+                text: "Politique des cookies",
+                linkProps: { href: "/politique-des-cookies" },
+              },
+              {
+                text: "Politique de confidentialité",
+                linkProps: { href: "/politique-de-confidentialite" },
+              },
+              {
                 ...headerFooterDisplayItem,
                 iconId: "fr-icon-theme-fill",
               },

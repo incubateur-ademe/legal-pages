@@ -5,7 +5,7 @@ export interface CommonProps {
 }
 
 //#region CookiePolicy
-export namespace CookiePolicyProps {
+export namespace CookiesPolicyProps {
   export type AnalyticTool = {
     cookieListUrl: string;
     name: string;
@@ -13,8 +13,8 @@ export namespace CookiePolicyProps {
   };
 }
 
-export interface CookiePolicyProps<ElementType = string> extends CommonProps {
-  analyticTool: CookiePolicyProps.AnalyticTool;
+export interface CookiesPolicyProps<ElementType = string> extends CommonProps {
+  analyticTool: CookiesPolicyProps.AnalyticTool;
   cookieConsentButton: ElementType;
 }
 //#endregion
@@ -86,23 +86,23 @@ export namespace PrivacyPolicyProps {
   }
 
   export type WithThirdParties = {
-    array_thirdParties?: never;
+    table_thirdParties?: never;
     thirdParties: ThirdParty[];
   };
 
   export type WithArrayThirdParties<ElementType = string> = {
-    array_thirdParties: ElementType;
+    table_thirdParties: ElementType;
     thirdParties?: never;
   };
 
   export type WithCookies = {
-    array_cookies?: never;
     cookies: Cookie[];
+    table_cookies?: never;
   };
 
   export type WithArrayCookies<ElementType = string> = {
-    array_cookies: ElementType;
     cookies?: never;
+    table_cookies: ElementType;
   };
 }
 

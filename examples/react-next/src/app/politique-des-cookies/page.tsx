@@ -1,13 +1,13 @@
 import { fr } from "@codegouvfr/react-dsfr";
-import { CookiePolicy } from "@incubateur-ademe/legal-pages-react";
+import { CookiesPolicy } from "@incubateur-ademe/legal-pages-react";
 
-import { CookieConsentButton } from "./CookieConsentButton";
+import { CookieConsentButton } from "../CookieConsentButton";
 
 // eslint-disable-next-line import/no-default-export
 export default function CookiePolicyPage() {
   return (
     <div className={fr.cx("fr-container", "fr-my-4w")}>
-      <CookiePolicy
+      <CookiesPolicy
         analyticTool={{
           name: "Matomo",
           cookieListUrl: "https://matomo.org/faq/general/faq_146/",

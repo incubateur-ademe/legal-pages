@@ -1,1 +1,2 @@
-export * from "./CookiePolicy";
+export * from "./CookiesPolicy";
+export * from "./PrivacyPolicy";

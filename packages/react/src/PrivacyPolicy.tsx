@@ -1,13 +1,11 @@
-/// <reference types="@incubateur-ademe/legal-pages-markdown/html" />
-
 import { type PrivacyPolicyProps } from "@incubateur-ademe/legal-pages-markdown";
-import PrivacyPolicyHtml from "@incubateur-ademe/legal-pages-markdown/html/PrivacyPolicy.html?raw";
-import PrivacyPolicy_withBetaHtml from "@incubateur-ademe/legal-pages-markdown/html/PrivacyPolicy_withBeta.html?raw";
 import { type ReactNode, useId } from "react";
 
 import { ClientOnly } from "./ClientOnly";
 import { ClientPortal } from "./ClientPortal";
 import { htmlParser } from "./htmlParser";
+
+export { type PrivacyPolicyProps };
 
 const ThirdPartyTable = ({ thirdParties }: Required<Pick<PrivacyPolicyProps, "thirdParties">>) => (
   <div className="fr-table fr-table--no-caption">
@@ -71,7 +69,7 @@ const CookieTable = ({ cookies }: Required<Pick<PrivacyPolicyProps, "cookies">>)
   </div>
 );
 
-export const PrivacyPolicy = ({
+export const PrivacyPolicy = async ({
   date = "12/03/2024",
   includeBetaGouv = false,
   cookieConsentButton,
@@ -89,7 +87,7 @@ export const PrivacyPolicy = ({
     <>
       <div
         dangerouslySetInnerHTML={{
-          __html: htmlParser(includeBetaGouv ? PrivacyPolicy_withBetaHtml : PrivacyPolicyHtml, {
+          __html: await htmlParser("PrivacyPolicy", {
             date,
             includeBetaGouv,
             siteName,

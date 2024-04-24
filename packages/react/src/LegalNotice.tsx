@@ -1,13 +1,11 @@
-/// <reference types="@incubateur-ademe/legal-pages-markdown/html" />
-
 import { type LegalNoticeProps } from "@incubateur-ademe/legal-pages-markdown";
-import LegalNoticeHtml from "@incubateur-ademe/legal-pages-markdown/html/LegalNotice.html?raw";
-import LegalNotice_withBetaHtml from "@incubateur-ademe/legal-pages-markdown/html/LegalNotice_withBeta.html?raw";
 import { type ReactNode, useId } from "react";
 
 import { ClientOnly } from "./ClientOnly";
 import { ClientPortal } from "./ClientPortal";
 import { htmlParser } from "./htmlParser";
+
+export { type LegalNoticeProps };
 
 const ThirdPartyText = ({ thirdParties }: Required<Pick<LegalNoticeProps, "thirdParties">>) => (
   <>
@@ -26,7 +24,7 @@ const ThirdPartyText = ({ thirdParties }: Required<Pick<LegalNoticeProps, "third
   </>
 );
 
-export const LegalNotice = ({
+export const LegalNotice = async ({
   date = "12/03/2024",
   includeBetaGouv = false,
   siteName,
@@ -44,7 +42,7 @@ export const LegalNotice = ({
     <>
       <div
         dangerouslySetInnerHTML={{
-          __html: htmlParser(includeBetaGouv ? LegalNotice_withBetaHtml : LegalNoticeHtml, {
+          __html: await htmlParser("LegalNotice", {
             date,
             includeBetaGouv,
             siteName,

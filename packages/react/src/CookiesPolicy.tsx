@@ -1,15 +1,13 @@
-/// <reference types="@incubateur-ademe/legal-pages-markdown/html" />
-
 import { type CookiesPolicyProps } from "@incubateur-ademe/legal-pages-markdown";
-import CookiesPolicyHtml from "@incubateur-ademe/legal-pages-markdown/html/CookiesPolicy.html?raw";
-import CookiesPolicy_withBetaHtml from "@incubateur-ademe/legal-pages-markdown/html/CookiesPolicy_withBeta.html?raw";
 import { useId } from "react";
 
 import { ClientOnly } from "./ClientOnly";
 import { ClientPortal } from "./ClientPortal";
 import { htmlParser } from "./htmlParser";
 
-export const CookiesPolicy = ({
+export { type CookiesPolicyProps };
+
+export const CookiesPolicy = async ({
   date = "12/03/2024",
   includeBetaGouv = false,
   cookieConsentButton,
@@ -26,7 +24,7 @@ export const CookiesPolicy = ({
     <>
       <div
         dangerouslySetInnerHTML={{
-          __html: htmlParser(includeBetaGouv ? CookiesPolicy_withBetaHtml : CookiesPolicyHtml, {
+          __html: await htmlParser("CookiesPolicy", {
             date,
             includeBetaGouv,
             siteName,

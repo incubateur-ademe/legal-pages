@@ -2,11 +2,14 @@
   "name": "@incubateur-ademe/legal-pages-react",
   "version": "0.0.1",
   "description": "Legal pages as components for React",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "exports": {
+    "./CookiesPolicy": "./dist/CookiesPolicy.js",
+    "./LegalNotice": "./dist/LegalNotice.js",
+    "./PrivacyPolicy": "./dist/PrivacyPolicy.js"
+  },
   "repository": "git@github.com:incubateur-ademe/legal-pages.git",
   "author": "Lilian Saget-Lethias <lilian.sagetlethias@gmail.com>",
   "license": "MIT",

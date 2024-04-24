@@ -85,22 +85,22 @@ export namespace PrivacyPolicyProps {
     name: string;
   }
 
-  export type WithThirdParties = {
+  export type WithThirdPartiesAsArray = {
     table_thirdParties?: never;
     thirdParties: ThirdParty[];
   };
 
-  export type WithArrayThirdParties<ElementType = string> = {
+  export type WithThirdPartiesAsTableElement<ElementType = string> = {
     table_thirdParties: ElementType;
     thirdParties?: never;
   };
 
-  export type WithCookies = {
+  export type WithCookiesAsArray = {
     cookies: Cookie[];
     table_cookies?: never;
   };
 
-  export type WithArrayCookies<ElementType = string> = {
+  export type WithCookiesAsTableElement<ElementType = string> = {
     cookies?: never;
     table_cookies: ElementType;
   };
@@ -108,6 +108,63 @@ export namespace PrivacyPolicyProps {
 
 export type PrivacyPolicyProps<ElementType = string> = CommonProps & {
   cookieConsentButton: ElementType;
-} & (PrivacyPolicyProps.WithArrayCookies<ElementType> | PrivacyPolicyProps.WithCookies) &
-  (PrivacyPolicyProps.WithArrayThirdParties<ElementType> | PrivacyPolicyProps.WithThirdParties);
+} & (PrivacyPolicyProps.WithCookiesAsArray | PrivacyPolicyProps.WithCookiesAsTableElement<ElementType>) &
+  (PrivacyPolicyProps.WithThirdPartiesAsArray | PrivacyPolicyProps.WithThirdPartiesAsTableElement<ElementType>);
+//#endregion
+
+//#region LegalNotice
+export namespace LegalNoticeProps {
+  export interface SiteHost {
+    /**
+     * "Adresse", adresse de l'hébergeur.
+     */
+    address: string;
+    /**
+     * "Pays", pays d'hébergement du site.
+     */
+    country: string;
+    /**
+     * "Email", email de l'hébergeur.
+     */
+    email?: string;
+    /**
+     * "Nom", nom de l'hébergeur.
+     */
+    name: string;
+  }
+
+  export interface ThirdParty {
+    name: string;
+    text: string;
+    url: string;
+  }
+
+  export type WithThirdPartiesAsArray = {
+    element_thirdParties?: never;
+    /**
+     * Mentionner ici tout service tiers fournissant des éléments complémentaires
+     * tels que des fonctionnalités additionnelles – formulaire en ligne, API, Map… – ;
+     * des illustrations ou pictogrammes venant de banques d’images ;
+     * des polices de caractère propriétaire ; etc.
+     */
+    thirdParties?: ThirdParty[];
+  };
+
+  export type WithThirdPartiesAsElement<ElementType = string> = {
+    /** @see {@link WithThirdPartiesAsArray.thirdParties} */
+    element_thirdParties?: ElementType;
+    thirdParties?: never;
+  };
+}
+
+export type LegalNoticeProps<ElementType = string> = CommonProps & {
+  cookiesPolicyUrl: string;
+  /**
+   * Licence du code, habituellement sur GitHub.
+   */
+  licenceUrl: string;
+  privacyPolicyUrl: string;
+  siteHost: LegalNoticeProps.SiteHost;
+  siteUrl: string;
+} & (LegalNoticeProps.WithThirdPartiesAsArray | LegalNoticeProps.WithThirdPartiesAsElement<ElementType>);
 //#endregion

@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "//"
+  ],
+  "pipeline": {
+    "build": {
+      "inputs": [
+        "package.json",
+        "next.config.js",
+        "src/**",
+        "public/**"
+      ],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**",
+        "out/**"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "//"
+  ],
+  "pipeline": {
+    "build": {
+      "inputs": [
+        "src/**/*.md"
+      ],
+      "outputs": [
+        "html/**/*.html"
+      ]
+    }
+  }
+}

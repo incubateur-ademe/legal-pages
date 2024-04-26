@@ -14,9 +14,17 @@
   "author": "Lilian Saget-Lethias <lilian.sagetlethias@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "for f in src/*.md; do marked \"$f\" --gfm -o \"html/$(basename \"${f%.*}.html\")\"; done"
+    "//build": "for f in src/*.md; do marked \"$f\" --gfm -o \"html/$(basename \"${f%.*}.html\")\"; done",
+    "build": "tsx scripts/build.ts",
+    "dev": "tsx scripts/dev.ts"
   },
   "devDependencies": {
-    "marked": "^12.0.1"
+    "@tsconfig/node20": "^20.1.4",
+    "@types/chokidar": "^2.1.3",
+    "@types/glob": "^8.1.0",
+    "chokidar": "^3.6.0",
+    "glob": "^10.3.12",
+    "marked": "^12.0.2",
+    "marked-gfm-heading-id": "^3.1.3"
   }
 }

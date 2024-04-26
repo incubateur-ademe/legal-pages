@@ -19,6 +19,12 @@
   "files.associations": {
     ".env*": "dotenv",
   },
-  // "eslint.experimental.useFlatConfig": true,
-  "mdx.server.enable": true,
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "turbo.json"
+      ],
+      "url": "https://turbo.build/schema.json"
+    }
+  ],
 }

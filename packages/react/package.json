@@ -15,28 +15,28 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "dev": "vite build --watch"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
   },
   "devDependencies": {
-    "@incubateur-ademe/legal-pages-markdown": "^0.0.1",
+    "@incubateur-ademe/legal-pages-markdown": "*",
     "@tsconfig/vite-react": "^3.0.2",
     "@types/dompurify": "^3.0.5",
     "@types/mustache": "^4.2.5",
-    "@types/react": "^18.2.75",
-    "@types/react-dom": "^18.2.24",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint-plugin-react": "^7.34.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
     "rollup-plugin-preserve-directives": "^0.4.0",
-    "vite-plugin-dts": "^3.8.1"
+    "vite-plugin-dts": "^3.9.0"
   },
   "dependencies": {
-    "dompurify": "^3.1.0",
     "mustache": "^4.2.0"
   }
 }

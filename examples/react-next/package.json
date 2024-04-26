@@ -9,22 +9,24 @@
   "scripts": {
     "postinstall": "copy-dsfr-to-public",
     "predev": "only-include-used-icons",
-    "dev": "next dev"
+    "prebuild": "only-include-used-icons",
+    "dev": "next dev",
+    "build": "next build"
   },
   "dependencies": {
-    "@codegouvfr/react-dsfr": "^1.9.0",
-    "@incubateur-ademe/legal-pages-react": "^0.0.1",
-    "next": "^14",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@codegouvfr/react-dsfr": "^1.9.9",
+    "@incubateur-ademe/legal-pages-react": "*",
+    "next": "^14.2.3",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
     "sass": "^1.75.0",
     "sharp": "^0.33.0"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^14",
+    "@next/eslint-plugin-next": "^14.2.3",
     "@tsconfig/next": "^2.0.1",
-    "@types/react": "^18.2.75",
-    "@types/react-dom": "^18.2.24",
-    "eslint-config-next": "^14"
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "eslint-config-next": "^14.2.3"
   }
 }

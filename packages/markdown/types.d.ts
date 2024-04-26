@@ -1,20 +1,49 @@
 export interface CommonProps {
+  /**
+   * Date de la dernière mise à jour. La date par défaut est celle de la compilation.
+   *
+   * @example "01/01/2022"
+   * @default "<Date de la compilation>"
+   */
   date?: string;
+  /**
+   * Mentionner Beta.gouv ou non dans les textes en plus de l'ADEME.
+   *
+   * @default false
+   */
   includeBetaGouv?: boolean;
+  /**
+   * Nom du site.
+   */
   siteName: string;
 }
 
 //#region CookiePolicy
 export namespace CookiesPolicyProps {
   export type AnalyticTool = {
+    /**
+     * Url de la page listant les cookies utilisés par l'outil.
+     */
     cookieListUrl: string;
+    /**
+     * Nom de l'outil d'analyse.
+     */
     name: string;
+    /**
+     * Url de la politique de confidentialité de l'outil.
+     */
     policyUrl: string;
   };
 }
 
 export interface CookiesPolicyProps<ElementType = string> extends CommonProps {
+  /**
+   * Outil d'analyse d'audience.
+   */
   analyticTool: CookiesPolicyProps.AnalyticTool;
+  /**
+   * Bouton de consentement aux cookies. Peut être un composant propre à la librairie utilisée.
+   */
   cookieConsentButton: ElementType;
 }
 //#endregion
@@ -87,26 +116,37 @@ export namespace PrivacyPolicyProps {
 
   export type WithThirdPartiesAsArray = {
     table_thirdParties?: never;
+    /**
+     * Mentionner ici tous les sous-traitants intervenant dans le traitement des données.
+     */
     thirdParties: ThirdParty[];
   };
 
   export type WithThirdPartiesAsTableElement<ElementType = string> = {
+    /** @see {@link WithThirdPartiesAsArray.thirdParties} */
     table_thirdParties: ElementType;
     thirdParties?: never;
   };
 
   export type WithCookiesAsArray = {
+    /**
+     * Mentionner ici tous les cookies utilisés par le site.
+     */
     cookies: Cookie[];
     table_cookies?: never;
   };
 
   export type WithCookiesAsTableElement<ElementType = string> = {
     cookies?: never;
+    /** @see {@link WithCookiesAsArray.cookies} */
     table_cookies: ElementType;
   };
 }
 
 export type PrivacyPolicyProps<ElementType = string> = CommonProps & {
+  /**
+   * Bouton de consentement aux cookies. Peut être un composant propre à la librairie utilisée.
+   */
   cookieConsentButton: ElementType;
 } & (PrivacyPolicyProps.WithCookiesAsArray | PrivacyPolicyProps.WithCookiesAsTableElement<ElementType>) &
   (PrivacyPolicyProps.WithThirdPartiesAsArray | PrivacyPolicyProps.WithThirdPartiesAsTableElement<ElementType>);
@@ -134,8 +174,21 @@ export namespace LegalNoticeProps {
   }
 
   export interface ThirdParty {
+    /**
+     * Nom du service tiers.
+     *
+     * @example "Storyset"
+     */
     name: string;
+    /**
+     * Texte placé avant le nom du service tiers.
+     *
+     * @example "Certaines illustrations sont réalisées par"
+     */
     text: string;
+    /**
+     * Lien vers le service tiers.
+     */
     url: string;
   }
 
@@ -158,13 +211,29 @@ export namespace LegalNoticeProps {
 }
 
 export type LegalNoticeProps<ElementType = string> = CommonProps & {
-  cookiesPolicyUrl: string;
+  /**
+   * Lien vers la page de politique des cookies.
+   *
+   * @default "/politique-des-cookies"
+   */
+  cookiesPolicyUrl?: string;
   /**
    * Licence du code, habituellement sur GitHub.
    */
   licenceUrl: string;
-  privacyPolicyUrl: string;
+  /**
+   * Lien vers la page de politique de confidentialité.
+   *
+   * @default "/politique-de-confidentialite"
+   */
+  privacyPolicyUrl?: string;
+  /**
+   * Hébergeur du site.
+   */
   siteHost: LegalNoticeProps.SiteHost;
+  /**
+   * Url du site.
+   */
   siteUrl: string;
 } & (LegalNoticeProps.WithThirdPartiesAsArray | LegalNoticeProps.WithThirdPartiesAsElement<ElementType>);
 //#endregion

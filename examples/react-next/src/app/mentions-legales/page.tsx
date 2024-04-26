@@ -9,7 +9,6 @@ export default function CookiePolicyPage() {
         includeBetaGouv
         siteName="SITE EXAMPLE"
         siteUrl={process.env.NEXT_PUBLIC_SITE_URL!}
-        cookiesPolicyUrl="/politique-des-cookies"
         licenceUrl="https://gitub.com/example/example/blob/main/LICENSE.md"
         privacyPolicyUrl="/politique-de-confidentialite"
         siteHost={{

@@ -30,9 +30,9 @@ export const LegalNotice = async ({
   siteName,
   thirdParties = [],
   element_thirdParties,
-  cookiesPolicyUrl,
+  cookiesPolicyUrl = "/politique-des-cookies",
   licenceUrl,
-  privacyPolicyUrl,
+  privacyPolicyUrl = "/politique-de-confidentialite",
   siteHost,
   siteUrl,
 }: LegalNoticeProps<ReactNode>) => {

@@ -16,7 +16,9 @@
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
-    "dev": "vite build --watch"
+    "dev": "vite build --watch",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
   },
   "peerDependencies": {
     "react": "^18.3.0",

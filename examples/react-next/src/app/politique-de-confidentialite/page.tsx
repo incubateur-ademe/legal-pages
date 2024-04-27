@@ -3,7 +3,6 @@ import { PrivacyPolicy } from "@incubateur-ademe/legal-pages-react/PrivacyPolicy
 
 import { CookieConsentButton } from "../CookieConsentButton";
 
-// eslint-disable-next-line import/no-default-export
 export default function CookiePolicyPage() {
   return (
     <div className={fr.cx("fr-container", "fr-my-4w")}>

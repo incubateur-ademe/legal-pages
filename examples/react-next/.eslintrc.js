@@ -2,22 +2,8 @@
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  parserOptions: {
-    project: "./tsconfig.json",
-    tsconfigRootDir: __dirname,
+  extends: ["next/core-web-vitals"],
+  rules: {
+    "import/no-default-export": "off",
   },
-  overrides: [
-    {
-      files: ["**/*.ts?(x)"],
-      extends: ["next/core-web-vitals"],
-      rules: {
-        "react/no-unescaped-entities": [
-          "error",
-          {
-            forbid: [">", "}"],
-          },
-        ],
-      },
-    },
-  ],
 };

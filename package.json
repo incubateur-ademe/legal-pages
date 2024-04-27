@@ -13,7 +13,8 @@
   "scripts": {
     "build": "turbo build",
     "build:lib": "turbo build --filter=./packages/*",
-    "dev": "turbo dev"
+    "dev": "turbo dev",
+    "lint": "turbo lint"
   },
   "devDependencies": {
     "@eslint/js": "^9.1.1",

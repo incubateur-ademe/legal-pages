@@ -1,7 +1,6 @@
 import { fr } from "@codegouvfr/react-dsfr";
 import { LegalNotice } from "@incubateur-ademe/legal-pages-react/LegalNotice";
 
-// eslint-disable-next-line import/no-default-export
 export default function CookiePolicyPage() {
   return (
     <div className={fr.cx("fr-container", "fr-my-4w")}>

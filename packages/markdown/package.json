@@ -10,8 +10,12 @@
     "types.d.ts",
     "html.d.ts"
   ],
-  "repository": "git@github.com:incubateur-ademe/legal-pages.git",
-  "author": "Lilian Saget-Lethias <lilian.sagetlethias@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/incubateur-ademe/legal-pages.git",
+    "directory": "packages/markdown"
+  },
+  "author": "Incubateur ADEME <accelerateurdelatransitionecologique@ademe.fr>",
   "license": "MIT",
   "scripts": {
     "build": "tsx scripts/build.ts",

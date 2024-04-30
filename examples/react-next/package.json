@@ -3,8 +3,12 @@
   "private": true,
   "version": "0.0.1",
   "description": "Legal pages as components",
-  "repository": "git@github.com:incubateur-ademe/legal-pages.git",
-  "author": "Lilian Saget-Lethias <lilian.sagetlethias@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/incubateur-ademe/legal-pages.git",
+    "directory": "examples/react-next"
+  },
+  "author": "Incubateur ADEME <accelerateurdelatransitionecologique@ademe.fr>",
   "license": "MIT",
   "scripts": {
     "postinstall": "copy-dsfr-to-public",

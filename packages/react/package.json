@@ -10,8 +10,12 @@
     "./LegalNotice": "./dist/LegalNotice.js",
     "./PrivacyPolicy": "./dist/PrivacyPolicy.js"
   },
-  "repository": "git@github.com:incubateur-ademe/legal-pages.git",
-  "author": "Lilian Saget-Lethias <lilian.sagetlethias@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/incubateur-ademe/legal-pages.git",
+    "directory": "packages/react"
+  },
+  "author": "Incubateur ADEME <accelerateurdelatransitionecologique@ademe.fr>",
   "license": "MIT",
   "type": "module",
   "scripts": {

@@ -7,6 +7,7 @@
     "@incubateur-ademe/legal-pages-react": "0.0.2"
   },
   "changesets": [
-    "happy-tools-clap"
+    "happy-tools-clap",
+    "swift-crabs-do"
   ]
 }

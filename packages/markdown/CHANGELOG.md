@@ -1,5 +1,11 @@
 # @incubateur-ademe/legal-pages-markdown
 
+## 0.0.3-next.1
+
+### Patch Changes
+
+- Update package json export for react package
+
 ## 0.0.3-next.0
 
 ### Patch Changes

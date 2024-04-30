@@ -16,7 +16,7 @@ export default defineConfig({
     sourcemap: true,
     lib: {
       entry: "src/index.ts",
-      formats: ["es"],
+      formats: ["es", "cjs"],
     },
     rollupOptions: {
       external: ["react", "react-dom", "react/jsx-runtime", "mustache"],
@@ -31,7 +31,7 @@ export default defineConfig({
           react: "React",
           "react-dom": "ReactDOM",
         },
-        entryFileNames: "[name].js",
+        entryFileNames: "[format]/[name].js",
         preserveModules: true,
         preserveModulesRoot: "src",
       },

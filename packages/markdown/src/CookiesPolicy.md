@@ -130,7 +130,7 @@ l’activité des visiteurs sur le site et leur fréquence de retour. Ces donné
 de la part des gestionnaires de statistiques [outils de mesure d’audience : Matomo, Eulerian, Piano Analytics autre…].
 
 Voir la liste complètes des cookies {{analyticTool.name}}
-[{{analyticTool.cookieListUrl}}]({{analyticTool.cookieListUrl}})
+<a href="{{analyticTool.cookieListUrl}}">{{analyticTool.cookieListUrl}}</a>
 
 Ces cookies de mesure d’audience sont exemptés de recueil de consentement comme le permet la délibération CNIL
 n°2020-091, dans la mesure où ces derniers sont strictement nécessaires au fonctionnement du site et que les données

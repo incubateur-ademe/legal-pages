@@ -5,10 +5,25 @@
   "files": [
     "dist"
   ],
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
-    "./CookiesPolicy": "./dist/CookiesPolicy.js",
-    "./LegalNotice": "./dist/LegalNotice.js",
-    "./PrivacyPolicy": "./dist/PrivacyPolicy.js"
+    "./CookiesPolicy": {
+      "import": "./dist/es/CookiesPolicy.js",
+      "require": "./dist/cjs/CookiesPolicy.js",
+      "types": "./dist/CookiesPolicy.d.ts"
+    },
+    "./LegalNotice": {
+      "import": "./dist/es/LegalNotice.js",
+      "require": "./dist/cjs/LegalNotice.js",
+      "types": "./dist/LegalNotice.d.ts"
+    },
+    "./PrivacyPolicy": {
+      "import": "./dist/es/PrivacyPolicy.js",
+      "require": "./dist/cjs/PrivacyPolicy.js",
+      "types": "./dist/PrivacyPolicy.d.ts"
+    }
   },
   "repository": {
     "type": "git",
@@ -17,7 +32,6 @@
   },
   "author": "Incubateur ADEME <accelerateurdelatransitionecologique@ademe.fr>",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite build --watch",

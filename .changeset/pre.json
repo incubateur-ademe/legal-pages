@@ -6,5 +6,7 @@
     "@incubateur-ademe/legal-pages-markdown": "0.0.2",
     "@incubateur-ademe/legal-pages-react": "0.0.2"
   },
-  "changesets": []
+  "changesets": [
+    "happy-tools-clap"
+  ]
 }

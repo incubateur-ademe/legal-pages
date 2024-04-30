@@ -1,5 +1,11 @@
 # @incubateur-ademe/legal-pages-markdown
 
+## 0.0.3-next.2
+
+### Patch Changes
+
+- Change export style in react package
+
 ## 0.0.3-next.1
 
 ### Patch Changes

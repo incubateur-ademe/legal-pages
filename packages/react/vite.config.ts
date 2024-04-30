@@ -16,13 +16,13 @@ export default defineConfig({
     sourcemap: true,
     lib: {
       entry: "src/index.ts",
-      formats: ["es", "cjs"],
+      formats: ["es"],
     },
     rollupOptions: {
       external: ["react", "react-dom", "react/jsx-runtime", "mustache"],
       output: {
         banner: chunk => {
-          if (chunk.name.startsWith("Client")) {
+          if (chunk.name.includes("Client")) {
             return '"use client";\n';
           }
           return "";
@@ -31,7 +31,7 @@ export default defineConfig({
           react: "React",
           "react-dom": "ReactDOM",
         },
-        entryFileNames: "[format]/[name].js",
+        entryFileNames: "[name].js",
         preserveModules: true,
         preserveModulesRoot: "src",
       },

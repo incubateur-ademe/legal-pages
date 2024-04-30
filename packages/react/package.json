@@ -1,38 +1,19 @@
 {
   "name": "@incubateur-ademe/legal-pages-react",
-  "version": "0.0.3-next.1",
+  "version": "0.0.3-next.2",
   "description": "Legal pages as components for React",
   "files": [
     "dist"
   ],
   "type": "module",
-  "main": "dist/cjs/index.js",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
-    ".": {
-      "import": "./dist/es/index.js",
-      "require": "./dist/cjs/index.js",
-      "node": "./dist/cjs/index.js",
-      "types": "./dist/index.d.ts"
-    },
-    "./CookiesPolicy": {
-      "import": "./dist/es/CookiesPolicy.js",
-      "require": "./dist/cjs/CookiesPolicy.js",
-      "node": "./dist/cjs/CookiesPolicy.js",
-      "types": "./dist/CookiesPolicy.d.ts"
-    },
-    "./LegalNotice": {
-      "import": "./dist/es/LegalNotice.js",
-      "require": "./dist/cjs/LegalNotice.js",
-      "node": "./dist/cjs/LegalNotice.js",
-      "types": "./dist/LegalNotice.d.ts"
-    },
-    "./PrivacyPolicy": {
-      "import": "./dist/es/PrivacyPolicy.js",
-      "require": "./dist/cjs/PrivacyPolicy.js",
-      "node": "./dist/cjs/PrivacyPolicy.js",
-      "types": "./dist/PrivacyPolicy.d.ts"
-    }
+    ".": "./dist/index.js",
+    "./CookiesPolicy": "./dist/CookiesPolicy/index.js",
+    "./LegalNotice": "./dist/LegalNotice/index.js",
+    "./PrivacyPolicy": "./dist/PrivacyPolicy/index.js"
   },
   "repository": {
     "type": "git",
@@ -65,7 +46,7 @@
     "vite-plugin-dts": "^3.9.0"
   },
   "dependencies": {
-    "@incubateur-ademe/legal-pages-markdown": "0.0.3-next.1",
+    "@incubateur-ademe/legal-pages-markdown": "0.0.3-next.2",
     "mustache": "^4.2.0"
   }
 }

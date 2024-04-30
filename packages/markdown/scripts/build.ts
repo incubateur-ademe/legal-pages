@@ -9,7 +9,8 @@ const files = glob(`${srcFolder}/*.md`, {
   absolute: true,
 });
 
-console.info(`🏗️ Building ${files.length} files...`);
+console.info(`🏗️ Building ${files.length*2} files...`);
 files.forEach(file => console.info(`  | ${path.join("html", path.parse(file).name + ".html")}`));
+files.forEach(file => console.info(`  | ${path.join("md", path.basename(file))}`));
 
 await build(files);

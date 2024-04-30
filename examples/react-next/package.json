@@ -1,7 +1,7 @@
 {
   "name": "@incubateur-ademe/legal-pages-example-react-next",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Legal pages as components",
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@codegouvfr/react-dsfr": "^1.9.9",
-    "@incubateur-ademe/legal-pages-react": "0.0.3",
+    "@incubateur-ademe/legal-pages-react": "0.0.4",
     "next": "^14.2.3",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",

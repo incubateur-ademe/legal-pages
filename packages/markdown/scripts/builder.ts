@@ -13,9 +13,12 @@ marked.use(
 );
 
 const htmlDist = path.resolve(SCRIPTS_DIR, "../html");
+const mdDist = path.resolve(SCRIPTS_DIR, "../md");
 
 export const build = async (files: string[]) => {
   for (const file of files) {
+    await fs.promises.copyFile(file, path.resolve(mdDist, path.basename(file)));
+
     const { name } = path.parse(file);
     const content = await fs.promises.readFile(file, "utf-8");
 

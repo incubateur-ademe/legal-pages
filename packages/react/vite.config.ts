@@ -22,7 +22,7 @@ export default defineConfig({
       external: ["react", "react-dom", "react/jsx-runtime", "mustache"],
       output: {
         banner: chunk => {
-          if (chunk.name.startsWith("Client")) {
+          if (chunk.name.includes("Client")) {
             return '"use client";\n';
           }
           return "";

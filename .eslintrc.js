@@ -49,7 +49,7 @@ module.exports = {
     "simple-import-sort/exports": "error",
     "import/no-anonymous-default-export": "warn",
     "import/order": "off",
-    "import/no-default-export": "error",
+    "import/no-default-export": "off",
     "import/no-extraneous-dependencies": "off",
     "import/no-internal-modules": "off",
     "import/newline-after-import": "error",

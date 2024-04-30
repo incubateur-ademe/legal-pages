@@ -1,9 +1,9 @@
 import { type LegalNoticeProps } from "@incubateur-ademe/legal-pages-markdown";
 import { type ReactNode, useId } from "react";
 
-import { ClientOnly } from "./ClientOnly";
-import { ClientPortal } from "./ClientPortal";
-import { htmlParser } from "./htmlParser";
+import { ClientOnly } from "../utils/ClientOnly";
+import { ClientPortal } from "../utils/ClientPortal";
+import { htmlParser } from "../utils/htmlParser";
 
 export { type LegalNoticeProps };
 
@@ -63,3 +63,5 @@ export const LegalNotice = async ({
     </>
   );
 };
+
+export default LegalNotice;

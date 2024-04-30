@@ -1,14 +1,19 @@
 {
   "name": "@incubateur-ademe/legal-pages-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Legal pages as components for React",
   "files": [
     "dist"
   ],
+  "type": "module",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
-    "./CookiesPolicy": "./dist/CookiesPolicy.js",
-    "./LegalNotice": "./dist/LegalNotice.js",
-    "./PrivacyPolicy": "./dist/PrivacyPolicy.js"
+    ".": "./dist/index.js",
+    "./CookiesPolicy": "./dist/CookiesPolicy/index.js",
+    "./LegalNotice": "./dist/LegalNotice/index.js",
+    "./PrivacyPolicy": "./dist/PrivacyPolicy/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +22,6 @@
   },
   "author": "Incubateur ADEME <accelerateurdelatransitionecologique@ademe.fr>",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite build --watch",
@@ -42,7 +46,7 @@
     "vite-plugin-dts": "^3.9.0"
   },
   "dependencies": {
-    "@incubateur-ademe/legal-pages-markdown": "*",
+    "@incubateur-ademe/legal-pages-markdown": "0.0.3",
     "mustache": "^4.2.0"
   }
 }

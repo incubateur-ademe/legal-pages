@@ -10,8 +10,8 @@ réalisation et de son suivi.
 ### 1.1. Propriétaire et éditeur
 
 Conformément aux dispositions de l’article 6-I 1° de la loi n°2004-575 du 21 juin 2004 relative à la confiance dans
-l’économie numérique, le site [{{siteUrl}}]({{siteUrl}}) (et autres sites en ademe.fr, ci-après les “Sites”) est édité
-par l’ADEME, ayant sont siège social au :
+l’économie numérique, le site <a href="{{siteUrl}}">{{siteUrl}}</a> (et autres sites en ademe.fr, ci-après les “Sites”)
+est édité par l’ADEME, ayant sont siège social au :
 
 <address class="fr-mb-2w">
     20, avenue du Grésillé — BP 90406<br/>
@@ -103,13 +103,13 @@ grand nombre.
 
 Des cookies sont utilisés sur les Sites pour différentes finalités : pour faciliter votre navigation, pour vous proposer
 des contenus personnalisés ou pour réaliser des statistiques de visites. Pour connaître notre politique des cookies,
-cliquez sur [{{cookiesPolicyUrl}}]({{cookiesPolicyUrl}}).
+cliquez sur <a href="{{cookiesPolicyUrl}}">{{cookiesPolicyUrl}}</a>.
 
 ## 7. Propriété intellectuelle
 
-Sauf mentions contraires précisées sur le fichier [{{licenceUrl}}]({{licenceUrl}}), l’ADEME est propriétaire des droits
-de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site, notamment les
-textes, images, graphismes, logos, icônes, sons, logiciels et marques déposées.
+Sauf mentions contraires précisées sur le fichier <a href="{{licenceUrl}}">{{licenceUrl}}</a>, l’ADEME est propriétaire
+des droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site,
+notamment les textes, images, graphismes, logos, icônes, sons, logiciels et marques déposées.
 
 Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site ainsi
 que des logos de l’ADEME, quel que soit le moyen ou le procédé utilisé, est interdite, sauf acceptation écrite et
@@ -145,7 +145,7 @@ la loi « Informatique et libertés » du 6 janvier 1978 modifiée et le Règlem
 (Règlement UE 2016/679) désigné par « RGPD ».
 
 Pour en savoir plus sur ce traitement de données à caractère personnel et sur l’étendue de leurs droits, cliquez sur
-[{{privacyPolicyUrl}}]({{privacyPolicyUrl}}).
+<a href="{{privacyPolicyUrl}}">{{privacyPolicyUrl}}</a>.
 
 ## 9. Accessibilité
 

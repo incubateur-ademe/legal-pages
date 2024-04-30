@@ -1,6 +1,6 @@
 {
   "name": "@incubateur-ademe/legal-pages-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Legal pages as components for React",
   "files": [
     "dist"
@@ -29,7 +29,6 @@
     "react-dom": "^18.3.0"
   },
   "devDependencies": {
-    "@incubateur-ademe/legal-pages-markdown": "*",
     "@tsconfig/vite-react": "^3.0.2",
     "@types/dompurify": "^3.0.5",
     "@types/mustache": "^4.2.5",
@@ -43,6 +42,7 @@
     "vite-plugin-dts": "^3.9.0"
   },
   "dependencies": {
+    "@incubateur-ademe/legal-pages-markdown": "*",
     "mustache": "^4.2.0"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "@incubateur-ademe/legal-pages-example-react-next",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Legal pages as components",
   "repository": {
     "type": "git",

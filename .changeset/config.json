@@ -2,12 +2,14 @@
   "$schema": "https://unpkg.com/@changesets/config@3.0.0/schema.json",
   "changelog": "@changesets/changelog-git",
   "commit": false,
-  "fixed": [["@incubateur-ademe/*"]],
+  "linked": [["@incubateur-ademe/*"]],
   "access": "public",
   "privatePackages": {
     "version": true,
     "tag": true
   },
   "baseBranch": "main",
-  "updateInternalDependencies": "patch"
+  "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
+    "updateInternalDependents": "always"
+  }
 }

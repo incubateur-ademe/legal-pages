@@ -9,19 +9,28 @@
   "main": "dist/cjs/index.js",
   "types": "dist/index.d.ts",
   "exports": {
+    ".": {
+      "import": "./dist/es/index.js",
+      "require": "./dist/cjs/index.js",
+      "node": "./dist/cjs/index.js",
+      "types": "./dist/index.d.ts"
+    },
     "./CookiesPolicy": {
       "import": "./dist/es/CookiesPolicy.js",
       "require": "./dist/cjs/CookiesPolicy.js",
+      "node": "./dist/cjs/CookiesPolicy.js",
       "types": "./dist/CookiesPolicy.d.ts"
     },
     "./LegalNotice": {
       "import": "./dist/es/LegalNotice.js",
       "require": "./dist/cjs/LegalNotice.js",
+      "node": "./dist/cjs/LegalNotice.js",
       "types": "./dist/LegalNotice.d.ts"
     },
     "./PrivacyPolicy": {
       "import": "./dist/es/PrivacyPolicy.js",
       "require": "./dist/cjs/PrivacyPolicy.js",
+      "node": "./dist/cjs/PrivacyPolicy.js",
       "types": "./dist/PrivacyPolicy.d.ts"
     }
   },

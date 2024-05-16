@@ -10,8 +10,8 @@ réalisation et de son suivi.
 ### 1.1. Propriétaire et éditeur
 
 Conformément aux dispositions de l’article 6-I 1° de la loi n°2004-575 du 21 juin 2004 relative à la confiance dans
-l’économie numérique, le site <a href="{{siteUrl}}">{{siteUrl}}</a> (et autres sites en ademe.fr ou en beta.gouv.fr,
-ci-après les “Sites”) est édité par l’ADEME, ayant sont siège social au :
+l’économie numérique, le site <a href="{{siteUrl}}">{{siteUrl}}</a> (et autres sites en ademe.fr, ci-après les “Sites”)
+est édité par l’ADEME, ayant sont siège social au :
 
 <address class="fr-mb-2w">
     20, avenue du Grésillé — BP 90406<br/>
@@ -21,6 +21,8 @@ ci-après les “Sites”) est édité par l’ADEME, ayant sont siège social a
 
 inscrit au registre du commerce d'Angers sous le n° 385 290 309, représentée par Sylvain Waserman, agissant en qualité
 de Président du conseil d'administration.
+
+Même si le présent est sous une URL “beta.gouv.fr”, la responsabilité, la propriété, et l’édition restent côté ADEME.
 
 ### 1.2. Publication
 

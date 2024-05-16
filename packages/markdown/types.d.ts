@@ -9,6 +9,8 @@ export interface CommonProps {
   /**
    * Mentionner Beta.gouv ou non dans les textes en plus de l'ADEME.
    *
+   * (non utilisé pour la politique de confidentialité)
+   *
    * @default false
    */
   includeBetaGouv?: boolean;

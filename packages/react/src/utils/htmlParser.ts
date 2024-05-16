@@ -23,10 +23,7 @@ const htmlImporter = {
     withBeta
       ? import("@incubateur-ademe/legal-pages-markdown/html/CookiesPolicy_withBeta.html?raw")
       : import("@incubateur-ademe/legal-pages-markdown/html/CookiesPolicy.html?raw"),
-  PrivacyPolicy: (withBeta: boolean) =>
-    withBeta
-      ? import("@incubateur-ademe/legal-pages-markdown/html/PrivacyPolicy_withBeta.html?raw")
-      : import("@incubateur-ademe/legal-pages-markdown/html/PrivacyPolicy.html?raw"),
+  PrivacyPolicy: () => import("@incubateur-ademe/legal-pages-markdown/html/PrivacyPolicy.html?raw"),
 } satisfies Record<keyof HtmlPropsMapping, (withBeta: boolean) => Promise<{ default: string }>>;
 
 export const htmlParser = async <T extends keyof HtmlPropsMapping>(template: T, data: HtmlPropsMapping[T]) => {

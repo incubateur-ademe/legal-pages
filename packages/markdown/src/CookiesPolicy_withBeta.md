@@ -2,8 +2,8 @@
 
 **Mis à jour le {{date}}**
 
-L'ADEME et Beta.gouv souhaitent vous informer de manière claire et transparente sur l'usage des cookies lorsque vous
-consultez les sites ademe.fr et de beta.gouv.fr.
+L'ADEME souhaite vous informer de manière claire et transparente sur l'usage des cookies lorsque vous consultez les
+sites ademe.fr et le présent site.
 
 <div className="fr-alert fr-alert--info fr-alert--sm fr-mb-4w">
     <p>
@@ -19,6 +19,9 @@ Pour permettre aux internautes de bénéficier des services proposés par le sit
 que sa consultation, l’optimisation de son utilisation ou sa personnalisation en fonction de l’internaute, le Site
 utilise des cookies. Vous pouvez à tout moment désactiver les cookies auxquels vous avez consenti, et ce gratuitement, à
 partir des possibilités de désactivation qui vous sont offertes et rappelées ci-avant.
+
+Même si le présent site est sous une URL “beta.gouv.fr”, le dépôt de cookies et traceurs restent sous la responsabilité
+de l’ADEME.
 
 ## 2. Définitions
 
@@ -150,9 +153,9 @@ Vous pouvez gérer et modifier à tout moment l’utilisation des cookies suivan
 -   à partir de votre logiciel de navigation, ou
 -   de modules ou de plateformes interprofessionnelles d’opposition.
 
-**Attention : l’ADEME et Beta.gouv vous rappellent que la prise en compte de votre refus d’installer un cookie repose
-sur le dépôt d’un cookie de refus. Par conséquent, si vous désactivez l’ensemble des cookies de votre terminal ou si
-vous changez de terminal, nous ne saurons plus en mesure d’identifier que vous avez choisi cette option.**
+**Attention : l’ADEME vous rappelle que la prise en compte de votre refus d’installer un cookie repose sur le dépôt d’un
+cookie de refus. Par conséquent, si vous désactivez l’ensemble des cookies de votre terminal ou si vous changez de
+terminal, nous ne saurons plus en mesure d’identifier que vous avez choisi cette option.**
 
 ### 7.3 Module de gestion des cookies
 
@@ -198,8 +201,8 @@ utilisés afin d'adapter à la navigation de votre terminal les publicités susc
 
 ## 8. Protection des données personnelles
 
-Dans le cadre de l’utilisation des cookies telle que décrite dans le présent document, l’ADEME et Beta.gouv seront, en
-tant que responsables du traitement, susceptibles de traiter des données à caractère personnel vous concernant.
+Dans le cadre de l’utilisation des cookies telle que décrite dans le présent document, l’ADEME sera, en tant que
+responsable du traitement, susceptibles de traiter des données à caractère personnel vous concernant.
 
 Les cookies tiers sur le Site dépendent de responsables de traitement externes qui sont susceptibles, si vous acceptez
 ces cookies, de traiter des données à caractère personnel vous concernant. L’émission et l’utilisation de ces cookies
@@ -207,7 +210,7 @@ par des tiers sont soumises à leur propre politique de protection de la vie pri
 ces traitements, vous pouvez vous reporter aux politiques de confidentialité de ces fournisseurs.
 
 Les données collectées sont indispensables pour atteindre les objectifs poursuivis par chaque cookie. Elles sont
-uniquement destinées aux services habilités de l’ADEME, de Beta.gouv, et/ou de l’entreprise émettrice des cookies tiers.
+uniquement destinées aux services habilités de l’ADEME et/ou de l’entreprise émettrice des cookies tiers.
 
 Les données à caractère personnel collectées via les cookies ne sont jamais conservées plus longtemps que nécessaire
 pour atteindre la finalité du cookie et, en tout état de cause, pas plus de 6 mois. Au-delà de cette durée, votre
@@ -220,11 +223,10 @@ En application des dispositions du Règlement général sur la protection des do
 d’interrogation, d’accès, de rectification d’effacement, d’opposition pour motifs légitimes et de portabilité
 relativement à l’ensemble des données.
 
-Les données collectées sont, après le décès de la personne, conservées pendant la durée nécessaire pour l’ADEME et
-Beta.gouv de se conformer à leurs obligations légales et règlementaires. A l’expiration de ce délai, les données seront
-effacées, à moins que la personne ne décide qu’elles soient communiquées à un tiers de son choix, conformément aux
-dispositions de l’article 85 de la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux
-libertés.
+Les données collectées sont, après le décès de la personne, conservées pendant la durée nécessaire pour l’ADEME de se
+conformer à ses obligations légales et règlementaires. A l’expiration de ce délai, les données seront effacées, à moins
+que la personne ne décide qu’elles soient communiquées à un tiers de son choix, conformément aux dispositions de
+l’article 85 de la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.
 
 Les droits peuvent être exercés auprès du délégué à la protection des données, dont les coordonnées sont communiquées
 ci-dessus, par courrier électronique ou par courrier postal, accompagné de toute information permettant de justifier de

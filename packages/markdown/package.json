@@ -1,6 +1,6 @@
 {
   "name": "@incubateur-ademe/legal-pages-markdown",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Legal pages as components as raw markdown",
   "types": "./types.d.ts",
   "type": "module",

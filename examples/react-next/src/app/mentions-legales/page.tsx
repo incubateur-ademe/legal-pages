@@ -1,7 +1,7 @@
 import { fr } from "@codegouvfr/react-dsfr";
-import { LegalNotice } from "@incubateur-ademe/legal-pages-react/LegalNotice";
+import { LegalNotice } from "@incubateur-ademe/legal-pages-react";
 
-export default function CookiePolicyPage() {
+export default function LegalNoticePage() {
   return (
     <div className={fr.cx("fr-container", "fr-my-4w")}>
       <LegalNotice

@@ -1,9 +1,9 @@
 import { fr } from "@codegouvfr/react-dsfr";
-import { PrivacyPolicy } from "@incubateur-ademe/legal-pages-react/PrivacyPolicy";
+import { PrivacyPolicy } from "@incubateur-ademe/legal-pages-react";
 
 import { CookieConsentButton } from "../CookieConsentButton";
 
-export default function CookiePolicyPage() {
+export default function PrivacyPolicyPage() {
   return (
     <div className={fr.cx("fr-container", "fr-my-4w")}>
       <PrivacyPolicy

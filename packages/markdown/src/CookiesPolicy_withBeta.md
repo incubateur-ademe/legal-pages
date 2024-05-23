@@ -96,7 +96,7 @@ recommandons de consulter les conditions d’utilisation de vos données sur ces
 finalités d'utilisation, notamment publicitaires, et les informations de navigation qu'ils peuvent recueillir grâce à
 ces boutons applicatifs. Il convient de vous assurer que les conditions d’utilisation de ces réseaux sociaux peuvent
 vous permettre d’encadrer et de restreindre l’utilisation de vos données par ces réseaux sociaux, notamment en
-paramètrant vos comptes d'utilisation auprès de ces derniers.
+paramétrant vos comptes d'utilisation auprès de ces derniers.
 
 ## 5. Partage de l’utilisation de votre terminal avec d’autres personnes
 

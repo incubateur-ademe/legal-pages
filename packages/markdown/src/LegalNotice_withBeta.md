@@ -11,7 +11,7 @@ réalisation et de son suivi.
 
 Conformément aux dispositions de l’article 6-I 1° de la loi n°2004-575 du 21 juin 2004 relative à la confiance dans
 l’économie numérique, le site <a href="{{siteUrl}}">{{siteUrl}}</a> (et autres sites en ademe.fr, ci-après les “Sites”)
-est édité par l’ADEME, ayant sont siège social au :
+est édité par l’ADEME, ayant son siège social au :
 
 <address class="fr-mb-2w">
     20, avenue du Grésillé — BP 90406<br/>
@@ -19,7 +19,7 @@ est édité par l’ADEME, ayant sont siège social au :
     <a href="tel:+33241204120">02 41 20 41 20</a>
 </address>
 
-inscrit au registre du commerce d'Angers sous le n° 385 290 309, représentée par Sylvain Waserman, agissant en qualité
+inscrite au registre du commerce d'Angers sous le n° 385 290 309, représentée par Sylvain Waserman, agissant en qualité
 de Président du conseil d'administration.
 
 Même si le présent est sous une URL “beta.gouv.fr”, la responsabilité, la propriété, et l’édition restent côté ADEME.
@@ -65,8 +65,8 @@ mises en œuvre au sein des territoires, l’action internationale de l’ADEME,
 
 L’ADEME s’efforce de fournir sur les Sites des informations aussi précises que possible.
 
-Toutefois, elle ne pourra être tenue responsable des omissions, des inexactitudes des carences dans la mise à jour ou de
-tout autres manquements qu’ils soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
+Toutefois, elle ne pourra être tenue responsable des omissions, des inexactitudes, des carences dans la mise à jour ou de
+tout autre manquement qu'elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
 
 Toutes les informations indiquées sur les Sites de l’ADEME sont données à titre indicatif, et sont susceptibles
 d’évoluer. Par ailleurs, les renseignements figurant sur les Sites de l’ADEME ne sont pas exhaustifs. Ils sont donnés
@@ -92,7 +92,7 @@ conséquences qui peuvent en découler pour l’utilisateur ou tout tiers.
 
 ## 5. Liens hypertextes
 
-L’ADEME, et l’incubateur de Services Numériques de la DINUM déclinent toute responsabilité quant au contenu des sites
+L’ADEME et l’incubateur de Services Numériques de la DINUM déclinent toute responsabilité quant au contenu des sites
 proposés en liens.
 
 Tout site public ou privé est autorisé à établir, sans information ni autorisation préalable, un lien vers les
@@ -111,7 +111,7 @@ cliquez sur <a href="{{cookiesPolicyUrl}}">{{cookiesPolicyUrl}}</a>.
 
 ## 7. Propriété intellectuelle
 
-Sauf mentions contraires précisées sur le fichier <a href="{{licenceUrl}}">{{licenceUrl}}</a>, l’ADEME est propriétaire
+Sauf mention contraire précisée sur le fichier <a href="{{licenceUrl}}">{{licenceUrl}}</a>, l’ADEME est propriétaire
 des droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site,
 notamment les textes, images, graphismes, logos, icônes, sons, logiciels et marques déposées.
 
@@ -125,7 +125,7 @@ constitutive d’une contrefaçon et poursuivie conformément aux dispositions d
 Propriété Intellectuelle.
 
 L’ADEME ne pourra en revanche interdire la réutilisation de discours, dossiers de presse et communiqués, les
-circulaires, directives et autres documents règlementaires.
+circulaires, directives et autres documents réglementaires.
 
 L’ADEME autorise la réutilisation non commerciale et pédagogique des informations disponibles sur ses Sites, à la
 condition de respecter l’intégrité des informations et de n’en altérer ni le sens, ni la portée, ni l’application et de
@@ -139,10 +139,10 @@ disposition de tiers, à titre gratuit ou onéreux.
 
 ## 8. Gestion des données personnelles
 
-Conformément à la Règlementation relative à la protection des données à caractère personnel, l'utilisateur est informé
+Conformément à la réglementation relative à la protection des données à caractère personnel, l'utilisateur est informé
 que l’ADEME, en tant que responsable du traitement, met en œuvre un traitement de données à caractère personnel.
 
-L’ADEME est attaché au respect des règles de protection de la vie privée des utilisateurs de son site internet et de ses
+L’ADEME est attachée au respect des règles de protection de la vie privée des utilisateurs de son site internet et de ses
 services. L’ensemble des traitements de données personnelles mis en œuvre dans le cadre des services accessibles
 respecte la réglementation applicable en matière de protection des données personnelles et notamment les dispositions de
 la loi « Informatique et libertés » du 6 janvier 1978 modifiée et le Règlement général sur la Protection des données

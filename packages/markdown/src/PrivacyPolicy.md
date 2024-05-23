@@ -2,7 +2,7 @@
 
 **Mis à jour le {{date}}**
 
-L’Agence de l’Environnement et de la Maitrise de l’Energie, établissement public à caractère industriel et commercial
+L’Agence de l’Environnement et de la Maîtrise de l’Énergie, établissement public à caractère industriel et commercial
 dont le siège est situé 20, avenue du Grésillé 49000 Angers (ci-après « ADEME »), attache une grande importance à la
 protection des Données à caractère personnel qu’elle a à collecter et traiter en tant que responsable de traitement,
 dans le cadre de l’activité du site {{siteName}} (ci-après le « Site »).
@@ -78,7 +78,7 @@ respecter les principes suivants :
     sans tarder (exactitude).
 
 L’ADEME met en œuvre les mesures techniques et organisationnelles appropriées afin de garantir un niveau de sécurité
-adapté au risque inhérent à ses opérations de Traitement, répondre aux exigences règlementaires et protéger les droits
+adapté au risque inhérent à ses opérations de Traitement, répondre aux exigences réglementaires et protéger les droits
 et les Données à caractère personnel des Personnes concernées dès la conception des opérations de Traitement.
 
 Par ailleurs, l’ADEME impose contractuellement le même niveau de protection des Données à caractère personnel à ses
@@ -265,7 +265,7 @@ Plus précisément, l’ADEME organise sa politique de conservation des données
             <tr>
                 <td>Gestion des cookies</td>
                 <td>
-                    Votre choix en matière de cookies est conservé 6 mois. Les données collectées grâce aux cookies qui sont conservées 25 mois.
+                    Votre choix en matière de cookies est conservé 6 mois. Les données collectées grâce aux cookies sont conservées 25 mois.
                 </td>
             </tr>
         </tbody>

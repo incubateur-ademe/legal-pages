@@ -1,5 +1,5 @@
 import { fr } from "@codegouvfr/react-dsfr";
-import { CookiesPolicy } from "@incubateur-ademe/legal-pages-react/CookiesPolicy";
+import { CookiesPolicy } from "@incubateur-ademe/legal-pages-react";
 
 import { CookieConsentButton } from "../CookieConsentButton";
 

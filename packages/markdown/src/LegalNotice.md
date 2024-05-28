@@ -63,8 +63,8 @@ mises en œuvre au sein des territoires, l’action internationale de l’ADEME,
 
 L’ADEME s’efforce de fournir sur les Sites des informations aussi précises que possible.
 
-Toutefois, elle ne pourra être tenue responsable des omissions, des inexactitudes, des carences dans la mise à jour ou de
-tout autres manquements qu'ils soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
+Toutefois, elle ne pourra être tenue responsable des omissions, des inexactitudes des carences dans la mise à jour ou de
+tout autres manquements qu’ils soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
 
 Toutes les informations indiquées sur les Sites de l’ADEME sont données à titre indicatif, et sont susceptibles
 d’évoluer. Par ailleurs, les renseignements figurant sur les Sites de l’ADEME ne sont pas exhaustifs. Ils sont donnés

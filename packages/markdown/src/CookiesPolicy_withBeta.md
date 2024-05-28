@@ -179,7 +179,7 @@ cookies.
 Nous attirons toutefois votre attention sur le fait qu’en paramétrant votre navigateur pour refuser les cookies,
 certaines fonctionnalités, pages, espaces du Site ne seront pas accessibles, ce dont nous ne saurions être responsables.
 
-### 7.5 Plateformes interprofessionnelles d'opposition
+### 7.5 Plateformes interprofessionnelles d’opposition
 
 Plusieurs plateformes de professionnels de la publicité vous offrent également la possibilité de refuser ou d’accepter
 des cookies utilisés par les sociétés qui en sont adhérentes. Ces mécanismes centralisés ne bloquent pas l’affichage des

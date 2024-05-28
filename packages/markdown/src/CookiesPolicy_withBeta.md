@@ -221,7 +221,7 @@ des données accessible dans le pied de page du site.
 
 En application des dispositions du Règlement général sur la protection des données, les personnes disposent d’un droit
 d’interrogation, d’accès, de rectification d’effacement, d’opposition pour motifs légitimes et de portabilité
-relative à l’ensemble des données.
+relativement à l’ensemble des données.
 
 Les données collectées sont, après le décès de la personne, conservées pendant la durée nécessaire pour l’ADEME de se
 conformer à ses obligations légales et réglementaires. A l’expiration de ce délai, les données seront effacées, à moins

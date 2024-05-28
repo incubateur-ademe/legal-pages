@@ -8,3 +8,14 @@ This monorepo contains the following packages:
 And the following examples:
 
 -   [Next.js/React](./examples/react-next/README.md)
+
+## Release process
+
+```bash
+yarn changeset
+yarn changeset version
+NODE_ENV=production yarn build
+yarn changeset publish
+git commit
+git push --follow-tags
+```

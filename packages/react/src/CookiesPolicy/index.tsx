@@ -1,6 +1,7 @@
 import { type CookiesPolicyProps } from "@incubateur-ademe/legal-pages-markdown";
 import { useId } from "react";
 
+import { RELEASE_DATE } from "../releaseDate";
 import { ClientOnly } from "../utils/ClientOnly";
 import { ClientPortal } from "../utils/ClientPortal";
 import { htmlParser } from "../utils/htmlParser";
@@ -8,7 +9,7 @@ import { htmlParser } from "../utils/htmlParser";
 export { type CookiesPolicyProps };
 
 export const CookiesPolicy = async ({
-  date = "12/03/2024",
+  date = RELEASE_DATE,
   includeBetaGouv = false,
   cookieConsentButton,
   siteName,

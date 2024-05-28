@@ -1,6 +1,7 @@
 import { type LegalNoticeProps } from "@incubateur-ademe/legal-pages-markdown";
 import { type ReactNode, useId } from "react";
 
+import { RELEASE_DATE } from "../releaseDate";
 import { ClientOnly } from "../utils/ClientOnly";
 import { ClientPortal } from "../utils/ClientPortal";
 import { htmlParser } from "../utils/htmlParser";
@@ -25,12 +26,11 @@ const ThirdPartyText = ({ thirdParties }: Required<Pick<LegalNoticeProps, "third
 );
 
 export const LegalNotice = async ({
-  date = "12/03/2024",
+  date = RELEASE_DATE,
   includeBetaGouv = false,
   siteName,
   thirdParties = [],
   element_thirdParties,
-  cookiesPolicyUrl = "/politique-des-cookies",
   licenceUrl,
   privacyPolicyUrl = "/politique-de-confidentialite",
   siteHost,
@@ -47,7 +47,6 @@ export const LegalNotice = async ({
             includeBetaGouv,
             siteName,
             element_thirdParties: `<div id="${elementThirdPartiesPortalId}"></div>`,
-            cookiesPolicyUrl,
             licenceUrl,
             privacyPolicyUrl,
             siteHost,

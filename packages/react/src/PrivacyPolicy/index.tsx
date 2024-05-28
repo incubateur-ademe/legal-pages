@@ -1,6 +1,7 @@
 import { type PrivacyPolicyProps } from "@incubateur-ademe/legal-pages-markdown";
 import { type ReactNode, useId } from "react";
 
+import { RELEASE_DATE } from "../releaseDate";
 import { ClientOnly } from "../utils/ClientOnly";
 import { ClientPortal } from "../utils/ClientPortal";
 import { htmlParser } from "../utils/htmlParser";
@@ -70,7 +71,7 @@ const CookieTable = ({ cookies }: Required<Pick<PrivacyPolicyProps, "cookies">>)
 );
 
 export const PrivacyPolicy = async ({
-  date = "12/03/2024",
+  date = RELEASE_DATE,
   includeBetaGouv = false,
   cookieConsentButton,
   siteName,

@@ -107,12 +107,12 @@ grand nombre.
 
 Des cookies sont utilisés sur les Sites pour différentes finalités : pour faciliter votre navigation, pour vous proposer
 des contenus personnalisés ou pour réaliser des statistiques de visites. Pour connaître notre politique des cookies,
-cliquez sur <a href="{{cookiesPolicyUrl}}">{{cookiesPolicyUrl}}</a>.
+vous êtes invités à cliquer sur le lien accessible dans le pied depage des sites ademe.fr.
 
 ## 7. Propriété intellectuelle
 
-Sauf mention contraire précisée sur le fichier <a href="{{licenceUrl}}">{{licenceUrl}}</a>, l’ADEME est propriétaire
-des droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site,
+Sauf mention contraire précisée sur le fichier <a href="{{licenceUrl}}">{{licenceUrl}}</a>, l’ADEME est propriétaire des
+droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site,
 notamment les textes, images, graphismes, logos, icônes, sons, logiciels et marques déposées.
 
 Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site ainsi
@@ -142,8 +142,8 @@ disposition de tiers, à titre gratuit ou onéreux.
 Conformément à la Règlementation relative à la protection des données à caractère personnel, l'utilisateur est informé
 que l’ADEME, en tant que responsable du traitement, met en œuvre un traitement de données à caractère personnel.
 
-L’ADEME est attachée au respect des règles de protection de la vie privée des utilisateurs de son site internet et de ses
-services. L’ensemble des traitements de données personnelles mis en œuvre dans le cadre des services accessibles
+L’ADEME est attachée au respect des règles de protection de la vie privée des utilisateurs de son site internet et de
+ses services. L’ensemble des traitements de données personnelles mis en œuvre dans le cadre des services accessibles
 respecte la réglementation applicable en matière de protection des données personnelles et notamment les dispositions de
 la loi « Informatique et libertés » du 6 janvier 1978 modifiée et le Règlement général sur la Protection des données
 (Règlement UE 2016/679) désigné par « RGPD ».
@@ -175,7 +175,7 @@ seront à l’origine d’envoi d'emails pour demander la saisie d’information
 
 Nous vous rappelons qu’il n’est pas possible de garantir la confidentialité des messages transmis sur le réseau
 Internet. Aussi, si vous souhaitez transmettre un message dans de meilleures conditions de sécurité, nous vous
-recommandons d’utiliser la voie postale. L’ADEME, et l’incubateur de Services Numériques de la DINUM dégagent toute
+recommandons d’utiliser la voie postale. L’ADEME et l’incubateur de Services Numériques de la DINUM dégagent toute
 responsabilité quant aux difficultés techniques que vous pourriez rencontrer sur les Sites qu’elles qu’en soient la
 cause et l’origine.
 

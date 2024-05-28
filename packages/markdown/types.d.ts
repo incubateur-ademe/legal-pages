@@ -214,12 +214,6 @@ export namespace LegalNoticeProps {
 
 export type LegalNoticeProps<ElementType = string> = CommonProps & {
   /**
-   * Lien vers la page de politique des cookies.
-   *
-   * @default "/politique-des-cookies"
-   */
-  cookiesPolicyUrl?: string;
-  /**
    * Licence du code, habituellement sur GitHub.
    */
   licenceUrl: string;

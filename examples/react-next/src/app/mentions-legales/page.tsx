@@ -1,5 +1,5 @@
 import { fr } from "@codegouvfr/react-dsfr";
-import { LegalNotice } from "@incubateur-ademe/legal-pages-react";
+import { LegalNotice } from "@incubateur-ademe/legal-pages-react/LegalNotice";
 
 export default function LegalNoticePage() {
   return (

@@ -19,7 +19,7 @@ est édité par l’ADEME, ayant son siège social au :
     <a href="tel:+33241204120">02 41 20 41 20</a>
 </address>
 
-inscrite au registre du commerce d'Angers sous le n° 385 290 309, représentée par Sylvain Waserman, agissant en qualité
+inscrit au registre du commerce d'Angers sous le n° 385 290 309, représentée par Sylvain Waserman, agissant en qualité
 de Président du conseil d'administration.
 
 Même si le présent est sous une URL “beta.gouv.fr”, la responsabilité, la propriété, et l’édition restent côté ADEME.
@@ -66,7 +66,7 @@ mises en œuvre au sein des territoires, l’action internationale de l’ADEME,
 L’ADEME s’efforce de fournir sur les Sites des informations aussi précises que possible.
 
 Toutefois, elle ne pourra être tenue responsable des omissions, des inexactitudes, des carences dans la mise à jour ou de
-tout autre manquement qu'elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
+tout autres manquements qu'ils soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
 
 Toutes les informations indiquées sur les Sites de l’ADEME sont données à titre indicatif, et sont susceptibles
 d’évoluer. Par ailleurs, les renseignements figurant sur les Sites de l’ADEME ne sont pas exhaustifs. Ils sont donnés
@@ -125,7 +125,7 @@ constitutive d’une contrefaçon et poursuivie conformément aux dispositions d
 Propriété Intellectuelle.
 
 L’ADEME ne pourra en revanche interdire la réutilisation de discours, dossiers de presse et communiqués, les
-circulaires, directives et autres documents réglementaires.
+circulaires, directives et autres documents règlementaires.
 
 L’ADEME autorise la réutilisation non commerciale et pédagogique des informations disponibles sur ses Sites, à la
 condition de respecter l’intégrité des informations et de n’en altérer ni le sens, ni la portée, ni l’application et de
@@ -139,7 +139,7 @@ disposition de tiers, à titre gratuit ou onéreux.
 
 ## 8. Gestion des données personnelles
 
-Conformément à la réglementation relative à la protection des données à caractère personnel, l'utilisateur est informé
+Conformément à la Règlementation relative à la protection des données à caractère personnel, l'utilisateur est informé
 que l’ADEME, en tant que responsable du traitement, met en œuvre un traitement de données à caractère personnel.
 
 L’ADEME est attachée au respect des règles de protection de la vie privée des utilisateurs de son site internet et de ses

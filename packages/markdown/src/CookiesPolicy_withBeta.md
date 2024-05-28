@@ -224,7 +224,7 @@ d’interrogation, d’accès, de rectification d’effacement, d’opposition p
 relativement à l’ensemble des données.
 
 Les données collectées sont, après le décès de la personne, conservées pendant la durée nécessaire pour l’ADEME de se
-conformer à ses obligations légales et réglementaires. A l’expiration de ce délai, les données seront effacées, à moins
+conformer à ses obligations légales et règlementaires. A l’expiration de ce délai, les données seront effacées, à moins
 que la personne ne décide qu’elles soient communiquées à un tiers de son choix, conformément aux dispositions de
 l’article 85 de la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.
 

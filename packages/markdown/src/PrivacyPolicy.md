@@ -2,7 +2,7 @@
 
 **Mis à jour le {{date}}**
 
-L’Agence de l’Environnement et de la Maîtrise de l’Énergie, établissement public à caractère industriel et commercial
+L’Agence de l’Environnement et de la Maitrise de l’Énergie, établissement public à caractère industriel et commercial
 dont le siège est situé 20, avenue du Grésillé 49000 Angers (ci-après « ADEME »), attache une grande importance à la
 protection des Données à caractère personnel qu’elle a à collecter et traiter en tant que responsable de traitement,
 dans le cadre de l’activité du site {{siteName}} (ci-après le « Site »).
@@ -63,7 +63,7 @@ L’ADEME s'engage à garantir un niveau de protection élevé des Données pers
 utilisent ses Sites et autres Produits ou Services et de toute autre personne dont elle traite les Données à caractère
 personnel.
 
-L’ADEME s’engage à respecter la réglementation applicable (notamment les articles 5 et 6 du RGPD) à l’ensemble des
+L’ADEME s’engage à respecter la règlementation applicable (notamment les articles 5 et 6 du RGPD) à l’ensemble des
 Traitements de Données à caractère personnel qu’elle met en œuvre. Plus particulièrement, l’ADEME s’engage notamment à
 respecter les principes suivants :
 

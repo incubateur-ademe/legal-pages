@@ -11,7 +11,7 @@ réalisation et de son suivi.
 
 Conformément aux dispositions de l’article 6-I 1° de la loi n°2004-575 du 21 juin 2004 relative à la confiance dans
 l’économie numérique, le site <a href="{{siteUrl}}">{{siteUrl}}</a> (et autres sites en ademe.fr, ci-après les “Sites”)
-est édité par l’ADEME, ayant sont siège social au :
+est édité par l’ADEME, ayant son siège social au :
 
 <address class="fr-mb-2w">
     20, avenue du Grésillé — BP 90406<br/>
@@ -107,7 +107,7 @@ cliquez sur <a href="{{cookiesPolicyUrl}}">{{cookiesPolicyUrl}}</a>.
 
 ## 7. Propriété intellectuelle
 
-Sauf mentions contraires précisées sur le fichier <a href="{{licenceUrl}}">{{licenceUrl}}</a>, l’ADEME est propriétaire
+Sauf mention contraire précisée sur le fichier <a href="{{licenceUrl}}">{{licenceUrl}}</a>, l’ADEME est propriétaire
 des droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site,
 notamment les textes, images, graphismes, logos, icônes, sons, logiciels et marques déposées.
 
@@ -138,7 +138,7 @@ disposition de tiers, à titre gratuit ou onéreux.
 Conformément à la Règlementation relative à la protection des données à caractère personnel, l'utilisateur est informé
 que l’ADEME, en tant que responsable du traitement, met en œuvre un traitement de données à caractère personnel.
 
-L’ADEME est attaché au respect des règles de protection de la vie privée des utilisateurs de son site internet et de ses
+L’ADEME est attachée au respect des règles de protection de la vie privée des utilisateurs de son site internet et de ses
 services. L’ensemble des traitements de données personnelles mis en œuvre dans le cadre des services accessibles
 respecte la réglementation applicable en matière de protection des données personnelles et notamment les dispositions de
 la loi « Informatique et libertés » du 6 janvier 1978 modifiée et le Règlement général sur la Protection des données

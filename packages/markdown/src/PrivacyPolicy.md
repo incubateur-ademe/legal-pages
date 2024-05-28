@@ -2,7 +2,7 @@
 
 **Mis à jour le {{date}}**
 
-L’Agence de l’Environnement et de la Maitrise de l’Energie, établissement public à caractère industriel et commercial
+L’Agence de l’Environnement et de la Maitrise de l’Énergie, établissement public à caractère industriel et commercial
 dont le siège est situé 20, avenue du Grésillé 49000 Angers (ci-après « ADEME »), attache une grande importance à la
 protection des Données à caractère personnel qu’elle a à collecter et traiter en tant que responsable de traitement,
 dans le cadre de l’activité du site {{siteName}} (ci-après le « Site »).

@@ -96,7 +96,7 @@ recommandons de consulter les conditions d’utilisation de vos données sur ces
 finalités d'utilisation, notamment publicitaires, et les informations de navigation qu'ils peuvent recueillir grâce à
 ces boutons applicatifs. Il convient de vous assurer que les conditions d’utilisation de ces réseaux sociaux peuvent
 vous permettre d’encadrer et de restreindre l’utilisation de vos données par ces réseaux sociaux, notamment en
-paramètrant vos comptes d'utilisation auprès de ces derniers.
+paramétrant vos comptes d'utilisation auprès de ces derniers.
 
 ## 5. Partage de l’utilisation de votre terminal avec d’autres personnes
 
@@ -137,7 +137,7 @@ Voir la liste complètes des cookies {{analyticTool.name}}
 
 Ces cookies de mesure d’audience sont exemptés de recueil de consentement comme le permet la délibération CNIL
 n°2020-091, dans la mesure où ces derniers sont strictement nécessaires au fonctionnement du site et que les données
-sont anonymisés. Vous pouvez néanmoins vous opposer à leur utilisation en cliquant sur le bouton suivant :
+sont anonymisées. Vous pouvez néanmoins vous opposer à leur utilisation en cliquant sur le bouton suivant :
 {{cookieConsentButton}}
 
 ### 7.2 Autres cookies de mesure d’audience
@@ -179,7 +179,7 @@ cookies.
 Nous attirons toutefois votre attention sur le fait qu’en paramétrant votre navigateur pour refuser les cookies,
 certaines fonctionnalités, pages, espaces du Site ne seront pas accessibles, ce dont nous ne saurions être responsables.
 
-### 7.5 Plateformes interprofessionnelles d’oppostition
+### 7.5 Plateformes interprofessionnelles d’opposition
 
 Plusieurs plateformes de professionnels de la publicité vous offrent également la possibilité de refuser ou d’accepter
 des cookies utilisés par les sociétés qui en sont adhérentes. Ces mécanismes centralisés ne bloquent pas l’affichage des
@@ -206,7 +206,7 @@ responsable du traitement, susceptibles de traiter des données à caractère pe
 
 Les cookies tiers sur le Site dépendent de responsables de traitement externes qui sont susceptibles, si vous acceptez
 ces cookies, de traiter des données à caractère personnel vous concernant. L’émission et l’utilisation de ces cookies
-par des tiers sont soumises à leur propre politique de protection de la vie privée. Pour plus d’information concernant
+par des tiers sont soumises à leur propre politique de protection de la vie privée. Pour plus d’informations concernant
 ces traitements, vous pouvez vous reporter aux politiques de confidentialité de ces fournisseurs.
 
 Les données collectées sont indispensables pour atteindre les objectifs poursuivis par chaque cookie. Elles sont

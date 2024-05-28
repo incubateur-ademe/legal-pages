@@ -78,7 +78,7 @@ respecter les principes suivants :
     sans tarder (exactitude).
 
 L’ADEME met en œuvre les mesures techniques et organisationnelles appropriées afin de garantir un niveau de sécurité
-adapté au risque inhérent à ses opérations de Traitement, répondre aux exigences réglementaires et protéger les droits
+adapté au risque inhérent à ses opérations de Traitement, répondre aux exigences règlementaires et protéger les droits
 et les Données à caractère personnel des Personnes concernées dès la conception des opérations de Traitement.
 
 Par ailleurs, l’ADEME impose contractuellement le même niveau de protection des Données à caractère personnel à ses

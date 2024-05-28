@@ -92,7 +92,7 @@ ouverte) durant votre navigation sur notre Site.
 
 Nous ne disposons d’aucun contrôle sur le processus employé par les réseaux sociaux pour collecter des informations
 relatives à votre navigation sur notre Site et associées aux données personnelles dont ils disposent. Nous vous
-recommandons de consulter les conditions d’utilisation de vos données sur ces réseaux sociaux pour connaître les
+recommandons de consulter les conditions d’utilisation de vos données sur ces réseaux sociaux pour connaitre les
 finalités d'utilisation, notamment publicitaires, et les informations de navigation qu'ils peuvent recueillir grâce à
 ces boutons applicatifs. Il convient de vous assurer que les conditions d’utilisation de ces réseaux sociaux peuvent
 vous permettre d’encadrer et de restreindre l’utilisation de vos données par ces réseaux sociaux, notamment en

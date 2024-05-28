@@ -84,7 +84,7 @@ et les Données à caractère personnel des Personnes concernées dès la concep
 Par ailleurs, l’ADEME impose contractuellement le même niveau de protection des Données à caractère personnel à ses
 sous-traitants (prestataires, fournisseurs, etc.).
 
-Enfin, l’ADEME s’engage à respecter tout autre principe s’imposant au regard de la réglementation applicable en matière
+Enfin, l’ADEME s’engage à respecter tout autre principe s’imposant au regard de la règlementation applicable en matière
 de protection des Données personnelles, et plus précisément concernant les droits conférés aux Personnes concernées, les
 durées de conservation des Données à caractère personnel ainsi que les obligations relatives aux transferts
 transfrontaliers de Données à caractère personnel.

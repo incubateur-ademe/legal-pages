@@ -15,7 +15,8 @@ And the following examples:
 yarn changeset
 yarn changeset version
 NODE_ENV=production yarn build
+git add --all
+git commit -am "chore(release): vX.Y.Z" # Replace X.Y.Z with the version number
 yarn changeset publish
-git commit
 git push --follow-tags
 ```

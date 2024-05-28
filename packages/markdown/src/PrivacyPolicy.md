@@ -265,7 +265,7 @@ Plus précisément, l’ADEME organise sa politique de conservation des données
             <tr>
                 <td>Gestion des cookies</td>
                 <td>
-                    Votre choix en matière de cookies est conservé 6 mois. Les données collectées grâce aux cookies sont conservées 25 mois.
+                    Votre choix en matière de cookies est conservé 6 mois. Les données collectées grâce aux cookies qui sont conservées 25 mois.
                 </td>
             </tr>
         </tbody>

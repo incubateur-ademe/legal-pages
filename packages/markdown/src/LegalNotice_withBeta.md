@@ -33,7 +33,8 @@ informations est Monsieur Luc Morinière en qualité de Chef du service juridiqu
 
 ### 1.3. Hébergement
 
-Le prestataire assurant le stockage direct du site {{siteUrl}} est {{siteHost.name}}, dont le siège social est situé :
+Le prestataire assurant le stockage direct du site <a href="{{siteUrl}}">{{siteUrl}}</a> est {{siteHost.name}}, dont le
+siège social est situé :
 
 <address class="fr-mb-2w">
     {{siteHost.address}}<br/>
@@ -42,7 +43,8 @@ Le prestataire assurant le stockage direct du site {{siteUrl}} est {{siteHost.na
 
 ### 1.4. Utilisateur
 
-L’utilisateur est l’internaute qui navigue, lit, visionne, et utilise le site {{siteUrl}} et ses services.
+L’utilisateur est l’internaute qui navigue, lit, visionne, et utilise le site <a href="{{siteUrl}}">{{siteUrl}}</a> et 
+ses services.
 
 ### 1.5. Attribution tierce
 
@@ -118,7 +120,9 @@ notamment les textes, images, graphismes, logos, icônes, sons, logiciels et mar
 Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site ainsi
 que des logos de l’ADEME, quel que soit le moyen ou le procédé utilisé, est interdite, sauf acceptation écrite et
 préalable de l’ADEME d’une demande d’autorisation de reproduction et de représentation formulée à l’adresse suivante :
-https://agirpourlatransition.ademe.fr/entreprises/form/contact.
+<a href="https://agirpourlatransition.ademe.fr/entreprises/form/contact" target="_blank">
+https://agirpourlatransition.ademe.fr/entreprises/form/contact
+</a>.
 
 Toute exploitation non autorisée du site ou de l’un quelconque des éléments qu’il contient sera considérée comme
 constitutive d’une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de
@@ -163,7 +167,9 @@ de nous en [faire part](insérer l’email de contact). Si vous n’obtenez pas 
 droit de faire parvenir vos doléances ou une demande de saisine au Défenseur des droits.
 
 Pour en savoir plus sur la politique d’accessibilité numérique de l’État:
-http://references.modernisation.gouv.fr/accessibilite-numerique
+<a href="https://references.modernisation.gouv.fr/accessibilite-numerique" target="_blank">
+https://references.modernisation.gouv.fr/accessibilite-numerique
+</a>
 
 ## 10. Sécurité
 

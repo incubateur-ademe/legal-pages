@@ -6,7 +6,7 @@ export default function LegalNoticePage() {
     <div className={fr.cx("fr-container", "fr-my-4w")}>
       <LegalNotice
         includeBetaGouv
-        siteName="SITE EXAMPLE"
+        siteName="SITE EXEMPLE"
         siteUrl={process.env.NEXT_PUBLIC_SITE_URL!}
         licenceUrl="https://gitub.com/example/example/blob/main/LICENSE.md"
         privacyPolicyUrl="/politique-de-confidentialite"
@@ -16,6 +16,7 @@ export default function LegalNoticePage() {
           country: "États-Unis",
           email: "privacy@vercel.com",
         }}
+        contactEmail="test@exemple.fr"
       />
     </div>
   );

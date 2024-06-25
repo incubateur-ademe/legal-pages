@@ -158,8 +158,8 @@ accessible à toutes et tous, conformément à l'article 47 de la loi n°2005-10
 ### 9.1. Signaler un dysfonctionnement
 
 Si vous rencontrez un défaut d’accessibilité vous empêchant d’accéder à un contenu ou une fonctionnalité du site, merci
-de nous en [faire part](insérer l’email de contact). Si vous n’obtenez pas de réponse rapide de notre part, vous êtes en
-droit de faire parvenir vos doléances ou une demande de saisine au Défenseur des droits.
+de nous en <a target="_blank" href="mailto:{{contactEmail}}">faire part</a>. Si vous n’obtenez pas de réponse rapide de
+notre part, vous êtes en droit de faire parvenir vos doléances ou une demande de saisine au Défenseur des droits.
 
 Pour en savoir plus sur la politique d’accessibilité numérique de l’État:
 http://references.modernisation.gouv.fr/accessibilite-numerique

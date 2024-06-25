@@ -216,6 +216,10 @@ export namespace LegalNoticeProps {
 
   export type Base = CommonProps & {
     /**
+     * Email de contact.
+     */
+    contactEmail: string;
+    /**
      * Licence du code, habituellement sur GitHub.
      */
     licenceUrl: string;

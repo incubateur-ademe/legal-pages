@@ -11,7 +11,7 @@ export { type PrivacyPolicyProps };
 const ThirdPartyTable = ({ thirdParties }: Required<Pick<PrivacyPolicyProps, "thirdParties">>) => (
   <div className="fr-table fr-table--no-caption">
     <table>
-      <caption>Caption tableau des sous-traitans</caption>
+      <caption>Caption tableau des sous-traitants</caption>
       <thead>
         <tr>
           <th scope="col">Partenaire</th>

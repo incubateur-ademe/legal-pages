@@ -9,7 +9,7 @@ export default function PrivacyPolicyPage() {
       <PrivacyPolicy
         includeBetaGouv
         cookieConsentButton={<CookieConsentButton>CLICK</CookieConsentButton>}
-        siteName="SITE EXAMPLE"
+        siteName="SITE EXEMPLE"
         cookies={[
           {
             category: "Mesure d’audience anonymisée",

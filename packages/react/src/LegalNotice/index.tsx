@@ -35,6 +35,7 @@ export const LegalNotice = async ({
   privacyPolicyUrl = "/politique-de-confidentialite",
   siteHost,
   siteUrl,
+  contactEmail,
 }: LegalNoticeProps<ReactNode>) => {
   const elementThirdPartiesPortalId = useId();
 
@@ -51,6 +52,7 @@ export const LegalNotice = async ({
             privacyPolicyUrl,
             siteHost,
             siteUrl,
+            contactEmail,
           }),
         }}
       />

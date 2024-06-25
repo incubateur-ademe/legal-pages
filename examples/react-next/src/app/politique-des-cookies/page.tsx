@@ -13,7 +13,7 @@ export default function CookiePolicyPage() {
           policyUrl: "https://matomo.org/privacy-policy/",
         }}
         cookieConsentButton={<CookieConsentButton>CLICK</CookieConsentButton>}
-        siteName="SITE EXAMPLE"
+        siteName="SITE EXEMPLE"
       />
     </div>
   );

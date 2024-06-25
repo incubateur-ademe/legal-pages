@@ -107,7 +107,7 @@ grand nombre.
 
 Des cookies sont utilisés sur les Sites pour différentes finalités : pour faciliter votre navigation, pour vous proposer
 des contenus personnalisés ou pour réaliser des statistiques de visites. Pour connaître notre politique des cookies,
-vous êtes invités à cliquer sur le lien accessible dans le pied depage des sites ademe.fr.
+vous êtes invités à cliquer sur le lien accessible dans le pied de page des sites ademe.fr.
 
 ## 7. Propriété intellectuelle
 

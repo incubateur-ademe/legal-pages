@@ -143,14 +143,17 @@ export namespace PrivacyPolicyProps {
     /** @see {@link WithCookiesAsArray.cookies} */
     table_cookies: ElementType;
   };
+
+  export type Base = CommonProps & {
+    /**
+     * Bouton de consentement aux cookies. Peut être un composant propre à la librairie utilisée.
+     */
+    cookieConsentButton: ElementType;
+  };
 }
 
-export type PrivacyPolicyProps<ElementType = string> = CommonProps & {
-  /**
-   * Bouton de consentement aux cookies. Peut être un composant propre à la librairie utilisée.
-   */
-  cookieConsentButton: ElementType;
-} & (PrivacyPolicyProps.WithCookiesAsArray | PrivacyPolicyProps.WithCookiesAsTableElement<ElementType>) &
+export type PrivacyPolicyProps<ElementType = string> = PrivacyPolicyProps.Base &
+  (PrivacyPolicyProps.WithCookiesAsArray | PrivacyPolicyProps.WithCookiesAsTableElement<ElementType>) &
   (PrivacyPolicyProps.WithThirdPartiesAsArray | PrivacyPolicyProps.WithThirdPartiesAsTableElement<ElementType>);
 //#endregion
 
@@ -210,26 +213,29 @@ export namespace LegalNoticeProps {
     element_thirdParties?: ElementType;
     thirdParties?: never;
   };
+
+  export type Base = CommonProps & {
+    /**
+     * Licence du code, habituellement sur GitHub.
+     */
+    licenceUrl: string;
+    /**
+     * Lien vers la page de politique de confidentialité.
+     *
+     * @default "/politique-de-confidentialite"
+     */
+    privacyPolicyUrl?: string;
+    /**
+     * Hébergeur du site.
+     */
+    siteHost: LegalNoticeProps.SiteHost;
+    /**
+     * Url du site.
+     */
+    siteUrl: string;
+  };
 }
 
-export type LegalNoticeProps<ElementType = string> = CommonProps & {
-  /**
-   * Licence du code, habituellement sur GitHub.
-   */
-  licenceUrl: string;
-  /**
-   * Lien vers la page de politique de confidentialité.
-   *
-   * @default "/politique-de-confidentialite"
-   */
-  privacyPolicyUrl?: string;
-  /**
-   * Hébergeur du site.
-   */
-  siteHost: LegalNoticeProps.SiteHost;
-  /**
-   * Url du site.
-   */
-  siteUrl: string;
-} & (LegalNoticeProps.WithThirdPartiesAsArray | LegalNoticeProps.WithThirdPartiesAsElement<ElementType>);
+export type LegalNoticeProps<ElementType = string> = LegalNoticeProps.Base &
+  (LegalNoticeProps.WithThirdPartiesAsArray | LegalNoticeProps.WithThirdPartiesAsElement<ElementType>);
 //#endregion

@@ -16,7 +16,7 @@ est édité par l’ADEME, ayant son siège social au :
 <address class="fr-mb-2w">
     20, avenue du Grésillé — BP 90406<br/>
     49004 Angers Cedex 01<br/>
-    Tél : <a href="tel:+33241204120">02 41 20 41 20</a>
+    Tél : <a target="_blank" href="tel:+33241204120">02 41 20 41 20</a>
 </address>
 
 inscrit au registre du commerce d'Angers sous le n° 385 290 309, représentée par Sylvain Waserman, agissant en qualité
@@ -31,7 +31,8 @@ informations est Monsieur Luc Morinière en qualité de Chef du service juridiqu
 
 ### 1.3. Hébergement
 
-Le prestataire assurant le stockage direct du site {{siteUrl}} est {{siteHost.name}}, dont le siège social est situé :
+Le prestataire assurant le stockage direct du site <a href="{{siteUrl}}">{{siteUrl}}</a> est {{siteHost.name}}, dont le
+siège social est situé :
 
 <address class="fr-mb-2w">
     {{siteHost.address}}<br/>
@@ -40,7 +41,8 @@ Le prestataire assurant le stockage direct du site {{siteUrl}} est {{siteHost.na
 
 ### 1.4. Utilisateur
 
-L’utilisateur est l’internaute qui navigue, lit, visionne, et utilise le site {{siteUrl}} et ses services.
+L’utilisateur est l’internaute qui navigue, lit, visionne, et utilise le site <a href="{{siteUrl}}">{{siteUrl}}</a> et
+ses services.
 
 ### 1.5. Attribution tierce
 
@@ -107,8 +109,9 @@ vous êtes invités à cliquer sur le lien accessible dans le pied de page des s
 
 ## 7. Propriété intellectuelle
 
-Sauf mention contraire précisée sur le fichier <a href="{{licenceUrl}}">{{licenceUrl}}</a>, l’ADEME est propriétaire des
-droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site,
+Sauf mention contraire précisée sur le fichier
+<a target="_blank" rel="noreferrer noopener nofollow" href="{{licenceUrl}}">{{licenceUrl}}</a>, l’ADEME est propriétaire
+des droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site,
 notamment les textes, images, graphismes, logos, icônes, sons, logiciels et marques déposées.
 
 Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site ainsi
@@ -145,7 +148,7 @@ la loi « Informatique et libertés » du 6 janvier 1978 modifiée et le Règlem
 (Règlement UE 2016/679) désigné par « RGPD ».
 
 Pour en savoir plus sur ce traitement de données à caractère personnel et sur l’étendue de leurs droits, cliquez sur
-<a href="{{privacyPolicyUrl}}">{{privacyPolicyUrl}}</a>.
+<a target="_blank" href="{{privacyPolicyUrl}}">{{privacyPolicyUrl}}</a>.
 
 ## 9. Accessibilité
 

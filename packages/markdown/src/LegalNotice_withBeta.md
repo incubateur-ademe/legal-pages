@@ -38,6 +38,7 @@ siège social est situé :
 
 <address class="fr-mb-2w">
     {{siteHost.address}}<br/>
+    {{siteHost.country}}<br/>
     <a target="_blank" href="mailto:{{siteHost.email}}">{{siteHost.email}}</a>
 </address>
 

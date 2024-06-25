@@ -127,7 +127,7 @@ Consentement] en bas de page.
 
 Notre site utilise des cookies de mesure d’audience pour suivre le nombre de visites, le nombre de pages vues,
 l’activité des visiteurs sur le site et leur fréquence de retour. Ces données statistiques sont soumises à un traitement
-de la part des gestionnaires de statistiques [outils de mesure d’audience : Matomo, Eulerian, Piano Analytics autre…].
+de la part des gestionnaires de statistiques {{analyticTool.name}}.
 
 Voir la liste complètes des cookies {{analyticTool.name}}
 <a target="_blank" rel="noreferrer noopener nofollow" href="{{analyticTool.cookieListUrl}}">{{analyticTool.cookieListUrl}}</a>
@@ -207,7 +207,7 @@ par des tiers sont soumises à leur propre politique de protection de la vie pri
 ces traitements, vous pouvez vous reporter aux politiques de confidentialité de ces fournisseurs.
 
 Les données collectées sont indispensables pour atteindre les objectifs poursuivis par chaque cookie. Elles sont
-uniquement destinées aux services habilités de l’ADEME, et/ou de l’entreprise émettrice des cookies tiers.
+uniquement destinées aux services habilités de l’ADEME et/ou de l’entreprise émettrice des cookies tiers.
 
 Les données à caractère personnel collectées via les cookies ne sont jamais conservées plus longtemps que nécessaire
 pour atteindre la finalité du cookie et, en tout état de cause, pas plus de 6 mois. Au-delà de cette durée, votre

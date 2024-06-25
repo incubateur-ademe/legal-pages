@@ -8,7 +8,7 @@ sites ademe.fr et le présent site.
 <div className="fr-alert fr-alert--info fr-alert--sm fr-mb-4w">
     <p>
         <strong>
-        À tout moment, en cliquant sur le lien “Gestion des cookies” {{{cookieConsentButton}}}, vous pouvez modifier vos préférences.
+        À tout moment, en cliquant sur le lien “Gestion des cookies” {{cookieConsentButton}}, vous pouvez modifier vos préférences.
         </strong>
     </p>
 </div>
@@ -202,7 +202,7 @@ utilisés afin d'adapter à la navigation de votre terminal les publicités susc
 ## 8. Protection des données personnelles
 
 Dans le cadre de l’utilisation des cookies telle que décrite dans le présent document, l’ADEME sera, en tant que
-responsable du traitement, susceptibles de traiter des données à caractère personnel vous concernant.
+responsable du traitement, susceptible de traiter des données à caractère personnel vous concernant.
 
 Les cookies tiers sur le Site dépendent de responsables de traitement externes qui sont susceptibles, si vous acceptez
 ces cookies, de traiter des données à caractère personnel vous concernant. L’émission et l’utilisation de ces cookies

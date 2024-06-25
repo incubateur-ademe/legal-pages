@@ -9,6 +9,13 @@ And the following examples:
 
 -   [Next.js/React](./examples/react-next/README.md)
 
+## `withBeta` version
+
+All pages accept a `includeBetaGouv` prop that will add a mention of BetaGouv to the
+page to discharge them from the responsibility of some elements as well as ADEME.
+
+It is recommended to use this prop only when the site url ends with `.beta.gouv.fr`.
+
 ## Release process
 
 ```bash

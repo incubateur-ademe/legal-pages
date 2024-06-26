@@ -18,6 +18,8 @@ It is recommended to use this prop only when the site url ends with `.beta.gouv.
 
 ## Release process
 
+### Stable
+
 ```bash
 yarn changeset
 yarn changeset version
@@ -26,4 +28,20 @@ git add --all
 git commit -am "chore(release): vX.Y.Z" # Replace X.Y.Z with the version number
 yarn changeset publish
 git push --follow-tags
+```
+
+### Pre release
+
+On a new branch, run the following commands:
+
+```bash
+yarn changeset pre enter
+yarn changeset
+yarn changeset version
+NODE_ENV=production yarn build
+git add --all
+git commit -am "chore(release): vX.Y.Z" # Replace X.Y.Z with the version number
+yarn changeset publish
+git push --follow-tags
+yarn changeset pre exit
 ```

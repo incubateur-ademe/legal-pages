@@ -1,0 +1,12 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "@incubateur-ademe/legal-pages-example-react-next": "0.4.0-next.0",
+    "@incubateur-ademe/legal-pages-markdown": "0.4.0-next.0",
+    "@incubateur-ademe/legal-pages-react": "0.4.0-next.0"
+  },
+  "changesets": [
+    "lovely-lizards-share"
+  ]
+}

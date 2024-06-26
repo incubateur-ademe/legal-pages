@@ -76,9 +76,9 @@ export const PrivacyPolicy = async ({
   cookieConsentButton,
   siteName,
   thirdParties = [],
-  table_thirdParties,
+  tableThirdParties,
   cookies = [],
-  table_cookies,
+  tableCookies,
 }: PrivacyPolicyProps<ReactNode>) => {
   const buttonPortalId = useId();
   const tableThirdPartiesPortalId = useId();
@@ -93,18 +93,18 @@ export const PrivacyPolicy = async ({
             includeBetaGouv,
             siteName,
             cookieConsentButton: `<span id="${buttonPortalId}"></span>`,
-            table_thirdParties: `<div id="${tableThirdPartiesPortalId}"></div>`,
-            table_cookies: `<div id="${tableCookiesPortalId}"></div>`,
+            tableThirdParties: `<div id="${tableThirdPartiesPortalId}"></div>`,
+            tableCookies: `<div id="${tableCookiesPortalId}"></div>`,
           }),
         }}
       />
       <ClientOnly>
         <ClientPortal childrenId={buttonPortalId}>{cookieConsentButton}</ClientPortal>
         <ClientPortal childrenId={tableThirdPartiesPortalId}>
-          {table_thirdParties ?? <ThirdPartyTable thirdParties={thirdParties} />}
+          {tableThirdParties ?? <ThirdPartyTable thirdParties={thirdParties} />}
         </ClientPortal>
         <ClientPortal childrenId={tableCookiesPortalId}>
-          {table_cookies ?? <CookieTable cookies={cookies} />}
+          {tableCookies ?? <CookieTable cookies={cookies} />}
         </ClientPortal>
       </ClientOnly>
     </>

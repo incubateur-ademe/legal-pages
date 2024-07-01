@@ -11,9 +11,15 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js",
+    "./client": "./dist/client/index.js",
     "./CookiesPolicy": "./dist/CookiesPolicy/index.js",
     "./LegalNotice": "./dist/LegalNotice/index.js",
-    "./PrivacyPolicy": "./dist/PrivacyPolicy/index.js"
+    "./PrivacyPolicy": "./dist/PrivacyPolicy/index.js",
+    "./CookiesPolicyClient": "./dist/client/CookiesPolicy/index.js",
+    "./LegalNoticeClient": "./dist/client/LegalNotice/index.js",
+    "./CookiesPolicyWithBetaClient": "./dist/client/CookiesPolicy/WithBeta.js",
+    "./LegalNoticeWithBetaClient": "./dist/client/LegalNotice/WithBeta.js",
+    "./PrivacyPolicyClient": "./dist/client/PrivacyPolicy/index.js"
   },
   "repository": {
     "type": "git",

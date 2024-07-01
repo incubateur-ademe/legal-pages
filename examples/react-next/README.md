@@ -8,7 +8,11 @@ This example shows how to use the `@incubateur-ademe/legal-pages-react` package 
 npm run dev
 ```
 
-See the implementation of the pages : 
-- mentions-legales/page.tsx
-- politique-de-confidentialite/page.tsx
-- politique-des-cookies/page.tsx (optional)
+See the implementation of the pages :
+
+-   mentions-legales/page.tsx
+    -   mentions-legales/client/page.tsx (client-side rendering)
+-   politique-de-confidentialite/page.tsx
+    -   politique-de-confidentialite/client/page.tsx (client-side rendering)
+-   politique-des-cookies/page.tsx (optional)
+    -   politique-des-cookies/client/page.tsx (optional) (client-side rendering)

@@ -8,16 +8,21 @@ import { htmlParser } from "../utils/htmlParser";
 
 export { type CookiesPolicyProps };
 
-export const CookiesPolicy = async ({
-  date = RELEASE_DATE,
-  includeBetaGouv = false,
-  cookieConsentButton,
-  siteName,
-  analyticTool = {
+export const cookiesPolicyDefaultProps = {
+  date: RELEASE_DATE,
+  analyticTool: {
     name: "Matomo",
     cookieListUrl: "https://fr.matomo.org/faq/faq_146/",
     policyUrl: "https://matomo.org/privacy-policy/",
   },
+};
+
+export const CookiesPolicy = async ({
+  date = cookiesPolicyDefaultProps.date,
+  includeBetaGouv = false,
+  cookieConsentButton,
+  siteName,
+  analyticTool = cookiesPolicyDefaultProps.analyticTool,
 }: CookiesPolicyProps<React.ReactNode>) => {
   const buttonPortalId = useId();
 

@@ -15,14 +15,14 @@ export default defineConfig({
   build: {
     sourcemap: true,
     lib: {
-      entry: "src/index.ts",
+      entry: ["src/index.ts", "src/client/index.ts"],
       formats: ["es"],
     },
     rollupOptions: {
       external: ["react", "react-dom", "react/jsx-runtime", "mustache"],
       output: {
         banner: chunk => {
-          if (chunk.name.includes("Client")) {
+          if (chunk.name.toLowerCase().includes("client")) {
             return '"use client";\n';
           }
           return "";

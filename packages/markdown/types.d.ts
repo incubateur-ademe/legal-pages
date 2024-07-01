@@ -144,7 +144,7 @@ export namespace PrivacyPolicyProps {
     table_cookies: ElementType;
   };
 
-  export type Base = CommonProps & {
+  export type Base = Omit<CommonProps, "includeBetaGouv"> & {
     /**
      * Bouton de consentement aux cookies. Peut être un composant propre à la librairie utilisée.
      */

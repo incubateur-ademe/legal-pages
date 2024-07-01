@@ -27,11 +27,11 @@ const htmlImporter = {
 } satisfies Record<keyof HtmlPropsMapping, (withBeta: boolean) => Promise<{ default: string }>>;
 
 export const htmlParser = async <T extends keyof HtmlPropsMapping>(template: T, data: HtmlPropsMapping[T]) => {
-  return useMemo(
-    async () =>
-      Mustache.render((await htmlImporter[template](!!data.includeBetaGouv)).default, data, void 0, {
-        escape: (text: string) => text,
-      }),
-    [template, data],
-  );
+  return useMemo(async () => {
+    const includeBetaGouv = "includeBetaGouv" in data ? !!data.includeBetaGouv : false;
+
+    return Mustache.render((await htmlImporter[template](includeBetaGouv)).default, data, void 0, {
+      escape: (text: string) => text,
+    });
+  }, [template, data]);
 };

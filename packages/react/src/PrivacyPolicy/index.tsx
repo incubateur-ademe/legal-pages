@@ -8,7 +8,7 @@ import { htmlParser } from "../utils/htmlParser";
 
 export { type PrivacyPolicyProps };
 
-const ThirdPartyTable = ({ thirdParties }: Required<Pick<PrivacyPolicyProps, "thirdParties">>) => (
+export const PrivacyPolicyThirdPartyTable = ({ thirdParties }: Required<Pick<PrivacyPolicyProps, "thirdParties">>) => (
   <div className="fr-table fr-table--no-caption">
     <table>
       <caption>Caption tableau des sous-traitants</caption>
@@ -40,7 +40,7 @@ const ThirdPartyTable = ({ thirdParties }: Required<Pick<PrivacyPolicyProps, "th
   </div>
 );
 
-const CookieTable = ({ cookies }: Required<Pick<PrivacyPolicyProps, "cookies">>) => (
+export const PrivacyPolicyCookieTable = ({ cookies }: Required<Pick<PrivacyPolicyProps, "cookies">>) => (
   <div className="fr-table fr-table--no-caption">
     <table>
       <caption>Caption tableau des cookies</caption>
@@ -70,14 +70,19 @@ const CookieTable = ({ cookies }: Required<Pick<PrivacyPolicyProps, "cookies">>)
   </div>
 );
 
+export const privacyPolicyDefaultProps = {
+  date: RELEASE_DATE,
+  thirdParties: [],
+  cookies: [],
+};
+
 export const PrivacyPolicy = async ({
-  date = RELEASE_DATE,
-  includeBetaGouv = false,
+  date = privacyPolicyDefaultProps.date,
   cookieConsentButton,
   siteName,
-  thirdParties = [],
+  thirdParties = privacyPolicyDefaultProps.thirdParties,
   table_thirdParties,
-  cookies = [],
+  cookies = privacyPolicyDefaultProps.cookies,
   table_cookies,
 }: PrivacyPolicyProps<ReactNode>) => {
   const buttonPortalId = useId();
@@ -90,7 +95,6 @@ export const PrivacyPolicy = async ({
         dangerouslySetInnerHTML={{
           __html: await htmlParser("PrivacyPolicy", {
             date,
-            includeBetaGouv,
             siteName,
             cookieConsentButton: `<span id="${buttonPortalId}"></span>`,
             table_thirdParties: `<div id="${tableThirdPartiesPortalId}"></div>`,
@@ -101,10 +105,10 @@ export const PrivacyPolicy = async ({
       <ClientOnly>
         <ClientPortal childrenId={buttonPortalId}>{cookieConsentButton}</ClientPortal>
         <ClientPortal childrenId={tableThirdPartiesPortalId}>
-          {table_thirdParties ?? <ThirdPartyTable thirdParties={thirdParties} />}
+          {table_thirdParties ?? <PrivacyPolicyThirdPartyTable thirdParties={thirdParties} />}
         </ClientPortal>
         <ClientPortal childrenId={tableCookiesPortalId}>
-          {table_cookies ?? <CookieTable cookies={cookies} />}
+          {table_cookies ?? <PrivacyPolicyCookieTable cookies={cookies} />}
         </ClientPortal>
       </ClientOnly>
     </>

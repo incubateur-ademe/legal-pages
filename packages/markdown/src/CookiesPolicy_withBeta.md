@@ -121,8 +121,8 @@ refusé l’utilisation de cookies.
 De même, lorsque vous acceptez le recours aux cookies, un cookie de consentement est installé.
 
 Les cookies de consentement ou de refus doivent rester sur votre équipement terminal. Vous pouvez à tout moment modifier
-vos souhaits directement sur le site, en cliquant sur le lien “Gestion des cookies” [insérer bouton du Gestionnaire de
-Consentement] en bas de page.
+vos souhaits directement sur le site, en cliquant sur le lien “Gestion des cookies” {{cookieConsentButton}} ou en bas de
+page.
 
 ## 7. Gestion des cookies
 

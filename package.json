@@ -41,11 +41,12 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "tsx": "^4.7.3",
-    "turbo": "^1.13.3",
+    "turbo": "^2.0.6",
     "typescript": "^5.4.5",
     "typescript-eslint": "7.7.1",
     "vite": "^5.2.10",
     "vue": "^3.4.25",
     "vue-tsc": "^2.0.14"
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }

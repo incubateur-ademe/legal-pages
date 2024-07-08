@@ -15,7 +15,7 @@ export const LegalNoticeClient = ({
   date = legalNoticeDefaultProps.date,
   siteName,
   thirdParties = legalNoticeDefaultProps.thirdParties,
-  element_thirdParties,
+  elementThirdParties,
   licenceUrl,
   privacyPolicyUrl = legalNoticeDefaultProps.privacyPolicyUrl,
   siteHost,
@@ -31,7 +31,7 @@ export const LegalNoticeClient = ({
           __html: useHtmlParser(LegalNoticeHtml, {
             date,
             siteName,
-            element_thirdParties: `<div id="${elementThirdPartiesPortalId}"></div>`,
+            elementThirdParties: `<div id="${elementThirdPartiesPortalId}"></div>`,
             licenceUrl,
             privacyPolicyUrl,
             siteHost,
@@ -42,7 +42,7 @@ export const LegalNoticeClient = ({
       />
       <ClientOnly>
         <ClientPortal childrenId={elementThirdPartiesPortalId}>
-          {element_thirdParties ?? <LegalNoticeThirdPartyText thirdParties={thirdParties} />}
+          {elementThirdParties ?? <LegalNoticeThirdPartyText thirdParties={thirdParties} />}
         </ClientPortal>
       </ClientOnly>
     </>

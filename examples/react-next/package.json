@@ -20,7 +20,7 @@
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
-    "@codegouvfr/react-dsfr": "^1.9.9",
+    "@codegouvfr/react-dsfr": "^1.9.22",
     "@incubateur-ademe/legal-pages-react": "0.4.0-next-client.0",
     "next": "^14.2.3",
     "react": "^18.3.0",

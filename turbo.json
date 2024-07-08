@@ -1,6 +1,6 @@
 {
-  "experimentalUI": true,
-  "pipeline": {
+  "ui": "tui",
+  "tasks": {
     "build": {
       "dependsOn": [
         "^build"

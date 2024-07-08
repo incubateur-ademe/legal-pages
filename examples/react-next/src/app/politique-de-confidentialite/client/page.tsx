@@ -1,12 +1,17 @@
+"use client";
+
 import { fr } from "@codegouvfr/react-dsfr";
-import { PrivacyPolicy } from "@incubateur-ademe/legal-pages-react/PrivacyPolicy";
+import PrivacyPolicyClient from "@incubateur-ademe/legal-pages-react/PrivacyPolicyClient";
 
-import { CookieConsentButton } from "../CookieConsentButton";
+import { CookieConsentButton } from "../../CookieConsentButton";
 
-export default function PrivacyPolicyPage() {
+// "use client" and this are for testing purpose
+export const dynamic = "force-dynamic";
+
+export default function PrivacyPolicyClientPage() {
   return (
     <div className={fr.cx("fr-container", "fr-my-4w")}>
-      <PrivacyPolicy
+      <PrivacyPolicyClient
         cookieConsentButton={<CookieConsentButton>CLICK</CookieConsentButton>}
         siteName="SITE EXEMPLE"
         cookies={[

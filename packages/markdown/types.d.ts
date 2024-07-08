@@ -141,7 +141,7 @@ export type PrivacyPolicyPropsWithCookiesAsTableElement<ElementType = string> = 
   tableCookies: ElementType;
 };
 
-export type PrivacyPolicyPropsBase = CommonProps & {
+export type PrivacyPolicyPropsBase = Omit<CommonProps, "includeBetaGouv"> & {
   /**
    * Bouton de consentement aux cookies. Peut être un composant propre à la librairie utilisée.
    */

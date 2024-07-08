@@ -1,0 +1,12 @@
+{
+  "mode": "pre",
+  "tag": "next-client",
+  "initialVersions": {
+    "@incubateur-ademe/legal-pages-example-react-next": "0.3.0",
+    "@incubateur-ademe/legal-pages-markdown": "0.3.0",
+    "@incubateur-ademe/legal-pages-react": "0.3.0"
+  },
+  "changesets": [
+    "nice-rocks-suffer"
+  ]
+}

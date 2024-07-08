@@ -8,7 +8,7 @@ import { htmlParser } from "../utils/htmlParser";
 
 export { type LegalNoticeProps };
 
-const ThirdPartyText = ({ thirdParties }: Required<Pick<LegalNoticeProps, "thirdParties">>) => (
+export const LegalNoticeThirdPartyText = ({ thirdParties }: Required<Pick<LegalNoticeProps, "thirdParties">>) => (
   <>
     {thirdParties.length ? (
       thirdParties.map(({ name, url, text }, index) => (
@@ -25,14 +25,20 @@ const ThirdPartyText = ({ thirdParties }: Required<Pick<LegalNoticeProps, "third
   </>
 );
 
+export const legalNoticeDefaultProps = {
+  date: RELEASE_DATE,
+  thirdParties: [],
+  privacyPolicyUrl: "/politique-de-confidentialite",
+};
+
 export const LegalNotice = async ({
-  date = RELEASE_DATE,
+  date = legalNoticeDefaultProps.date,
   includeBetaGouv = false,
   siteName,
-  thirdParties = [],
+  thirdParties = legalNoticeDefaultProps.thirdParties,
   elementThirdParties,
   licenceUrl,
-  privacyPolicyUrl = "/politique-de-confidentialite",
+  privacyPolicyUrl = legalNoticeDefaultProps.privacyPolicyUrl,
   siteHost,
   siteUrl,
   contactEmail,
@@ -58,7 +64,7 @@ export const LegalNotice = async ({
       />
       <ClientOnly>
         <ClientPortal childrenId={elementThirdPartiesPortalId}>
-          {elementThirdParties ?? <ThirdPartyText thirdParties={thirdParties} />}
+          {elementThirdParties ?? <LegalNoticeThirdPartyText thirdParties={thirdParties} />}
         </ClientPortal>
       </ClientOnly>
     </>

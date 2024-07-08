@@ -9,3 +9,19 @@ It uses `@incubateur-ademe/legal-pages-markdown` internally to generate the lega
 ```bash
 npm install @incubateur-ademe/legal-pages-react
 ```
+
+## Components
+
+### React server components
+
+-   `<CookiePolicy />`
+-   `<LegalNotice />`
+-   `<PrivacyPolicy />`
+
+### Client-side rendering components
+
+-   `<CookiePolicyClient />`
+-   `<CookiePolicyWithBetaClient />`
+-   `<LegalNoticeClient />`
+-   `<LegalNoticeWithBetaClient />`
+-   `<PrivacyPolicyClient />`

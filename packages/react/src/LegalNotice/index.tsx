@@ -36,7 +36,7 @@ export const LegalNotice = async ({
   includeBetaGouv = false,
   siteName,
   thirdParties = legalNoticeDefaultProps.thirdParties,
-  element_thirdParties,
+  elementThirdParties,
   licenceUrl,
   privacyPolicyUrl = legalNoticeDefaultProps.privacyPolicyUrl,
   siteHost,
@@ -53,7 +53,7 @@ export const LegalNotice = async ({
             date,
             includeBetaGouv,
             siteName,
-            element_thirdParties: `<div id="${elementThirdPartiesPortalId}"></div>`,
+            elementThirdParties: `<div id="${elementThirdPartiesPortalId}"></div>`,
             licenceUrl,
             privacyPolicyUrl,
             siteHost,
@@ -64,7 +64,7 @@ export const LegalNotice = async ({
       />
       <ClientOnly>
         <ClientPortal childrenId={elementThirdPartiesPortalId}>
-          {element_thirdParties ?? <LegalNoticeThirdPartyText thirdParties={thirdParties} />}
+          {elementThirdParties ?? <LegalNoticeThirdPartyText thirdParties={thirdParties} />}
         </ClientPortal>
       </ClientOnly>
     </>

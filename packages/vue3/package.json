@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@incubateur-ademe/legal-pages-markdown": "0.3.0",
     "vue": "^3.4.29"
   },
   "devDependencies": {

@@ -2,14 +2,6 @@
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  plugins: ["vue"],
-  extends: [
-    "plugin:vue/vue3-strongly-recommended",
-    // include prettier config which avoid conflict
-    "prettier",
-    // disable conflicting rules with plugin (not config!)
-    "plugin:prettier/recommended",
-  ],
   parserOptions: {
     tsconfigRootDir: __dirname,
     sourceType: "module",
@@ -21,16 +13,15 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["vite.config.ts"],
-      rules: {
-        "import/no-default-export": "off",
-      },
-      parserOptions: {
-        project: "./tsconfig.node.json",
-      },
-    },
-    {
-      files: ["**/*.vue", "**/*.ts"],
+      plugins: ["vue"],
+      extends: [
+        "plugin:vue/vue3-strongly-recommended",
+        // include prettier config which avoid conflict
+        "prettier",
+        // disable conflicting rules with plugin (not config!)
+        "plugin:prettier/recommended",
+      ],
+      files: ["src/**/*.vue", "src/**/*.ts"],
       parser: "vue-eslint-parser",
       parserOptions: {
         parser: "@typescript-eslint/parser",
@@ -51,6 +42,15 @@ module.exports = {
             arrowParens: "avoid",
           },
         ],
+      },
+    },
+    {
+      files: ["vite.config.ts", "scripts/**/*.ts"],
+      rules: {
+        "import/no-default-export": "off",
+      },
+      parserOptions: {
+        project: "./tsconfig.node.json",
       },
     },
   ],

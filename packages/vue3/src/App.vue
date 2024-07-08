@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
+import PrivacyPolicy from "./generated/PrivacyPolicy.vue";
 </script>
 
 <template>
@@ -12,6 +13,8 @@ import HelloWorld from "./components/HelloWorld.vue";
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <!-- <PrivacyPolicy date="12/12/12" site-name="TEST" /> -->
+  <PrivacyPolicy date="12/12/12" />
 </template>
 
 <style scoped>

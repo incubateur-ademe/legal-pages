@@ -10,6 +10,7 @@
   },
   "author": "Incubateur ADEME <accelerateurdelatransitionecologique@ademe.fr>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "postinstall": "copy-dsfr-to-public",
     "predev": "only-include-used-icons",

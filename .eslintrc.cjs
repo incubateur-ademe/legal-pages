@@ -14,7 +14,7 @@ module.exports = {
     "plugin:prettier/recommended",
   ],
   plugins: ["import", "prettier", "unused-imports", "simple-import-sort"],
-  ignorePatterns: ["!**/.*.js", "node_modules"],
+  ignorePatterns: ["!**/.*.cjs", "!**/.*.js", "node_modules"],
   env: {
     browser: true,
     node: true,
@@ -26,7 +26,7 @@ module.exports = {
     "import/resolver": {
       typescript: {}, // this loads <rootdir>/tsconfig.json to eslint
       [require.resolve("eslint-import-resolver-node")]: {
-        extensions: [".js", ".jsx", ".ts", ".tsx"],
+        extensions: [".ts", ".mts", ".cts", ".tsx", ".d.ts"],
       },
       [require.resolve("eslint-import-resolver-typescript")]: {
         alwaysTryTypes: true,
@@ -79,7 +79,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["**/*.ts?(x)"],
+      files: ["**/*.ts?(x)", "**/*.vue"],
       extends: ["plugin:@typescript-eslint/recommended-type-checked"],
       parserOptions: {
         project: "./tsconfig.json",

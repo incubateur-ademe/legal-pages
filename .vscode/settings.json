@@ -16,6 +16,9 @@
   "[md]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
   "files.associations": {
     ".env*": "dotenv",
   },

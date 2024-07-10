@@ -47,7 +47,7 @@ ses services.
 
 ### 1.5. Attribution tierce
 
-{{element_thirdParties}}
+<div data-custom-element>{{tableThirdParties}}</div>
 
 ## 2. Acceptation des conditions d’utilisation du site et des services proposés
 

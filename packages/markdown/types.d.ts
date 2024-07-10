@@ -141,14 +141,14 @@ export type PrivacyPolicyPropsWithCookiesAsTableElement<ElementType = string> = 
   tableCookies: ElementType;
 };
 
-export type PrivacyPolicyPropsBase = CommonProps & {
+export type PrivacyPolicyPropsBase<ElementType = string> = CommonProps & {
   /**
    * Bouton de consentement aux cookies. Peut être un composant propre à la librairie utilisée.
    */
   cookieConsentButton: ElementType;
 };
 
-export type PrivacyPolicyProps<ElementType = string> = PrivacyPolicyPropsBase &
+export type PrivacyPolicyProps<ElementType = string> = PrivacyPolicyPropsBase<ElementType> &
   (PrivacyPolicyPropsWithCookiesAsArray | PrivacyPolicyPropsWithCookiesAsTableElement<ElementType>) &
   (PrivacyPolicyPropsWithThirdPartiesAsArray | PrivacyPolicyPropsWithThirdPartiesAsTableElement<ElementType>);
 //#endregion
@@ -193,7 +193,7 @@ export interface LegalNoticePropsThirdParty {
 }
 
 export type LegalNoticePropsWithThirdPartiesAsArray = {
-  elementThirdParties?: never;
+  tableThirdParties?: never;
   /**
    * Mentionner ici tout service tiers fournissant des éléments complémentaires
    * tels que des fonctionnalités additionnelles – formulaire en ligne, API, Map… – ;
@@ -205,7 +205,7 @@ export type LegalNoticePropsWithThirdPartiesAsArray = {
 
 export type LegalNoticePropsWithThirdPartiesAsElement<ElementType = string> = {
   /** @see {@link LegalNoticePropsWithThirdPartiesAsArray.thirdParties} */
-  elementThirdParties?: ElementType;
+  tableThirdParties?: ElementType;
   thirdParties?: never;
 };
 

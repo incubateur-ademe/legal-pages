@@ -1,4 +1,5 @@
 // @ts-check
+require("@rushstack/eslint-patch/modern-module-resolution");
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
@@ -24,7 +25,10 @@ module.exports = {
       [require.resolve("@typescript-eslint/parser")]: [".ts", ".mts", ".cts", ".tsx", ".d.ts"],
     },
     "import/resolver": {
-      typescript: {}, // this loads <rootdir>/tsconfig.json to eslint
+      // this loads <rootdir>/tsconfig.json to eslint
+      typescript: {
+        alwaysTryTypes: true,
+      },
       [require.resolve("eslint-import-resolver-node")]: {
         extensions: [".ts", ".mts", ".cts", ".tsx", ".d.ts"],
       },
@@ -80,7 +84,7 @@ module.exports = {
   overrides: [
     {
       files: ["**/*.ts?(x)", "**/*.vue"],
-      extends: ["plugin:@typescript-eslint/recommended-type-checked"],
+      extends: ["plugin:@typescript-eslint/recommended", "plugin:@typescript-eslint/recommended-type-checked"],
       parserOptions: {
         project: "./tsconfig.json",
         tsconfigRootDir: __dirname,

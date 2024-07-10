@@ -1,17 +1,15 @@
 <script setup lang="ts">
 import { type PrivacyPolicyProps } from "@incubateur-ademe/legal-pages-markdown";
-import PrivacyPolicyHtml from "@incubateur-ademe/legal-pages-markdown/html/PrivacyPolicy.html?raw";
-import { defineProps, withDefaults } from "vue";
+import { type ComponentPublicInstance, shallowRef } from "vue";
 
-import { RELEASE_DATE } from "../releaseDate";
+import PrivacyPolicy from "../generated/PrivacyPolicy.vue";
+import PrivacyPolicyTableCookies from "./PrivacyPolicyTableCookies.vue";
 
-const props = withDefaults(defineProps<PrivacyPolicyProps>(), {
-  date: RELEASE_DATE,
-});
+defineProps<PrivacyPolicyProps<object>>();
 
-const PrivacyPolicyHtmlWithDate = PrivacyPolicyHtml.replace(/{{ date }}/g, props.date);
+const refTableCookies = shallowRef(PrivacyPolicyTableCookies as unknown as ComponentPublicInstance);
 </script>
 
 <template>
-  {{ PrivacyPolicyHtmlWithDate }}
+  <PrivacyPolicy v-bind="{ ...$attrs, ...$props, tableCookies: refTableCookies }" />
 </template>

@@ -14,16 +14,17 @@ const generatedFolder = path.resolve(SCRIPTS_DIR, "../src/generated");
 
 const vueTemplate = (propsName: string, content: string) => {
   const cleanPropsName = propsName.replace("_withBeta", "");
+  const vueContent = content
+    .replaceAll(/<div data-custom-element>{{(.+)}}<\/div>/gi, `<component :is="$1" v-bind="$attrs" />`)
+    .replaceAll("{{cookieConsentButton}}", `<component :is="cookieConsentButton" v-bind="$attrs" />`);
   return `<script setup lang="ts">
 /* eslint-disable */
 import { type ${cleanPropsName}Props } from "@incubateur-ademe/legal-pages-markdown";
-
-defineProps<${cleanPropsName}Props>();
+defineProps<${cleanPropsName}Props<object>>();
 </script>
 <template>
-  ${content}
-</template>
-`;
+${vueContent}
+</template>`;
 };
 
 export const build = async () => {

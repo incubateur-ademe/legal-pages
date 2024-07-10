@@ -30,14 +30,14 @@ export const LegalNotice = async ({
   includeBetaGouv = false,
   siteName,
   thirdParties = [],
-  elementThirdParties,
+  tableThirdParties,
   licenceUrl,
   privacyPolicyUrl = "/politique-de-confidentialite",
   siteHost,
   siteUrl,
   contactEmail,
 }: LegalNoticeProps<ReactNode>) => {
-  const elementThirdPartiesPortalId = useId();
+  const tableThirdPartiesPortalId = useId();
 
   return (
     <>
@@ -47,7 +47,7 @@ export const LegalNotice = async ({
             date,
             includeBetaGouv,
             siteName,
-            elementThirdParties: `<div id="${elementThirdPartiesPortalId}"></div>`,
+            tableThirdParties: `<div id="${tableThirdPartiesPortalId}"></div>`,
             licenceUrl,
             privacyPolicyUrl,
             siteHost,
@@ -57,8 +57,8 @@ export const LegalNotice = async ({
         }}
       />
       <ClientOnly>
-        <ClientPortal childrenId={elementThirdPartiesPortalId}>
-          {elementThirdParties ?? <ThirdPartyText thirdParties={thirdParties} />}
+        <ClientPortal childrenId={tableThirdPartiesPortalId}>
+          {tableThirdParties ?? <ThirdPartyText thirdParties={thirdParties} />}
         </ClientPortal>
       </ClientOnly>
     </>

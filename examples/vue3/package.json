@@ -1,7 +1,7 @@
 {
   "name": "@incubateur-ademe/legal-pages-example-vue3",
   "type": "module",
-  "version": "0.3.0",
+  "version": "0.4.0-next.0",
   "private": true,
   "description": "Legal pages as components",
   "author": "Incubateur ADEME <accelerateurdelatransitionecologique@ademe.fr>",
@@ -24,7 +24,7 @@
   "dependencies": {
     "@gouvfr/dsfr": "^1.11.2",
     "@gouvminint/vue-dsfr": "^5.10.3",
-    "@incubateur-ademe/legal-pages-vue3": "0.3.0",
+    "@incubateur-ademe/legal-pages-vue3": "0.4.0-next.0",
     "focus-trap": "^7.5.4",
     "focus-trap-vue": "^4.0.3",
     "oh-vue-icons": "1.0.0-rc3",

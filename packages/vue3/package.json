@@ -1,6 +1,6 @@
 {
   "name": "@incubateur-ademe/legal-pages-vue3",
-  "version": "0.3.0",
+  "version": "0.4.0-next.0",
   "description": "Legal pages as components for Vue3",
   "files": [
     "dist"

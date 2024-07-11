@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { PrivacyPolicy, type PrivacyPolicyPropsCookie, type PrivacyPolicyPropsThirdParty } from '@incubateur-ademe/legal-pages-vue3'
+import { PrivacyPolicy, type PrivacyPolicyPropsCookie, type PrivacyPolicyPropsThirdParty } from '@incubateur-ademe/legal-pages-vue3/PrivacyPolicy'
 import { shallowRef } from 'vue'
 import CookieConsentButton from '@/components/CookieConsentButton.vue'
 

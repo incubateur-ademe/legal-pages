@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { CookiesPolicy, type CookiesPolicyPropsAnalyticTool } from '@incubateur-ademe/legal-pages-vue3'
+import { CookiesPolicy, type CookiesPolicyPropsAnalyticTool } from '@incubateur-ademe/legal-pages-vue3/CookiesPolicy'
 import CookieConsentButton from '@/components/CookieConsentButton.vue'
 
 const cookieConsentButton = shallowRef(CookieConsentButton)

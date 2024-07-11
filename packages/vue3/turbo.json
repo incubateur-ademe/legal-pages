@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "//"
+  ],
+  "tasks": {
+    "build": {
+      "inputs": [
+        "src/**/*.ts",
+        "src/**/*.js",
+        "src/**/*.vue"
+      ],
+      "outputs": [
+        "dist/**"
+      ]
+    }
+  }
+}

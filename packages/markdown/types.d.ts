@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/triple-slash-reference
+/// <reference path="./html.d.ts" />
+
 export interface CommonProps {
   /**
    * Date de la dernière mise à jour. La date par défaut est celle de la compilation.
@@ -193,7 +196,7 @@ export interface LegalNoticePropsThirdParty {
 }
 
 export type LegalNoticePropsWithThirdPartiesAsArray = {
-  tableThirdParties?: never;
+  elementThirdParties?: never;
   /**
    * Mentionner ici tout service tiers fournissant des éléments complémentaires
    * tels que des fonctionnalités additionnelles – formulaire en ligne, API, Map… – ;
@@ -205,7 +208,7 @@ export type LegalNoticePropsWithThirdPartiesAsArray = {
 
 export type LegalNoticePropsWithThirdPartiesAsElement<ElementType = string> = {
   /** @see {@link LegalNoticePropsWithThirdPartiesAsArray.thirdParties} */
-  tableThirdParties?: ElementType;
+  elementThirdParties?: ElementType;
   thirdParties?: never;
 };
 

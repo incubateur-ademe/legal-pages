@@ -1,6 +1,5 @@
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  plugins: ["vue"],
   extends: [
     "plugin:vue/vue3-strongly-recommended",
     // include prettier config which avoid conflict
@@ -10,6 +9,8 @@ module.exports = {
   ],
   parser: "vue-eslint-parser",
   parserOptions: {
+    tsconfigRootDir: __dirname,
+    project: "./tsconfig.app.json",
     allowImportExportEverywhere: true,
     extraFileExtensions: [".vue"],
     sourceType: "module",
@@ -23,7 +24,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["src/**/*.vue"],
+      files: ["src/**/*.vue", "generated/**/*.vue"],
       rules: {
         "prettier/prettier": [
           "error",
@@ -39,13 +40,14 @@ module.exports = {
       },
     },
     {
-      files: ["src/**/*.ts", "src/**/*.vue"],
+      files: ["src/**/*.ts", "src/**/*.vue", "generated/**/*.vue"],
       rules: {
         "import/default": "off",
       },
     },
     {
-      files: ["vite.config.*", "scripts/**/*.ts"],
+      files: ["vite.config.*", "scripts/**/*.ts", ".eslintrc.*"],
+      parserOptions: { project: "./tsconfig.node.json" },
       rules: {
         "import/no-default-export": "off",
       },

@@ -1,24 +1,54 @@
 {
   "name": "@incubateur-ademe/legal-pages-vue3",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.3.0",
+  "description": "Legal pages as components for Vue3",
+  "files": [
+    "dist"
+  ],
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "type-check": "vue-tsc --build --force",
-    "preview": "vite preview"
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./CookiesPolicy": "./dist/CookiesPolicy/index.js",
+    "./LegalNotice": "./dist/LegalNotice/index.js",
+    "./PrivacyPolicy": "./dist/PrivacyPolicy/index.js"
   },
-  "dependencies": {
-    "@incubateur-ademe/legal-pages-markdown": "0.3.0",
-    "vue": "^3.4.29"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/incubateur-ademe/legal-pages.git",
+    "directory": "packages/vue3"
+  },
+  "author": "Incubateur ADEME <accelerateurdelatransitionecologique@ademe.fr>",
+  "license": "MIT",
+  "scripts": {
+    "generated-components": "tsx scripts/generated.ts",
+    "predev": "yarn generated-components",
+    "dev": "vite build --watch",
+    "prebuild": "yarn generated-components",
+    "build": "yarn type-check && vite build",
+    "type-check": "vue-tsc --noEmit",
+    "type-gen": "vue-tsc -p tsconfig.app.json --declaration --emitDeclarationOnly",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
+  },
+  "peerDependencies": {
+    "vue": ">=3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
     "@vue/eslint-config-typescript": "^13.0.0",
     "@vue/tsconfig": "^0.5.1",
     "eslint-plugin-vue": "^9.27.0",
+    "unplugin-vue-define-options": "^1.4.5",
+    "vite-plugin-dts": "^3.9.0",
+    "vite-plugin-vue-devtools": "^7.3.1",
+    "vue": "^3.4.29",
     "vue-eslint-parser": "^9.4.3",
     "vue-tsc": "^2.0.21"
+  },
+  "dependencies": {
+    "@incubateur-ademe/legal-pages-markdown": "0.3.0"
   }
 }

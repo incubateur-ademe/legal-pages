@@ -28,12 +28,16 @@ module.exports = {
       // this loads <rootdir>/tsconfig.json to eslint
       typescript: {
         alwaysTryTypes: true,
-      },
-      [require.resolve("eslint-import-resolver-node")]: {
+        project: [
+          "packages/*/tsconfig.json",
+          "packages/*/tsconfig.*.json",
+          "packages/scripts/*/tsconfig.json",
+          "examples/*/tsconfig.json",
+        ],
         extensions: [".ts", ".mts", ".cts", ".tsx", ".d.ts"],
       },
-      [require.resolve("eslint-import-resolver-typescript")]: {
-        alwaysTryTypes: true,
+      node: {
+        extensions: [".ts", ".mts", ".cts", ".tsx", ".d.ts"],
       },
     },
   },

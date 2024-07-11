@@ -8,6 +8,8 @@
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "allowSyntheticDefaultImports": true,
+    "lib": ["ESNext"],
   },
+
   "include": ["vite.config.*", "scripts/**/*.*", ".eslintrc.*"]
 }

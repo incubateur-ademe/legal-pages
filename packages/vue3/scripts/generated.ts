@@ -10,12 +10,12 @@ const files = glob(srcFiles, {
   absolute: true,
 });
 
-const generatedFolder = path.resolve(SCRIPTS_DIR, "../src/generated");
+const generatedFolder = path.resolve(SCRIPTS_DIR, "../generated");
 
 const vueTemplate = (propsName: string, content: string) => {
   const cleanPropsName = propsName.replace("_withBeta", "");
   const vueContent = content
-    .replaceAll(/<div data-custom-element>{{(.+)}}<\/div>/gi, `<component :is="$1" v-bind="$attrs" />`)
+    .replaceAll(/<div data-custom-element>{{(.+)}}<\/div>/gi, `<component :is="$1" v-bind="$props" />`)
     .replaceAll("{{cookieConsentButton}}", `<component :is="cookieConsentButton" v-bind="$attrs" />`);
   return `<script setup lang="ts">
 /* eslint-disable */
@@ -28,13 +28,18 @@ ${vueContent}
 };
 
 export const build = async () => {
+  console.log("🦄 ┬ Generate pre built components");
+  let i = 0;
   for (const file of files) {
+    i++;
     const { name } = path.parse(file);
     const content = await fs.promises.readFile(file, "utf-8");
 
     const renderedVueComponent = vueTemplate(name, content);
 
-    const newPath = path.resolve(generatedFolder, `${name}.vue`);
+    const vueFile = `${name}.vue`;
+    const newPath = path.resolve(generatedFolder, vueFile);
+    console.log("  ", i < files.length ? "├" : "└", vueFile);
     await fs.promises.writeFile(newPath, renderedVueComponent);
   }
 };

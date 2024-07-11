@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "//"
+  ],
+  "tasks": {
+    "build": {
+      "inputs": [
+        "package.json",
+        "vite.config.ts",
+        "src/**",
+        "public/**"
+      ],
+      "outputs": [
+        "dist/**"
+      ]
+    }
+  }
+}

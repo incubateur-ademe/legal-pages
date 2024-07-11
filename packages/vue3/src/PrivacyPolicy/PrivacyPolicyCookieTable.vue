@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { type PrivacyPolicyPropsCookie } from "@incubateur-ademe/legal-pages-markdown";
 
-defineProps<{ cookies?: PrivacyPolicyPropsCookie[] }>();
+const props = defineProps<{ cookies?: PrivacyPolicyPropsCookie[] }>();
+console.log("cookie table ", props.cookies);
 </script>
 <template>
   <div className="fr-table fr-table--no-caption" v-if="cookies?.length">

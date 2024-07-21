@@ -1,0 +1,17 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/packages/vue3/tsconfig.app.tsbuildinfo",
+    "isolatedModules": true,
+    "outDir": "dist",
+    "declaration": true,
+
+
+    "baseUrl": ".",
+    "paths": {
+      "@/generated/*": ["./generated/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "generated/**/*"]
+}

@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "description": "Legal pages as components",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/incubateur-ademe/legal-pages.git"
@@ -22,11 +23,12 @@
   "devDependencies": {
     "@changesets/changelog-git": "^0.2.0",
     "@changesets/cli": "^2.27.1",
+    "@rushstack/eslint-patch": "^1.8.0",
     "@eslint/js": "^9.1.1",
+    "@tsconfig/node20": "^20.1.4",
     "@tsconfig/recommended": "^1.0.6",
     "@types/eslint": "^8.56.10",
     "@types/node": "^20",
-    "@vitejs/plugin-vue": "^5.0.4",
     "eslint": "^8",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-node": "^0.3.9",
@@ -44,9 +46,7 @@
     "turbo": "^2.0.6",
     "typescript": "^5.4.5",
     "typescript-eslint": "7.7.1",
-    "vite": "^5.2.10",
-    "vue": "^3.4.25",
-    "vue-tsc": "^2.0.14"
+    "vite": "^5.3.1"
   },
   "packageManager": "yarn@1.22.22"
 }

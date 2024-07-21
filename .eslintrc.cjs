@@ -1,4 +1,5 @@
 // @ts-check
+require("@rushstack/eslint-patch/modern-module-resolution");
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
@@ -14,7 +15,7 @@ module.exports = {
     "plugin:prettier/recommended",
   ],
   plugins: ["import", "prettier", "unused-imports", "simple-import-sort"],
-  ignorePatterns: ["!**/.*.js", "node_modules"],
+  ignorePatterns: ["!**/.*.cjs", "!**/.*.js", "node_modules"],
   env: {
     browser: true,
     node: true,
@@ -24,12 +25,19 @@ module.exports = {
       [require.resolve("@typescript-eslint/parser")]: [".ts", ".mts", ".cts", ".tsx", ".d.ts"],
     },
     "import/resolver": {
-      typescript: {}, // this loads <rootdir>/tsconfig.json to eslint
-      [require.resolve("eslint-import-resolver-node")]: {
-        extensions: [".js", ".jsx", ".ts", ".tsx"],
-      },
-      [require.resolve("eslint-import-resolver-typescript")]: {
+      // this loads <rootdir>/tsconfig.json to eslint
+      typescript: {
         alwaysTryTypes: true,
+        project: [
+          "packages/*/tsconfig.json",
+          "packages/*/tsconfig.*.json",
+          "packages/scripts/*/tsconfig.json",
+          "examples/*/tsconfig.json",
+        ],
+        extensions: [".ts", ".mts", ".cts", ".tsx", ".d.ts"],
+      },
+      node: {
+        extensions: [".ts", ".mts", ".cts", ".tsx", ".d.ts"],
       },
     },
   },
@@ -79,8 +87,8 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["**/*.ts?(x)"],
-      extends: ["plugin:@typescript-eslint/recommended-type-checked"],
+      files: ["**/*.ts?(x)", "**/*.vue"],
+      extends: ["plugin:@typescript-eslint/recommended", "plugin:@typescript-eslint/recommended-type-checked"],
       parserOptions: {
         project: "./tsconfig.json",
         tsconfigRootDir: __dirname,

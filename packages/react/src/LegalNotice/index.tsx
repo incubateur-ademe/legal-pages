@@ -37,7 +37,7 @@ export const LegalNotice = async ({
   siteUrl,
   contactEmail,
 }: LegalNoticeProps<ReactNode>) => {
-  const elementThirdPartiesPortalId = useId();
+  const tableThirdPartiesPortalId = useId();
 
   return (
     <>
@@ -47,7 +47,7 @@ export const LegalNotice = async ({
             date,
             includeBetaGouv,
             siteName,
-            elementThirdParties: `<div id="${elementThirdPartiesPortalId}"></div>`,
+            elementThirdParties: `<div id="${tableThirdPartiesPortalId}"></div>`,
             licenceUrl,
             privacyPolicyUrl,
             siteHost,
@@ -57,7 +57,7 @@ export const LegalNotice = async ({
         }}
       />
       <ClientOnly>
-        <ClientPortal childrenId={elementThirdPartiesPortalId}>
+        <ClientPortal childrenId={tableThirdPartiesPortalId}>
           {elementThirdParties ?? <ThirdPartyText thirdParties={thirdParties} />}
         </ClientPortal>
       </ClientOnly>

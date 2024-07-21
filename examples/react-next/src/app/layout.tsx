@@ -22,6 +22,8 @@ const operatorLogo: HeaderProps["operatorLogo"] = {
   orientation: "vertical",
 };
 
+const title = "Example App";
+
 const Brand = () => (
   <>
     République <br />
@@ -71,15 +73,15 @@ const RootLayout = ({ children }: PropsWithChildren) => {
               href: "/",
               title: `Accueil - Example`,
             }}
-            serviceTitle="Example App"
+            serviceTitle={title}
             operatorLogo={operatorLogo}
           />
           <main className={styles.content}>{children}</main>
           <Footer
             id={footerId}
             accessibility="non compliant"
-            accessibilityLinkProps={{ href: "/accessibilite" }}
-            contentDescription={`Example est un service développé par l'accélérateur de la transition écologique de l'ADEME.`}
+            accessibilityLinkProps={{ href: "#" }}
+            contentDescription={`${title} est un service développé par l'accélérateur de la transition écologique de l'ADEME.`}
             operatorLogo={operatorLogo}
             partnersLogos={{
               main: {
@@ -93,10 +95,6 @@ const RootLayout = ({ children }: PropsWithChildren) => {
               },
             }}
             bottomItems={[
-              {
-                text: "CGU",
-                linkProps: { href: "#" },
-              },
               {
                 text: "Politique des cookies",
                 linkProps: { href: "/politique-des-cookies" },
@@ -118,5 +116,4 @@ const RootLayout = ({ children }: PropsWithChildren) => {
   );
 };
 
-// eslint-disable-next-line import/no-default-export
 export default RootLayout;

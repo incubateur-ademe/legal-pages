@@ -1,0 +1,14 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "@incubateur-ademe/legal-pages-example-react-next": "0.3.0",
+    "@incubateur-ademe/legal-pages-example-vue3": "0.3.0",
+    "@incubateur-ademe/legal-pages-markdown": "0.3.0",
+    "@incubateur-ademe/legal-pages-react": "0.3.0",
+    "@incubateur-ademe/legal-pages-vue3": "0.3.0"
+  },
+  "changesets": [
+    "ten-dancers-attack"
+  ]
+}

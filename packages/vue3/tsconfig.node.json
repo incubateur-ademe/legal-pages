@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node20",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/packages/vue3/tsconfig.node.tsbuildinfo",
+
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ESNext"],
+  },
+
+  "include": ["vite.config.*", "scripts/**/*.*", ".eslintrc.*"]
+}

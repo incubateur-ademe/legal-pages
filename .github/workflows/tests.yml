@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   vue-test:
-    name: Run Vue tests
+    name: Run tests on Vue3 package
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -28,8 +28,8 @@ jobs:
 
       - run: npx turbo run test --filter=./packages/vue3
 
-  lint:
-    name: Run eslint
+  vue-lint:
+    name: Run eslint on Vue3 package
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -45,4 +45,4 @@ jobs:
       - run: yarn install
       - run: npx turbo generated-components --filter=./packages/vue3
 
-      - run: npm run lint
+      - run: npx turbo lint --filter=./packages/vue3

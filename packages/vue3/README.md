@@ -1,5 +1,11 @@
-# Vue 3 + TypeScript + Vite
+# Legal Pages as Vue3 components
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This package provides a way to generate legal pages for your website with available React components.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+It uses `@incubateur-ademe/legal-pages-markdown` internally to generate the legal pages and inject Mustache variables from the given props.
+
+## Installation
+
+```bash
+npm install @incubateur-ademe/legal-pages-vue3
+```

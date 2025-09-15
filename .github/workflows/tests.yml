@@ -1,0 +1,47 @@
+name: Run tests
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  vue-test:
+    name: Run Vue tests
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [ '20.x' ]
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm clean-install --foreground-scripts
+
+      - run: npx turbo run test --filter=./packages/vue3
+
+  lint:
+    name: Run eslint
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [ '20.x' ]
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm clean-install --foreground-scripts
+
+      - run: npm run lint

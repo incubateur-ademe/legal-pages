@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: npm clean-install --foreground-scripts
+      - run: yarn install
 
       - run: npx turbo run test --filter=./packages/vue3
 
@@ -42,6 +42,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: npm clean-install --foreground-scripts
+      - run: yarn install
 
       - run: npm run lint

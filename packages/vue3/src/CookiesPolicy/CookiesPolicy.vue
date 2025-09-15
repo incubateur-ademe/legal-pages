@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { type CookiesPolicyProps } from "@incubateur-ademe/legal-pages-markdown";
+
 import CookiesPolicy from "../../generated/CookiesPolicy.vue";
 import CookiesPolicyWithBeta from "../../generated/CookiesPolicy_withBeta.vue";
 import { RELEASE_DATE } from "../releaseDate";

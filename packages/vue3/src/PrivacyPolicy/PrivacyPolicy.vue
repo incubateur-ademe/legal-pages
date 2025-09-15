@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { type PrivacyPolicyProps } from "@incubateur-ademe/legal-pages-markdown";
 import { shallowRef } from "vue";
+
 import PrivacyPolicy from "../../generated/PrivacyPolicy.vue";
 import { RELEASE_DATE } from "../releaseDate";
 import PrivacyPolicyCookieTable from "./PrivacyPolicyCookieTable.vue";

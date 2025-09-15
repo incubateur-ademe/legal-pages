@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { type LegalNoticeProps } from "@incubateur-ademe/legal-pages-markdown";
 import { shallowRef } from "vue";
+
 import LegalNotice from "../../generated/LegalNotice.vue";
 import LegalNoticeWithBeta from "../../generated/LegalNotice_withBeta.vue";
 import { RELEASE_DATE } from "../releaseDate";

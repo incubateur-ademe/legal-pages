@@ -19,6 +19,7 @@
     "build:lib": "turbo build --filter=./packages/*",
     "dev": "turbo dev",
     "lint": "turbo lint",
+    "lint:fix": "turbo lint -- --fix",
     "test": "turbo test"
   },
   "devDependencies": {

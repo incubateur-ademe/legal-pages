@@ -43,5 +43,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: yarn install
+      - run: npx turbo generated-components --filter=./packages/vue3
 
       - run: npm run lint

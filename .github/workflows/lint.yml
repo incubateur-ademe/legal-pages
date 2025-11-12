@@ -13,16 +13,15 @@ jobs:
   vue-lint:
     name: Eslint on Vue3 package
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [ '20.x' ]
-
     steps:
       - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          node-version-file: ".nvmrc"
+          cache: "yarn"
       - run: yarn install
       - run: npx turbo generated-components --filter=./packages/vue3 && npx turbo lint --filter=./packages/vue3

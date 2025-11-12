@@ -14,6 +14,9 @@
     "packages/*",
     "examples/*"
   ],
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "build": "turbo build",
     "build:lib": "turbo build --filter=./packages/*",
@@ -25,12 +28,12 @@
   "devDependencies": {
     "@changesets/changelog-git": "^0.2.0",
     "@changesets/cli": "^2.27.1",
-    "@rushstack/eslint-patch": "^1.8.0",
     "@eslint/js": "^9.1.1",
-    "@tsconfig/node20": "^20.1.4",
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@tsconfig/node24": "^24.0.1",
     "@tsconfig/recommended": "^1.0.6",
     "@types/eslint": "^8.56.10",
-    "@types/node": "^20",
+    "@types/node": "^24",
     "eslint": "^8",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-node": "^0.3.9",

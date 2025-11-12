@@ -18,7 +18,11 @@
       "persistent": true
     },
     "lint": {},
-    "test": {},
+    "test": {
+      "dependsOn": [
+        "build"
+      ]
+    },
     "generated-components": {}
   }
 }

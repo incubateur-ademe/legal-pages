@@ -1,7 +1,6 @@
 import { fr } from "@codegouvfr/react-dsfr";
 import Link from "next/link";
 
-// eslint-disable-next-line import/no-default-export
 export default function Root() {
   return (
     <div className={fr.cx("fr-container", "fr-my-2w")}>

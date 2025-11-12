@@ -25,11 +25,11 @@ de son organisation.
 
 Cette Politique a pour but de présenter aux Personnes concernées telles que définies ci-après :
 
--   la manière dont l’ADEME traite les Données à caractère personnel, telles que définies ci-après, qu’elle collecte et
-    que les Personnes concernées, telles que définies ci-après, fournissent avec leur consentement ou sur le fondement
-    de toute autre base légale pour permettre la fourniture des Produits ou Services de l’ADEME notamment ;
--   les droits des Personnes concernées ;
--   les éventuels bénéficiaires d’un transfert de données.
+- la manière dont l’ADEME traite les Données à caractère personnel, telles que définies ci-après, qu’elle collecte et
+  que les Personnes concernées, telles que définies ci-après, fournissent avec leur consentement ou sur le fondement de
+  toute autre base légale pour permettre la fourniture des Produits ou Services de l’ADEME notamment ;
+- les droits des Personnes concernées ;
+- les éventuels bénéficiaires d’un transfert de données.
 
 Les Personnes concernées sont ainsi invitées à lire attentivement la présente Politique pour connaître et comprendre les
 pratiques de l’ADEME quant aux Traitements des Données à caractère personnel que l’ADEME met en œuvre.
@@ -40,22 +40,22 @@ Les termes employés avec une majuscule ont la définition qui leur est donnée 
 
 Les termes ont la même définition qu’ils soient employés au singulier ou au pluriel.
 
--   « Données à caractère personnel » ou « Données personnelles » désignent toute information se rapportant à une
-    personne physique identifiée ou identifiable.
--   « Personne(s) concernée(s) » désigne une personne physique qui peut être identifiée, directement ou indirectement,
-    notamment par référence à un identifiant, tel qu'un nom, un numéro d'identification, des données de localisation, un
-    identifiant en ligne, ou à un ou plusieurs éléments spécifiques propres à son identité physique, physiologique,
-    génétique, psychique, économique, culturelle ou sociale.
--   « Produits » désigne les produits de l’ADEME.
--   « Responsable du traitement » désigne l’ADEME qui est la personne morale qui, seule ou conjointement avec d'autres,
-    détermine les finalités et les moyens du traitement.
--   « Services » désigne les services fournis par l’ADEME.
--   « Sites » désigne l’ensemble des pages web et des ressources accessibles sur Internet.
--   « Traitement » désigne toute opération ou tout ensemble d'opérations effectuées ou non à l'aide de procédés
-    automatisés et appliquées à des données ou des ensembles de données à caractère personnel, telles que la collecte,
-    l'enregistrement, l'organisation, la structuration, la conservation, l'adaptation ou la modification, l'extraction,
-    la consultation, l'utilisation, la communication par transmission, la diffusion ou toute autre forme de mise à
-    disposition, le rapprochement ou l'interconnexion, la limitation, l'effacement ou la destruction.
+- « Données à caractère personnel » ou « Données personnelles » désignent toute information se rapportant à une personne
+  physique identifiée ou identifiable.
+- « Personne(s) concernée(s) » désigne une personne physique qui peut être identifiée, directement ou indirectement,
+  notamment par référence à un identifiant, tel qu'un nom, un numéro d'identification, des données de localisation, un
+  identifiant en ligne, ou à un ou plusieurs éléments spécifiques propres à son identité physique, physiologique,
+  génétique, psychique, économique, culturelle ou sociale.
+- « Produits » désigne les produits de l’ADEME.
+- « Responsable du traitement » désigne l’ADEME qui est la personne morale qui, seule ou conjointement avec d'autres,
+  détermine les finalités et les moyens du traitement.
+- « Services » désigne les services fournis par l’ADEME.
+- « Sites » désigne l’ensemble des pages web et des ressources accessibles sur Internet.
+- « Traitement » désigne toute opération ou tout ensemble d'opérations effectuées ou non à l'aide de procédés
+  automatisés et appliquées à des données ou des ensembles de données à caractère personnel, telles que la collecte,
+  l'enregistrement, l'organisation, la structuration, la conservation, l'adaptation ou la modification, l'extraction, la
+  consultation, l'utilisation, la communication par transmission, la diffusion ou toute autre forme de mise à
+  disposition, le rapprochement ou l'interconnexion, la limitation, l'effacement ou la destruction.
 
 ## 2. Quels sont les engagements de l’ADEME en matière de protection des Données personnelles ?
 
@@ -67,15 +67,15 @@ L’ADEME s’engage à respecter la règlementation applicable (notamment les a
 Traitements de Données à caractère personnel qu’elle met en œuvre. Plus particulièrement, l’ADEME s’engage notamment à
 respecter les principes suivants :
 
--   les Données à caractère personnel sont traitées de manière licite, loyale et transparente (licéité, loyauté,
-    transparence) ;
--   les Données à caractère personnel sont collectées pour des finalités déterminées, explicites et légitimes, et ne
-    sont pas traitées ultérieurement d’une manière incompatible avec ces finalités (limitation des finalités) ;
--   les Données à caractère personnel sont conservées de manière adéquate, pertinente et sont limitées à ce qui est
-    nécessaire au regard des finalités pour lesquelles elles sont traitées (minimisation des données) ;
--   les Données à caractère personnel sont exactes, tenues à jour et toutes les mesures raisonnables sont prises pour
-    que les données inexactes, eu égard aux finalités pour lesquelles elles sont traitées, soient effacées ou rectifiées
-    sans tarder (exactitude).
+- les Données à caractère personnel sont traitées de manière licite, loyale et transparente (licéité, loyauté,
+  transparence) ;
+- les Données à caractère personnel sont collectées pour des finalités déterminées, explicites et légitimes, et ne sont
+  pas traitées ultérieurement d’une manière incompatible avec ces finalités (limitation des finalités) ;
+- les Données à caractère personnel sont conservées de manière adéquate, pertinente et sont limitées à ce qui est
+  nécessaire au regard des finalités pour lesquelles elles sont traitées (minimisation des données) ;
+- les Données à caractère personnel sont exactes, tenues à jour et toutes les mesures raisonnables sont prises pour que
+  les données inexactes, eu égard aux finalités pour lesquelles elles sont traitées, soient effacées ou rectifiées sans
+  tarder (exactitude).
 
 L’ADEME met en œuvre les mesures techniques et organisationnelles appropriées afin de garantir un niveau de sécurité
 adapté au risque inhérent à ses opérations de Traitement, répondre aux exigences règlementaires et protéger les droits
@@ -96,8 +96,8 @@ caractère personnel peuvent être collectés par l’ADEME.
 
 Principalement, les données collectées correspondant aux catégories suivantes :
 
--   données d’identification : nom, prénom, pseudonyme, date de naissance ;
--   données de contact : numéro de téléphone fixe ou portable, adresse postale, adresse email.
+- données d’identification : nom, prénom, pseudonyme, date de naissance ;
+- données de contact : numéro de téléphone fixe ou portable, adresse postale, adresse email.
 
 ## 4. Moyens de collecte des Données à caractère personnel
 
@@ -115,45 +115,44 @@ réglementaires de l’ADEME, son intérêt légitime ou la mission d’intérê
 
 Les finalités associées à chaque base légale sont listées ci-dessous :
 
--   En se fondant sur l’exécution des mesures pré-contractuelles prises à la demande des Personnes concernées et/ou sur
-    l’exécution du contrat qu’elles ont souscrit, l’ADEME met en œuvre des Traitements poursuivant les finalités
-    suivantes :
-    -   la gestion de la relation des utilisateurs des Sites avec l’ADEME, et ce incluant notamment :
-        -   la création d’un compte utilisateur ;
-        -   l’utilisation des sites et des services ;
-        -   la gestion des communications et le suivi des échanges avec les utilisateurs.
--   En se fondant sur le consentement des Personnes concernées, l’ADEME met en œuvre des Traitements poursuivant les
-    finalités suivantes :
-    -   la fourniture de Services personnalisés, tels que des annonces, newsletters, formations, etc. ;
-    -   la fourniture de Services facultatifs tels que les espaces de discussion interactifs ou tchats ;
-    -   la gestion de la participation des utilisateurs aux jeux et concours ;
-    -   la gestion des cookies soumis à consentement.
--   En se fondant sur le respect de ses obligations légales et réglementaires, l’ADEME met en œuvre des Traitements
-    poursuivant les finalités suivantes :
-    -   le développement de Produits et Service permettant de faciliter l’accomplissement des formalités administratives
-        nécessaires au traitement des demandes des internautes et utilisateurs ;
-    -   la gestion des réponses aux demandes officielles d’autorités publiques ou judiciaires habilitées à cet effet ;
-    -   le respect de la réglementation applicable à notre activité ;
-    -   la gestion des demandes d’exercice de droits.
--   En se fondant sur ses intérêts légitimes, l’ADEME met en œuvre des Traitements poursuivant les finalités suivantes :
-    -   le développement et l’amélioration de nouveaux Produits ou Services et offres de Produits ou Services aux
-        internautes et/ou profitant au public;
-    -   la lutte contre la fraude, les abus, en ce incluant également la gestion des conséquences de cette fraude ou de
-        ces abus ;
-    -   la gestion des atteintes à la sécurité ou tout problème d’ordre technique rencontré par les Produits ou Services
-        ;
-    -   la réalisation d’opérations de prospection commerciale à destination des professionnels ;
-    -   la gestion des clients ou des employés au sein d’un groupe d’entreprises à des fins de gestion administrative
-        interne ;
-    -   la gestion des demandes d’information et réclamations des utilisateurs ;
-    -   l’établissement de tout moyen de preuve nécessaire à la défense des droits de l’ADEME ;
-    -   la gestion des cookies non soumis à consentement.
--   En se fondant sur la mission d’intérêt public, l’ADEME met en œuvre des Traitements poursuivant les finalités
-    suivantes :
-    -   La gestion des demandes d’aides permettant de faciliter l’accomplissement des formalités administratives
-        nécessaires au traitement des demandes des utilisateurs ;
-    -   la gestion des communications et le suivi des échanges avec les utilisateurs ;
-    -   le respect de la réglementation applicable à notre activité.
+- En se fondant sur l’exécution des mesures pré-contractuelles prises à la demande des Personnes concernées et/ou sur
+  l’exécution du contrat qu’elles ont souscrit, l’ADEME met en œuvre des Traitements poursuivant les finalités suivantes
+  :
+    - la gestion de la relation des utilisateurs des Sites avec l’ADEME, et ce incluant notamment :
+        - la création d’un compte utilisateur ;
+        - l’utilisation des sites et des services ;
+        - la gestion des communications et le suivi des échanges avec les utilisateurs.
+- En se fondant sur le consentement des Personnes concernées, l’ADEME met en œuvre des Traitements poursuivant les
+  finalités suivantes :
+    - la fourniture de Services personnalisés, tels que des annonces, newsletters, formations, etc. ;
+    - la fourniture de Services facultatifs tels que les espaces de discussion interactifs ou tchats ;
+    - la gestion de la participation des utilisateurs aux jeux et concours ;
+    - la gestion des cookies soumis à consentement.
+- En se fondant sur le respect de ses obligations légales et réglementaires, l’ADEME met en œuvre des Traitements
+  poursuivant les finalités suivantes :
+    - le développement de Produits et Service permettant de faciliter l’accomplissement des formalités administratives
+      nécessaires au traitement des demandes des internautes et utilisateurs ;
+    - la gestion des réponses aux demandes officielles d’autorités publiques ou judiciaires habilitées à cet effet ;
+    - le respect de la réglementation applicable à notre activité ;
+    - la gestion des demandes d’exercice de droits.
+- En se fondant sur ses intérêts légitimes, l’ADEME met en œuvre des Traitements poursuivant les finalités suivantes :
+    - le développement et l’amélioration de nouveaux Produits ou Services et offres de Produits ou Services aux
+      internautes et/ou profitant au public;
+    - la lutte contre la fraude, les abus, en ce incluant également la gestion des conséquences de cette fraude ou de
+      ces abus ;
+    - la gestion des atteintes à la sécurité ou tout problème d’ordre technique rencontré par les Produits ou Services ;
+    - la réalisation d’opérations de prospection commerciale à destination des professionnels ;
+    - la gestion des clients ou des employés au sein d’un groupe d’entreprises à des fins de gestion administrative
+      interne ;
+    - la gestion des demandes d’information et réclamations des utilisateurs ;
+    - l’établissement de tout moyen de preuve nécessaire à la défense des droits de l’ADEME ;
+    - la gestion des cookies non soumis à consentement.
+- En se fondant sur la mission d’intérêt public, l’ADEME met en œuvre des Traitements poursuivant les finalités
+  suivantes :
+    - La gestion des demandes d’aides permettant de faciliter l’accomplissement des formalités administratives
+      nécessaires au traitement des demandes des utilisateurs ;
+    - la gestion des communications et le suivi des échanges avec les utilisateurs ;
+    - le respect de la réglementation applicable à notre activité.
 
 ## 6. Combien de temps les Données à caractère personnel sont-elles conservées ?
 
@@ -300,11 +299,11 @@ hors de l’Union européenne.
 
 ### 7.1 Sous-traitants
 
-{{tableThirdParties}}
+<div data-custom-element>{{tableThirdParties}}</div>
 
 ### 7.2 Cookies
 
-{{tableCookies}}
+<div data-custom-element>{{tableCookies}}</div>
 
 Vous pouvez à tout moment retirer votre consentement relatif aux cookies en cliquant sur le bouton suivant :
 {{cookieConsentButton}}
@@ -312,8 +311,8 @@ Vous pouvez à tout moment retirer votre consentement relatif aux cookies en cli
 Pour aller plus loin, vous pouvez consulter les fiches proposées par la Commission Nationale de l’Informatique et des
 Libertés (CNIL) :
 
--   [Cookies et traceurs : que dit la loi ?](https://www.cnil.fr/fr/cookies-et-traceurs-que-dit-la-loi)
--   [Cookies : les outils pour les maîtriser](https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser)
+- [Cookies et traceurs : que dit la loi ?](https://www.cnil.fr/fr/cookies-et-traceurs-que-dit-la-loi)
+- [Cookies : les outils pour les maîtriser](https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser)
 
 ## 8. Comment sont exercés les droits reconnus aux Personnes concernées ?
 

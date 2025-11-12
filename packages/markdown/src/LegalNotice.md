@@ -46,7 +46,9 @@ L’utilisateur est l’internaute qui navigue, lit, visionne, et utilise le sit
 ses services.
 
 ### 1.5. Attribution tierce
-{{elementThirdParties}}
+
+<div data-custom-element>{{elementThirdParties}}</div>
+
 ## 2. Acceptation des conditions d’utilisation du site et des services proposés
 
 L’utilisation des Sites de l’ADEME implique l’acceptation pleine et entière des conditions générales d’utilisation

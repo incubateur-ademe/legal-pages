@@ -13,11 +13,7 @@ export const CookiesPolicy = async ({
   includeBetaGouv = false,
   cookieConsentButton,
   siteName,
-  analyticTool = {
-    name: "Matomo",
-    cookieListUrl: "https://fr.matomo.org/faq/faq_146/",
-    policyUrl: "https://matomo.org/privacy-policy/",
-  },
+  analyticTool,
 }: CookiesPolicyProps<React.ReactNode>) => {
   const buttonPortalId = useId();
 

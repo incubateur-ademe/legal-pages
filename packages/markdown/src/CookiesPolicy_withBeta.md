@@ -32,9 +32,9 @@ des informations au Site (par exemple un identifiant de session ou le choix d’
 Seul l’émetteur d’un cookie peut lire ou modifier les informations qui y sont contenues. Il existe différents types de
 cookies :
 
--   des cookies de session qui disparaissent dès que vous quittez le Site ;
--   des cookies permanents qui demeurent sur votre terminal jusqu’à expiration de leur durée de vie ou jusqu’à ce que
-    vous les supprimiez à l’aide des fonctionnalités de votre navigateur.
+- des cookies de session qui disparaissent dès que vous quittez le Site ;
+- des cookies permanents qui demeurent sur votre terminal jusqu’à expiration de leur durée de vie ou jusqu’à ce que vous
+  les supprimiez à l’aide des fonctionnalités de votre navigateur.
 
 Vous êtes informés que, lors de vos visites sur ce Site, des cookies peuvent être installés sur votre équipement
 terminal.
@@ -57,24 +57,24 @@ espace personnel depuis différents sites ;
 
 Enfin, le Site utilise également des cookies de **performance**, dans le but :
 
--   d’analyser la fréquentation et l’utilisation qui est faite du Site, afin de :
-    -   le faire évoluer dans le sens d’une amélioration de l’expérience de navigation, dans l’objectif final de vous
-        proposer un Site toujours plus adapté ;
-    -   de réaliser des études statistiques ;
-    -   de mémoriser les préférences d'affichage de votre navigateur (langue utilisée, paramètres d'affichage, système
-        d’exploitation utilisé, etc.) et d’adapter la présentation du Site lors de vos visites, selon les matériels et
-        logiciels de visualisation ou de lecture que comporte votre équipement terminal et qui sont utilisés pour la
-        navigation sur le Site ;
-    -   de mettre en œuvre des mesures de sécurité ;
--   d’améliorer la pertinence des annonces publicitaires diffusées sur le Site ;
--   de rendre le Site plus convivial et interactif
+- d’analyser la fréquentation et l’utilisation qui est faite du Site, afin de :
+    - le faire évoluer dans le sens d’une amélioration de l’expérience de navigation, dans l’objectif final de vous
+      proposer un Site toujours plus adapté ;
+    - de réaliser des études statistiques ;
+    - de mémoriser les préférences d'affichage de votre navigateur (langue utilisée, paramètres d'affichage, système
+      d’exploitation utilisé, etc.) et d’adapter la présentation du Site lors de vos visites, selon les matériels et
+      logiciels de visualisation ou de lecture que comporte votre équipement terminal et qui sont utilisés pour la
+      navigation sur le Site ;
+    - de mettre en œuvre des mesures de sécurité ;
+- d’améliorer la pertinence des annonces publicitaires diffusées sur le Site ;
+- de rendre le Site plus convivial et interactif
 
 ## 4. Quels cookies sont utilisés sur le Site ?
 
 Les cookies utilisés sur le Site sont :
 
--   les cookies du Site ;
--   les cookies de tiers limitativement choisis par le Site dans le but d’atteindre des objectifs déterminés.
+- les cookies du Site ;
+- les cookies de tiers limitativement choisis par le Site dans le but d’atteindre des objectifs déterminés.
 
 Le Site peut faire appel à des services offerts par des tiers (rappelés dans le tableau ci-dessus), pour vous permettre
 d’accéder à certaines fonctionnalités du Site, afin que vous puissiez partager des contenus du Site avec d'autres
@@ -149,9 +149,9 @@ votre première visite.
 
 Vous pouvez gérer et modifier à tout moment l’utilisation des cookies suivant les possibilités rappelées ci-après :
 
--   directement sur le Site, sur le lien « Gestion des cookies » en bas de page ;
--   à partir de votre logiciel de navigation, ou
--   de modules ou de plateformes interprofessionnelles d’opposition.
+- directement sur le Site, sur le lien « Gestion des cookies » en bas de page ;
+- à partir de votre logiciel de navigation, ou
+- de modules ou de plateformes interprofessionnelles d’opposition.
 
 **Attention : l’ADEME vous rappelle que la prise en compte de votre refus d’installer un cookie repose sur le dépôt d’un
 cookie de refus. Par conséquent, si vous désactivez l’ensemble des cookies de votre terminal ou si vous changez de

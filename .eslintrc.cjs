@@ -1,4 +1,5 @@
 // @ts-check
+require("@rushstack/eslint-patch/modern-module-resolution");
 
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
@@ -14,7 +15,7 @@ module.exports = {
     "plugin:prettier/recommended",
   ],
   plugins: ["import", "prettier", "unused-imports", "simple-import-sort"],
-  ignorePatterns: ["!**/.*.js", "node_modules"],
+  ignorePatterns: ["!**/.*.cjs", "!**/.*.js", "node_modules"],
   env: {
     browser: true,
     node: true,
@@ -24,12 +25,19 @@ module.exports = {
       [require.resolve("@typescript-eslint/parser")]: [".ts", ".mts", ".cts", ".tsx", ".d.ts"],
     },
     "import/resolver": {
-      typescript: {}, // this loads <rootdir>/tsconfig.json to eslint
-      [require.resolve("eslint-import-resolver-node")]: {
-        extensions: [".js", ".jsx", ".ts", ".tsx"],
-      },
-      [require.resolve("eslint-import-resolver-typescript")]: {
+      // this loads <rootdir>/tsconfig.json to eslint
+      typescript: {
         alwaysTryTypes: true,
+        project: [
+          "packages/*/tsconfig.json",
+          "packages/*/tsconfig.*.json",
+          "packages/scripts/*/tsconfig.json",
+          "examples/*/tsconfig.json",
+        ],
+        extensions: [".ts", ".mts", ".cts", ".tsx", ".d.ts"],
+      },
+      node: {
+        extensions: [".ts", ".mts", ".cts", ".tsx", ".d.ts"],
       },
     },
   },
@@ -53,6 +61,7 @@ module.exports = {
     "import/no-extraneous-dependencies": "off",
     "import/no-internal-modules": "off",
     "import/newline-after-import": "error",
+    "import/no-unresolved": "warn",
     "import/export": "off",
     "import/no-useless-path-segments": "warn",
     "import/no-absolute-path": "warn",
@@ -79,10 +88,20 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["**/*.ts?(x)"],
-      extends: ["plugin:@typescript-eslint/recommended-type-checked"],
+      files: ["**/*.ts?(x)", "**/*.vue"],
+      extends: [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-type-checked",
+        "plugin:import/typescript",
+      ],
       parserOptions: {
-        project: "./tsconfig.json",
+        project: [
+          "./tsconfig.json",
+          "packages/*/tsconfig.json",
+          "packages/*/tsconfig.app.json",
+          "packages/*/tsconfig.node.json",
+          "examples/*/tsconfig.json",
+        ],
         tsconfigRootDir: __dirname,
       },
       plugins: ["@typescript-eslint", "typescript-sort-keys"],

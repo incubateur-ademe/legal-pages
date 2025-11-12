@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/triple-slash-reference
+/// <reference path="./html.d.ts" />
+
 export interface CommonProps {
   /**
    * Date de la dernière mise à jour. La date par défaut est celle de la compilation.
@@ -141,14 +144,14 @@ export type PrivacyPolicyPropsWithCookiesAsTableElement<ElementType = string> = 
   tableCookies: ElementType;
 };
 
-export type PrivacyPolicyPropsBase = CommonProps & {
+export type PrivacyPolicyPropsBase<ElementType = string> = CommonProps & {
   /**
    * Bouton de consentement aux cookies. Peut être un composant propre à la librairie utilisée.
    */
   cookieConsentButton: ElementType;
 };
 
-export type PrivacyPolicyProps<ElementType = string> = PrivacyPolicyPropsBase &
+export type PrivacyPolicyProps<ElementType = string> = PrivacyPolicyPropsBase<ElementType> &
   (PrivacyPolicyPropsWithCookiesAsArray | PrivacyPolicyPropsWithCookiesAsTableElement<ElementType>) &
   (PrivacyPolicyPropsWithThirdPartiesAsArray | PrivacyPolicyPropsWithThirdPartiesAsTableElement<ElementType>);
 //#endregion

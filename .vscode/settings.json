@@ -16,6 +16,9 @@
   "[md]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
   "files.associations": {
     ".env*": "dotenv",
   },
@@ -26,5 +29,9 @@
       ],
       "url": "https://turbo.build/schema.json"
     }
+  ],
+  "eslint.workingDirectories": [
+    { "pattern": "packages/*" },
+    { "pattern": "examples/*" }
   ],
 }

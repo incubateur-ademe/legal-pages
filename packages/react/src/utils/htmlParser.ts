@@ -1,3 +1,5 @@
+/* eslint "import/no-unresolved": "off" */
+
 /// <reference types="@incubateur-ademe/legal-pages-markdown/html" />
 
 import {

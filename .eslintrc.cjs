@@ -61,6 +61,7 @@ module.exports = {
     "import/no-extraneous-dependencies": "off",
     "import/no-internal-modules": "off",
     "import/newline-after-import": "error",
+    "import/no-unresolved": "warn",
     "import/export": "off",
     "import/no-useless-path-segments": "warn",
     "import/no-absolute-path": "warn",

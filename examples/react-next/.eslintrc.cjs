@@ -5,6 +5,5 @@ module.exports = {
   extends: ["next/core-web-vitals"],
   rules: {
     "import/no-default-export": "off",
-    "import/no-unresolved": "warn",
   },
 };

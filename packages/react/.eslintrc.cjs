@@ -32,6 +32,7 @@ module.exports = {
             forbid: [">", "}"],
           },
         ],
+        "import/no-unresolved": ["error", { ignore: ["\\?raw$"] }],
       },
     },
   ],

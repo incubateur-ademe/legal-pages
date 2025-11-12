@@ -8,9 +8,9 @@ module.exports = {
     "plugin:prettier/recommended",
   ],
   parser: "vue-eslint-parser",
+  ignorePatterns: ["!**/.*.cjs", "!**/.*.js", "node_modules", "dist/", "generated/"],
   parserOptions: {
     tsconfigRootDir: __dirname,
-    project: "./tsconfig.app.json",
     allowImportExportEverywhere: true,
     extraFileExtensions: [".vue"],
     sourceType: "module",
@@ -18,13 +18,21 @@ module.exports = {
     parser: "@typescript-eslint/parser",
   },
   settings: {
+    "import/extensions": [".js", ".ts", ".vue"],
     "import/parsers": {
       [require.resolve("vue-eslint-parser")]: [".vue"],
+    },
+    "import/resolver": {
+      // TS d'abord pour lire baseUrl/paths de tsconfig.app.json
+      typescript: {
+        alwaysTryTypes: true,
+        project: ["./tsconfig.app.json", "./tsconfig.node.json"],
+      },
     },
   },
   overrides: [
     {
-      files: ["src/**/*.vue", "generated/**/*.vue"],
+      files: ["{src,generated}/**/*.vue"],
       rules: {
         "prettier/prettier": [
           "error",
@@ -40,16 +48,27 @@ module.exports = {
       },
     },
     {
-      files: ["src/**/*.ts", "src/**/*.vue", "generated/**/*.vue"],
+      files: ["{src,generated}/**/*.{ts,vue}"],
+      parserOptions: {
+        project: "./tsconfig.app.json",
+      },
       rules: {
         "import/default": "off",
       },
     },
     {
-      files: ["vite.config.*", "scripts/**/*.ts", ".eslintrc.*"],
+      files: ["vite.config.*", "vitest.config.*", "scripts/**/*.ts", ".eslintrc.*"],
       parserOptions: { project: "./tsconfig.node.json" },
       rules: {
         "import/no-default-export": "off",
+      },
+      settings: {
+        "import/resolver": {
+          node: {
+            extensions: [".ts", ".js", ".vue"],
+            moduleDirectory: ["node_modules", "src/"],
+          },
+        },
       },
     },
   ],

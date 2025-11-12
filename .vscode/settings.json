@@ -30,4 +30,8 @@
       "url": "https://turbo.build/schema.json"
     }
   ],
+  "eslint.workingDirectories": [
+    { "pattern": "packages/*" },
+    { "pattern": "examples/*" }
+  ],
 }

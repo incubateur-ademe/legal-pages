@@ -11,5 +11,5 @@
     "lib": ["ESNext"],
   },
 
-  "include": ["vite.config.*", "scripts/**/*.*", ".eslintrc.*"]
+  "include": ["vite.config.*", "vitest.config.*", "scripts/**/*.*", ".eslintrc.*", "src/**/*.ts"],
 }

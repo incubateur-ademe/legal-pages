@@ -30,8 +30,9 @@
     "build": "yarn type-check && vite build",
     "type-check": "vue-tsc --noEmit",
     "type-gen": "vue-tsc -p tsconfig.app.json --declaration --emitDeclarationOnly",
-    "lint": "eslint src",
-    "lint:fix": "eslint src --fix",
+    "prelint": "yarn generated-components",
+    "lint": "eslint .",
+    "lint:fix": "yarn lint --fix",
     "test": "vitest run"
   },
   "peerDependencies": {

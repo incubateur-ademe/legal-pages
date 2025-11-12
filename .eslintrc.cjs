@@ -88,9 +88,19 @@ module.exports = {
   overrides: [
     {
       files: ["**/*.ts?(x)", "**/*.vue"],
-      extends: ["plugin:@typescript-eslint/recommended", "plugin:@typescript-eslint/recommended-type-checked"],
+      extends: [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-type-checked",
+        "plugin:import/typescript",
+      ],
       parserOptions: {
-        project: "./tsconfig.json",
+        project: [
+          "./tsconfig.json",
+          "packages/*/tsconfig.json",
+          "packages/*/tsconfig.app.json",
+          "packages/*/tsconfig.node.json",
+          "examples/*/tsconfig.json",
+        ],
         tsconfigRootDir: __dirname,
       },
       plugins: ["@typescript-eslint", "typescript-sort-keys"],

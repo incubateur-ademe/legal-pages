@@ -16,7 +16,7 @@ est édité par l’ADEME, ayant son siège social au :
 <address class="fr-mb-2w">
     20, avenue du Grésillé — BP 90406<br/>
     49004 Angers Cedex 01<br/>
-    Tél : <a target="_blank" aria-label="Numéro de téléphone" href="tel:+33241204120">02 41 20 41 20</a>
+    Tél : <a target="_blank" aria-label="Numéro de téléphone - 02 41 20 41 20" href="tel:+33241204120">02 41 20 41 20</a>
 </address>
 
 inscrit au registre du commerce d'Angers sous le n° 385 290 309, représentée par Sylvain Waserman, agissant en qualité

@@ -14,6 +14,7 @@ interface HtmlPropsMapping {
   PrivacyPolicy: PrivacyPolicyProps;
 }
 
+// @eslint-disable import/no-unresolved
 const htmlImporter = {
   LegalNotice: (withBeta: boolean) =>
     withBeta
@@ -35,3 +36,4 @@ export const htmlParser = async <T extends keyof HtmlPropsMapping>(template: T, 
     [template, data],
   );
 };
+// @eslint-enable import/no-unresolved

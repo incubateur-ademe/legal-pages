@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  vue-lint:
+  lint:
     name: Eslint on Vue3 package
     runs-on: ubuntu-latest
     steps:
@@ -24,4 +24,4 @@ jobs:
           node-version-file: ".nvmrc"
           cache: "yarn"
       - run: yarn install
-      - run: npx turbo generated-components --filter=./packages/vue3 && npx turbo lint --filter=./packages/vue3
+      - run: yarn lint

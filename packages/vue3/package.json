@@ -31,24 +31,27 @@
     "type-check": "vue-tsc --noEmit",
     "type-gen": "vue-tsc -p tsconfig.app.json --declaration --emitDeclarationOnly",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "eslint src --fix",
+    "test": "vitest run"
   },
   "peerDependencies": {
     "vue": ">=3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
+    "@vitest/ui": "^1.6.0",
     "@vue/eslint-config-typescript": "^13.0.0",
     "@vue/tsconfig": "^0.5.1",
     "eslint-plugin-vue": "^9.27.0",
     "unplugin-vue-define-options": "^1.4.5",
     "vite-plugin-dts": "^3.9.0",
     "vite-plugin-vue-devtools": "^7.3.1",
+    "vitest": "^1.6.0",
     "vue": "^3.4.29",
     "vue-eslint-parser": "^9.4.3",
     "vue-tsc": "^2.0.21"
   },
   "dependencies": {
-    "@incubateur-ademe/legal-pages-markdown": "0.3.0"
+    "@incubateur-ademe/legal-pages-markdown": "0.5.0"
   }
 }

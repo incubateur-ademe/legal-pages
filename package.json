@@ -18,7 +18,9 @@
     "build": "turbo build",
     "build:lib": "turbo build --filter=./packages/*",
     "dev": "turbo dev",
-    "lint": "turbo lint"
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint -- --fix",
+    "test": "turbo test"
   },
   "devDependencies": {
     "@changesets/changelog-git": "^0.2.0",

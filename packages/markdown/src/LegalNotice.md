@@ -16,7 +16,7 @@ est édité par l’ADEME, ayant son siège social au :
 <address class="fr-mb-2w">
     20, avenue du Grésillé — BP 90406<br/>
     49004 Angers Cedex 01<br/>
-    Tél : <a target="_blank" href="tel:+33241204120">02 41 20 41 20</a>
+    Tél : <a target="_blank" aria-label="Numéro de téléphone" href="tel:+33241204120">02 41 20 41 20</a>
 </address>
 
 inscrit au registre du commerce d'Angers sous le n° 385 290 309, représentée par Sylvain Waserman, agissant en qualité
@@ -127,15 +127,15 @@ Propriété Intellectuelle.
 L’ADEME ne pourra en revanche interdire la réutilisation de discours, dossiers de presse et communiqués, les
 circulaires, directives et autres documents règlementaires.
 
-L’ADEME autorise la réutilisation non commerciale et pédagogique des informations disponibles sur ses Sites, à la
-condition de respecter l’intégrité des informations et de n’en altérer ni le sens, ni la portée, ni l’application et de
-faire mention du nom de l’ADEME ou d’en préciser l’origine et la date de publication avec la mention du crédit photo si
-tel est le cas.
+Sous réserve de dispositions spécifiques, l’ADEME autorise la réutilisation non commerciale et pédagogique des
+informations disponibles sur ses Sites, à laa condition de respecter l’intégrité des informations et de n’en altérer ni
+le sens, ni la portée, ni l’application et de faire mention du nom de l’ADEME ou d’en préciser l’origine et la date de
+publication avec la mention du crédit photo si tel est le cas.
 
-L’ADEME pourra autoriser la réutilisation d’informations à des fins commerciales ou promotionnelles par le biais d’une
-licence de réutilisation de ses informations. Est considérée comme réutilisation à des fins commerciales ou
-promotionnelles, l’élaboration à partir des informations publiques, d’un produit ou d’un service destiné à être mis à
-disposition de tiers, à titre gratuit ou onéreux.
+Sous réserve de dispositions spécifiques, l’ADEME pourra autoriser la réutilisation d’informations à des fins
+commerciales ou promotionnelles par le biais d’une licence de réutilisation de ses informations. Est considérée comme
+réutilisation à des fins commerciales ou promotionnelles, l’élaboration à partir des informations publiques, d’un
+produit ou d’un service destiné à être mis à disposition de tiers, à titre gratuit ou onéreux.
 
 ## 8. Gestion des données personnelles
 
